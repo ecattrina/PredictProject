@@ -1,0 +1,236 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\79518\\source\\repos\\ForecastApp1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{17FF0C5B-ACCF-4153-8B87-C40B6D2F5F38}|ForecastApp1\\ForecastApp1.csproj|c:\\users\\79518\\source\\repos\\forecastapp1\\forecastapp1\\controllers\\importcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17FF0C5B-ACCF-4153-8B87-C40B6D2F5F38}|ForecastApp1\\ForecastApp1.csproj|solutionrelative:forecastapp1\\controllers\\importcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17FF0C5B-ACCF-4153-8B87-C40B6D2F5F38}|ForecastApp1\\ForecastApp1.csproj|c:\\users\\79518\\source\\repos\\forecastapp1\\forecastapp1\\controllers\\paymentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17FF0C5B-ACCF-4153-8B87-C40B6D2F5F38}|ForecastApp1\\ForecastApp1.csproj|solutionrelative:forecastapp1\\controllers\\paymentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17FF0C5B-ACCF-4153-8B87-C40B6D2F5F38}|ForecastApp1\\ForecastApp1.csproj|c:\\users\\79518\\source\\repos\\forecastapp1\\forecastapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17FF0C5B-ACCF-4153-8B87-C40B6D2F5F38}|ForecastApp1\\ForecastApp1.csproj|solutionrelative:forecastapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17FF0C5B-ACCF-4153-8B87-C40B6D2F5F38}|ForecastApp1\\ForecastApp1.csproj|c:\\users\\79518\\source\\repos\\forecastapp1\\forecastapp1\\services\\paymentscheduleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17FF0C5B-ACCF-4153-8B87-C40B6D2F5F38}|ForecastApp1\\ForecastApp1.csproj|solutionrelative:forecastapp1\\services\\paymentscheduleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17FF0C5B-ACCF-4153-8B87-C40B6D2F5F38}|ForecastApp1\\ForecastApp1.csproj|c:\\users\\79518\\source\\repos\\forecastapp1\\forecastapp1\\wwwroot\\import.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{17FF0C5B-ACCF-4153-8B87-C40B6D2F5F38}|ForecastApp1\\ForecastApp1.csproj|solutionrelative:forecastapp1\\wwwroot\\import.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17FF0C5B-ACCF-4153-8B87-C40B6D2F5F38}|ForecastApp1\\ForecastApp1.csproj|c:\\users\\79518\\source\\repos\\forecastapp1\\forecastapp1\\services\\excelimportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17FF0C5B-ACCF-4153-8B87-C40B6D2F5F38}|ForecastApp1\\ForecastApp1.csproj|solutionrelative:forecastapp1\\services\\excelimportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17FF0C5B-ACCF-4153-8B87-C40B6D2F5F38}|ForecastApp1\\ForecastApp1.csproj|c:\\users\\79518\\source\\repos\\forecastapp1\\forecastapp1\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{17FF0C5B-ACCF-4153-8B87-C40B6D2F5F38}|ForecastApp1\\ForecastApp1.csproj|solutionrelative:forecastapp1\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17FF0C5B-ACCF-4153-8B87-C40B6D2F5F38}|ForecastApp1\\ForecastApp1.csproj|c:\\users\\79518\\source\\repos\\forecastapp1\\forecastapp1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{17FF0C5B-ACCF-4153-8B87-C40B6D2F5F38}|ForecastApp1\\ForecastApp1.csproj|solutionrelative:forecastapp1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17FF0C5B-ACCF-4153-8B87-C40B6D2F5F38}|ForecastApp1\\ForecastApp1.csproj|c:\\users\\79518\\source\\repos\\forecastapp1\\forecastapp1\\models\\paymentscheduleitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17FF0C5B-ACCF-4153-8B87-C40B6D2F5F38}|ForecastApp1\\ForecastApp1.csproj|solutionrelative:forecastapp1\\models\\paymentscheduleitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17FF0C5B-ACCF-4153-8B87-C40B6D2F5F38}|ForecastApp1\\ForecastApp1.csproj|c:\\users\\79518\\source\\repos\\forecastapp1\\forecastapp1\\models\\shipmentitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17FF0C5B-ACCF-4153-8B87-C40B6D2F5F38}|ForecastApp1\\ForecastApp1.csproj|solutionrelative:forecastapp1\\models\\shipmentitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17FF0C5B-ACCF-4153-8B87-C40B6D2F5F38}|ForecastApp1\\ForecastApp1.csproj|c:\\users\\79518\\source\\repos\\forecastapp1\\forecastapp1\\models\\debtitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17FF0C5B-ACCF-4153-8B87-C40B6D2F5F38}|ForecastApp1\\ForecastApp1.csproj|solutionrelative:forecastapp1\\models\\debtitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17FF0C5B-ACCF-4153-8B87-C40B6D2F5F38}|ForecastApp1\\ForecastApp1.csproj|c:\\users\\79518\\source\\repos\\forecastapp1\\forecastapp1\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{17FF0C5B-ACCF-4153-8B87-C40B6D2F5F38}|ForecastApp1\\ForecastApp1.csproj|solutionrelative:forecastapp1\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17FF0C5B-ACCF-4153-8B87-C40B6D2F5F38}|ForecastApp1\\ForecastApp1.csproj|c:\\users\\79518\\source\\repos\\forecastapp1\\forecastapp1\\models\\supplierpaymententry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17FF0C5B-ACCF-4153-8B87-C40B6D2F5F38}|ForecastApp1\\ForecastApp1.csproj|solutionrelative:forecastapp1\\models\\supplierpaymententry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "import.html",
+              "DocumentMoniker": "C:\\Users\\79518\\source\\repos\\ForecastApp1\\ForecastApp1\\wwwroot\\import.html",
+              "RelativeDocumentMoniker": "ForecastApp1\\wwwroot\\import.html",
+              "ToolTip": "C:\\Users\\79518\\source\\repos\\ForecastApp1\\ForecastApp1\\wwwroot\\import.html*",
+              "RelativeToolTip": "ForecastApp1\\wwwroot\\import.html*",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAAAIoAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-07-20T18:13:10.592Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ImportController.cs",
+              "DocumentMoniker": "C:\\Users\\79518\\source\\repos\\ForecastApp1\\ForecastApp1\\Controllers\\ImportController.cs",
+              "RelativeDocumentMoniker": "ForecastApp1\\Controllers\\ImportController.cs",
+              "ToolTip": "C:\\Users\\79518\\source\\repos\\ForecastApp1\\ForecastApp1\\Controllers\\ImportController.cs",
+              "RelativeToolTip": "ForecastApp1\\Controllers\\ImportController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T17:38:51.779Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ExcelImportService.cs",
+              "DocumentMoniker": "C:\\Users\\79518\\source\\repos\\ForecastApp1\\ForecastApp1\\Services\\ExcelImportService.cs",
+              "RelativeDocumentMoniker": "ForecastApp1\\Services\\ExcelImportService.cs",
+              "ToolTip": "C:\\Users\\79518\\source\\repos\\ForecastApp1\\ForecastApp1\\Services\\ExcelImportService.cs",
+              "RelativeToolTip": "ForecastApp1\\Services\\ExcelImportService.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T17:38:11.938Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\79518\\source\\repos\\ForecastApp1\\ForecastApp1\\Program.cs",
+              "RelativeDocumentMoniker": "ForecastApp1\\Program.cs",
+              "ToolTip": "C:\\Users\\79518\\source\\repos\\ForecastApp1\\ForecastApp1\\Program.cs",
+              "RelativeToolTip": "ForecastApp1\\Program.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAADAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T18:10:01.828Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\79518\\source\\repos\\ForecastApp1\\ForecastApp1\\wwwroot\\index.html",
+              "RelativeDocumentMoniker": "ForecastApp1\\wwwroot\\index.html",
+              "ToolTip": "C:\\Users\\79518\\source\\repos\\ForecastApp1\\ForecastApp1\\wwwroot\\index.html",
+              "RelativeToolTip": "ForecastApp1\\wwwroot\\index.html",
+              "ViewState": "AgIAAIoAAAAAAAAAAAAAAKIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-07-23T00:37:43.611Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PaymentsController.cs",
+              "DocumentMoniker": "C:\\Users\\79518\\source\\repos\\ForecastApp1\\ForecastApp1\\Controllers\\PaymentsController.cs",
+              "RelativeDocumentMoniker": "ForecastApp1\\Controllers\\PaymentsController.cs",
+              "ToolTip": "C:\\Users\\79518\\source\\repos\\ForecastApp1\\ForecastApp1\\Controllers\\PaymentsController.cs",
+              "RelativeToolTip": "ForecastApp1\\Controllers\\PaymentsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T22:19:55.151Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PaymentScheduleService.cs",
+              "DocumentMoniker": "C:\\Users\\79518\\source\\repos\\ForecastApp1\\ForecastApp1\\Services\\PaymentScheduleService.cs",
+              "RelativeDocumentMoniker": "ForecastApp1\\Services\\PaymentScheduleService.cs",
+              "ToolTip": "C:\\Users\\79518\\source\\repos\\ForecastApp1\\ForecastApp1\\Services\\PaymentScheduleService.cs",
+              "RelativeToolTip": "ForecastApp1\\Services\\PaymentScheduleService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T22:18:57.376Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\79518\\source\\repos\\ForecastApp1\\ForecastApp1\\appsettings.json",
+              "RelativeDocumentMoniker": "ForecastApp1\\appsettings.json",
+              "ToolTip": "C:\\Users\\79518\\source\\repos\\ForecastApp1\\ForecastApp1\\appsettings.json",
+              "RelativeToolTip": "ForecastApp1\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-20T17:36:26.057Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ShipmentItem.cs",
+              "DocumentMoniker": "C:\\Users\\79518\\source\\repos\\ForecastApp1\\ForecastApp1\\Models\\ShipmentItem.cs",
+              "RelativeDocumentMoniker": "ForecastApp1\\Models\\ShipmentItem.cs",
+              "ToolTip": "C:\\Users\\79518\\source\\repos\\ForecastApp1\\ForecastApp1\\Models\\ShipmentItem.cs",
+              "RelativeToolTip": "ForecastApp1\\Models\\ShipmentItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T17:09:39.225Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PaymentScheduleItemDto.cs",
+              "DocumentMoniker": "C:\\Users\\79518\\source\\repos\\ForecastApp1\\ForecastApp1\\Models\\PaymentScheduleItemDto.cs",
+              "RelativeDocumentMoniker": "ForecastApp1\\Models\\PaymentScheduleItemDto.cs",
+              "ToolTip": "C:\\Users\\79518\\source\\repos\\ForecastApp1\\ForecastApp1\\Models\\PaymentScheduleItemDto.cs",
+              "RelativeToolTip": "ForecastApp1\\Models\\PaymentScheduleItemDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T17:08:44.012Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DebtItem.cs",
+              "DocumentMoniker": "C:\\Users\\79518\\source\\repos\\ForecastApp1\\ForecastApp1\\Models\\DebtItem.cs",
+              "RelativeDocumentMoniker": "ForecastApp1\\Models\\DebtItem.cs",
+              "ToolTip": "C:\\Users\\79518\\source\\repos\\ForecastApp1\\ForecastApp1\\Models\\DebtItem.cs",
+              "RelativeToolTip": "ForecastApp1\\Models\\DebtItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T17:09:18.879Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "SupplierPaymentEntry.cs",
+              "DocumentMoniker": "C:\\Users\\79518\\source\\repos\\ForecastApp1\\ForecastApp1\\Models\\SupplierPaymentEntry.cs",
+              "RelativeDocumentMoniker": "ForecastApp1\\Models\\SupplierPaymentEntry.cs",
+              "ToolTip": "C:\\Users\\79518\\source\\repos\\ForecastApp1\\ForecastApp1\\Models\\SupplierPaymentEntry.cs",
+              "RelativeToolTip": "ForecastApp1\\Models\\SupplierPaymentEntry.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T22:18:22.538Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\79518\\source\\repos\\ForecastApp1\\ForecastApp1\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "ForecastApp1\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\79518\\source\\repos\\ForecastApp1\\ForecastApp1\\Properties\\launchSettings.json",
+              "RelativeToolTip": "ForecastApp1\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-21T18:54:13.93Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
