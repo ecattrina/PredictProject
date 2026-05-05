@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\79518\\source\\repos\\ForecastApp1\\ForecastApp1\\ForecastApp1.csproj": {}
+    "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\ForecastApp1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\79518\\source\\repos\\ForecastApp1\\ForecastApp1\\ForecastApp1.csproj": {
+    "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\ForecastApp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\79518\\source\\repos\\ForecastApp1\\ForecastApp1\\ForecastApp1.csproj",
+        "projectUniqueName": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\ForecastApp1.csproj",
         "projectName": "ForecastApp1",
-        "projectPath": "C:\\Users\\79518\\source\\repos\\ForecastApp1\\ForecastApp1\\ForecastApp1.csproj",
-        "packagesPath": "C:\\Users\\79518\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\79518\\source\\repos\\ForecastApp1\\ForecastApp1\\obj\\",
+        "projectPath": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\ForecastApp1.csproj",
+        "packagesPath": "C:\\Users\\dkaty\\.nuget\\packages\\",
+        "outputPath": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\79518\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\dkaty\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -45,27 +44,25 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
-            "Dapper": {
+            "ClosedXML": {
               "target": "Package",
-              "version": "[2.1.66, )"
+              "version": "[0.104.2, )"
             },
-            "ExcelDataReader": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[3.7.0, )"
+              "version": "[9.0.0, )"
             },
-            "ExcelDataReader.DataSet": {
+            "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
-              "version": "[3.7.0, )"
-            },
-            "Npgsql": {
-              "target": "Package",
-              "version": "[9.0.3, )"
+              "version": "[9.0.0, )"
             }
           },
           "imports": [
@@ -87,7 +84,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

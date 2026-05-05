@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\ForecastApp1.props" />
+</Project>

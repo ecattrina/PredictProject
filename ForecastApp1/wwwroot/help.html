@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Справка — ForecastApp1</title>
+  <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.css" />
+  <link rel="stylesheet" href="/css/site.css" />
+</head>
+<body>
+  <script src="/lib/jquery/dist/jquery.js"></script>
+  <script src="/lib/bootstrap/dist/js/bootstrap.bundle.js"></script>
+  <script src="/js/api.js"></script>
+  <script>document.write(layoutHeader('help.html'));</script>
+  <main role="main" class="container pb-5">
+    <h1 class="mb-2">Инструкция пользователя</h1>
+    <p class="text-muted small mb-4">
+      Кратко: как подготовить файл импорта и как устроена работа с разделами сайта. Актуально для текущей версии приложения.
+    </p>
+
+    <nav class="card box-shadow mb-4" aria-label="Содержание">
+      <div class="card-body py-3">
+        <div class="row small g-2">
+          <div class="col-md-4"><a href="#login">Вход и сеанс</a></div>
+          <div class="col-md-4"><a href="#import-file">Требования к файлу импорта</a></div>
+          <div class="col-md-4"><a href="#import-flow">Загрузка и фиксация данных</a></div>
+          <div class="col-md-4"><a href="#sections">Разделы сайта</a></div>
+          <div class="col-md-4"><a href="#calc-reports">Расчёт, график и отчёты</a></div>
+        </div>
+      </div>
+    </nav>
+
+    <section id="login" class="mb-4">
+      <h2 class="h4 mb-3">Вход и сеанс</h2>
+      <div class="card box-shadow">
+        <div class="card-body">
+          <ul class="mb-0">
+            <li>Откройте <a href="login.html">страницу входа</a> и авторизуйтесь под выданной учётной записью.</li>
+            <li>При истечении сеанса или при обращении к API без авторизации браузер перенаправит снова на вход.</li>
+            <li>Доступ к отдельным действиям зависит от <strong>ролей</strong> (например, администратор и бухгалтер). Если кнопка или раздел недоступны по правам, сервер вернёт отказ.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="import-file" class="mb-4">
+      <h2 class="h4 mb-3">Требования к файлу импорта (Excel)</h2>
+      <div class="card box-shadow mb-3">
+        <div class="card-body">
+          <h3 class="h6 text-uppercase text-muted mb-2">Формат и размер</h3>
+          <ul class="mb-0">
+            <li>Нужен файл <strong>.xlsx</strong> (Excel в формате Office Open XML). Старый бинарный <code>.xls</code> не подойдёт.</li>
+            <li>Максимальный размер загрузки задаётся в настройках сервера (по умолчанию около <strong>50 МБ</strong>).</li>
+          </ul>
+        </div>
+      </div>
+      <div class="card box-shadow mb-3">
+        <div class="card-body">
+          <h3 class="h6 text-uppercase text-muted mb-2">Листы книги</h3>
+          <ul class="mb-0">
+            <li>Обрабатываются <strong>все листы</strong>, кроме тех, в имени которых (без учёта регистра, с нормализацией букв) встречается <strong>«readme»</strong> или <strong>«ожидаем»</strong> — такие листы пропускаются (служебные / пояснительные).</li>
+            <li>На одном листе может быть <strong>несколько блоков</strong> данных: сначала строка заголовков с распознаваемыми колонками, ниже строки; затем при смене структуры снова может идти новая строка заголовков.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="card box-shadow mb-3">
+        <div class="card-body">
+          <h3 class="h6 text-uppercase text-muted mb-2">Строка заголовков</h3>
+          <p class="small mb-2">
+            Система ищет строку, где по ячейкам удаётся сопоставить хотя бы <strong>два</strong> известных поля. Названия колонок можно писать по-русски или по-английски — распознаются синонимы (примеры ниже). Пустые строки между блоками допустимы.
+          </p>
+          <p class="small mb-0 text-muted">
+            Даты в ячейках могут быть в виде текста (<code>dd.MM.yyyy</code>, <code>yyyy-MM-dd</code> и др.), как дата Excel или как <strong>серийный номер даты Excel</strong>. Суммы — числом; допускается запятая как десятичный разделитель и пробелы в записи числа.
+          </p>
+        </div>
+      </div>
+      <div class="card box-shadow mb-3">
+        <div class="card-body">
+          <h3 class="h6 text-uppercase text-muted mb-2">Типы строк (что должно быть заполнено)</h3>
+          <p class="small text-muted mb-2">Каждая строка данных относится к одному типу, если в ней присутствуют нужные поля после сопоставления заголовков:</p>
+          <div class="table-responsive">
+            <table class="table table-sm table-bordered mb-0 small">
+              <thead>
+                <tr>
+                  <th>Тип</th>
+                  <th>Обязательные поля (смысл)</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><strong>Поставщик</strong></td>
+                  <td>Код поставщика, наименование; <strong>без</strong> номера договора, даты долга и данных отгрузки в той же строке.</td>
+                </tr>
+                <tr>
+                  <td><strong>Договор</strong></td>
+                  <td>Код поставщика, внутренний номер договора; <strong>без</strong> суммы долга и без номера документа отгрузки.</td>
+                </tr>
+                <tr>
+                  <td><strong>Условие оплаты</strong></td>
+                  <td>Отсрочка (дней); плюс внутренний номер договора <em>или</em> поле, ссылающееся на договор для условия.</td>
+                </tr>
+                <tr>
+                  <td><strong>Долг (снимок)</strong></td>
+                  <td>Дата долга, сумма долга, код поставщика, внутренний номер договора.</td>
+                </tr>
+                <tr>
+                  <td><strong>Отгрузка</strong></td>
+                  <td>Номер и дата документа отгрузки, сумма отгрузки, код поставщика, внутренний номер договора.</td>
+                </tr>
+                <tr>
+                  <td><strong>Заказ</strong></td>
+                  <td>Номер заказа, код поставщика, внутренний номер договора; <strong>без</strong> номера документа отгрузки в той же строке.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+      <div class="card box-shadow">
+        <div class="card-body">
+          <h3 class="h6 text-uppercase text-muted mb-2">Примеры подписей колонок (не полный список)</h3>
+          <p class="small mb-2">Достаточно, чтобы заголовок совпал с одним из вариантов или содержал длинную фразу-синоним:</p>
+          <ul class="small mb-0">
+            <li><em>Код поставщика:</em> «код поставщика», «код», supplier code…</li>
+            <li><em>Наименование поставщика:</em> «наименование поставщика», «поставщик», name…</li>
+            <li><em>Внутренний номер договора:</em> «номер договора», «договор», internal contract…</li>
+            <li><em>Дата / сумма долга:</em> «дата долга», «сумма долга», debt…</li>
+            <li><em>Отгрузка:</em> «номер документа отгрузки», «дата отгрузки», «сумма отгрузки»…</li>
+            <li><em>Отсрочка:</em> «отсрочка», «дней отсрочки», payment delay…</li>
+            <li><em>Период условия:</em> «действует с», «действует по», valid from / to…</li>
+            <li><em>Заказ:</em> «номер заказа», order…</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="import-flow" class="mb-4">
+      <h2 class="h4 mb-3">Загрузка и фиксация в базе</h2>
+      <div class="card box-shadow">
+        <div class="card-body">
+          <ol class="mb-0">
+            <li class="mb-2">На странице <a href="import.html">Импорт</a> выберите <code>.xlsx</code> и нажмите загрузку. Откроется предпросмотр пакета.</li>
+            <li class="mb-2">Дождитесь статуса разбора. При ошибках чтения файла в пакете появятся блокирующие сообщения.</li>
+            <li class="mb-2">Запустите <strong>проверку</strong>: система сравнит staging-данные с уже загруженными справочниками и правилами целостности.</li>
+            <li class="mb-2">Исправьте исходный Excel при необходимости и загрузите новый пакет либо устраните замечания в данных.</li>
+            <li class="mb-0">Выполните <strong>фиксацию (commit)</strong>: данные переносятся в рабочие таблицы (поставщики, договоры, долги, отгрузки и т.д.). При необходимости доступен откат пакета — уточняйте у администратора.</li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <section id="sections" class="mb-4">
+      <h2 class="h4 mb-3">Разделы сайта</h2>
+      <div class="card box-shadow">
+        <div class="card-body">
+          <dl class="row small mb-0">
+            <dt class="col-sm-4"><a href="main.html">Главная</a></dt>
+            <dd class="col-sm-8 mb-2">Краткая информация о текущем пользователе и ролях.</dd>
+            <dt class="col-sm-4"><a href="dictionaries.html">Справочники</a></dt>
+            <dd class="col-sm-8 mb-2">Поставщики, договоры, условия оплаты — просмотр и ведение (по правам доступа).</dd>
+            <dt class="col-sm-4"><a href="debts.html">Долги</a> / <a href="shipments.html">Отгрузки</a></dt>
+            <dd class="col-sm-8 mb-2">Просмотр загруженных снимков долгов и фактических отгрузок.</dd>
+            <dt class="col-sm-4"><a href="audit.html">Аудит</a></dt>
+            <dd class="col-sm-8 mb-2">Журнал действий (импорт, расчёты и др.) — если раздел доступен вашей роли.</dd>
+            <dt class="col-sm-4"><a href="admin.html">Админ</a></dt>
+            <dd class="col-sm-8 mb-0">Администрирование пользователей — только для администраторов.</dd>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <section id="calc-reports" class="mb-4">
+      <h2 class="h4 mb-3">Расчёт, график платежей и отчёты</h2>
+      <div class="card box-shadow">
+        <div class="card-body">
+          <ul class="mb-0">
+            <li class="mb-2">
+              <strong><a href="calculation.html">Расчёт</a>:</strong> укажите дату расчёта. Поля поставщика и договора необязательны: можно сузить расчёт. В полях допускаются <strong>внутренние id</strong> из базы или <strong>код поставщика</strong> / <strong>внутренний номер договора</strong> — как в справочниках.
+            </li>
+            <li class="mb-2">
+              <strong><a href="schedule.html">График</a>:</strong> таблица строк графика для выбранного запуска расчёта (номер runId из истории на странице расчёта).
+            </li>
+            <li class="mb-0">
+              <strong><a href="reports.html">Отчёты</a>:</strong> диаграммы по всем <strong>неархивным</strong> расчётам: круговая — доли по поставщикам; столбчатая — суммы по месяцам (сводно по всем или по одному коду поставщика, если он указан). Дополнительные выгрузки JSON на той же странице требуют отдельного ввода <code>runId</code>.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <p class="small text-muted mb-0">
+      Вопросы по корпоративным правилам загрузки и ответственности за данные — к администратору системы.
+    </p>
+  </main>
+  <script>document.write(layoutFooter());</script>
+</body>
+</html>

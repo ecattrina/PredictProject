@@ -1,58 +1,114 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\79518\\source\\repos\\ForecastApp1\\",
+  "WorkspaceRootPath": "C:\\\u0432\u0441\u0435\u043F\u043E\u0434\u0440\u044F\u0434\\\u0443\u043D\u0438\u043A\\lbgkjv\\\u041D\u043E\u0432\u044B\u0439 \u043F\u0440\u043E\u0435\u043A\u0442\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{17FF0C5B-ACCF-4153-8B87-C40B6D2F5F38}|ForecastApp1\\ForecastApp1.csproj|c:\\users\\79518\\source\\repos\\forecastapp1\\forecastapp1\\controllers\\importcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{17FF0C5B-ACCF-4153-8B87-C40B6D2F5F38}|ForecastApp1\\ForecastApp1.csproj|solutionrelative:forecastapp1\\controllers\\importcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\\u0432\u0441\u0435\u043F\u043E\u0434\u0440\u044F\u0434\\\u0443\u043D\u0438\u043A\\lbgkjv\\\u041D\u043E\u0432\u044B\u0439 \u043F\u0440\u043E\u0435\u043A\u0442\\ForecastApp1\\Tools\\SampleImportGen\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ForecastApp1\\Tools\\SampleImportGen\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{17FF0C5B-ACCF-4153-8B87-C40B6D2F5F38}|ForecastApp1\\ForecastApp1.csproj|c:\\users\\79518\\source\\repos\\forecastapp1\\forecastapp1\\controllers\\paymentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{17FF0C5B-ACCF-4153-8B87-C40B6D2F5F38}|ForecastApp1\\ForecastApp1.csproj|solutionrelative:forecastapp1\\controllers\\paymentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{17FF0C5B-ACCF-4153-8B87-C40B6D2F5F38}|ForecastApp1\\ForecastApp1.csproj|c:\\\u0432\u0441\u0435\u043F\u043E\u0434\u0440\u044F\u0434\\\u0443\u043D\u0438\u043A\\lbgkjv\\\u043D\u043E\u0432\u044B\u0439 \u043F\u0440\u043E\u0435\u043A\u0442\\forecastapp1\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17FF0C5B-ACCF-4153-8B87-C40B6D2F5F38}|ForecastApp1\\ForecastApp1.csproj|solutionrelative:forecastapp1\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{17FF0C5B-ACCF-4153-8B87-C40B6D2F5F38}|ForecastApp1\\ForecastApp1.csproj|c:\\users\\79518\\source\\repos\\forecastapp1\\forecastapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{17FF0C5B-ACCF-4153-8B87-C40B6D2F5F38}|ForecastApp1\\ForecastApp1.csproj|solutionrelative:forecastapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{17FF0C5B-ACCF-4153-8B87-C40B6D2F5F38}|ForecastApp1\\ForecastApp1.csproj|c:\\\u0432\u0441\u0435\u043F\u043E\u0434\u0440\u044F\u0434\\\u0443\u043D\u0438\u043A\\lbgkjv\\\u043D\u043E\u0432\u044B\u0439 \u043F\u0440\u043E\u0435\u043A\u0442\\forecastapp1\\controllers\\contractscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17FF0C5B-ACCF-4153-8B87-C40B6D2F5F38}|ForecastApp1\\ForecastApp1.csproj|solutionrelative:forecastapp1\\controllers\\contractscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{17FF0C5B-ACCF-4153-8B87-C40B6D2F5F38}|ForecastApp1\\ForecastApp1.csproj|c:\\users\\79518\\source\\repos\\forecastapp1\\forecastapp1\\services\\paymentscheduleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{17FF0C5B-ACCF-4153-8B87-C40B6D2F5F38}|ForecastApp1\\ForecastApp1.csproj|solutionrelative:forecastapp1\\services\\paymentscheduleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{17FF0C5B-ACCF-4153-8B87-C40B6D2F5F38}|ForecastApp1\\ForecastApp1.csproj|c:\\users\\79518\\source\\repos\\forecastapp1\\forecastapp1\\wwwroot\\import.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{17FF0C5B-ACCF-4153-8B87-C40B6D2F5F38}|ForecastApp1\\ForecastApp1.csproj|c:\\\u0432\u0441\u0435\u043F\u043E\u0434\u0440\u044F\u0434\\\u0443\u043D\u0438\u043A\\lbgkjv\\\u043D\u043E\u0432\u044B\u0439 \u043F\u0440\u043E\u0435\u043A\u0442\\forecastapp1\\wwwroot\\import.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{17FF0C5B-ACCF-4153-8B87-C40B6D2F5F38}|ForecastApp1\\ForecastApp1.csproj|solutionrelative:forecastapp1\\wwwroot\\import.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{17FF0C5B-ACCF-4153-8B87-C40B6D2F5F38}|ForecastApp1\\ForecastApp1.csproj|c:\\users\\79518\\source\\repos\\forecastapp1\\forecastapp1\\services\\excelimportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{17FF0C5B-ACCF-4153-8B87-C40B6D2F5F38}|ForecastApp1\\ForecastApp1.csproj|solutionrelative:forecastapp1\\services\\excelimportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{17FF0C5B-ACCF-4153-8B87-C40B6D2F5F38}|ForecastApp1\\ForecastApp1.csproj|c:\\\u0432\u0441\u0435\u043F\u043E\u0434\u0440\u044F\u0434\\\u0443\u043D\u0438\u043A\\lbgkjv\\\u043D\u043E\u0432\u044B\u0439 \u043F\u0440\u043E\u0435\u043A\u0442\\forecastapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17FF0C5B-ACCF-4153-8B87-C40B6D2F5F38}|ForecastApp1\\ForecastApp1.csproj|solutionrelative:forecastapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{17FF0C5B-ACCF-4153-8B87-C40B6D2F5F38}|ForecastApp1\\ForecastApp1.csproj|c:\\users\\79518\\source\\repos\\forecastapp1\\forecastapp1\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{17FF0C5B-ACCF-4153-8B87-C40B6D2F5F38}|ForecastApp1\\ForecastApp1.csproj|solutionrelative:forecastapp1\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{17FF0C5B-ACCF-4153-8B87-C40B6D2F5F38}|ForecastApp1\\ForecastApp1.csproj|c:\\\u0432\u0441\u0435\u043F\u043E\u0434\u0440\u044F\u0434\\\u0443\u043D\u0438\u043A\\lbgkjv\\\u043D\u043E\u0432\u044B\u0439 \u043F\u0440\u043E\u0435\u043A\u0442\\forecastapp1\\controllers\\supplierscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17FF0C5B-ACCF-4153-8B87-C40B6D2F5F38}|ForecastApp1\\ForecastApp1.csproj|solutionrelative:forecastapp1\\controllers\\supplierscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{17FF0C5B-ACCF-4153-8B87-C40B6D2F5F38}|ForecastApp1\\ForecastApp1.csproj|c:\\users\\79518\\source\\repos\\forecastapp1\\forecastapp1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{17FF0C5B-ACCF-4153-8B87-C40B6D2F5F38}|ForecastApp1\\ForecastApp1.csproj|c:\\\u0432\u0441\u0435\u043F\u043E\u0434\u0440\u044F\u0434\\\u0443\u043D\u0438\u043A\\lbgkjv\\\u043D\u043E\u0432\u044B\u0439 \u043F\u0440\u043E\u0435\u043A\u0442\\forecastapp1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{17FF0C5B-ACCF-4153-8B87-C40B6D2F5F38}|ForecastApp1\\ForecastApp1.csproj|solutionrelative:forecastapp1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{17FF0C5B-ACCF-4153-8B87-C40B6D2F5F38}|ForecastApp1\\ForecastApp1.csproj|c:\\users\\79518\\source\\repos\\forecastapp1\\forecastapp1\\models\\paymentscheduleitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{17FF0C5B-ACCF-4153-8B87-C40B6D2F5F38}|ForecastApp1\\ForecastApp1.csproj|solutionrelative:forecastapp1\\models\\paymentscheduleitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{17FF0C5B-ACCF-4153-8B87-C40B6D2F5F38}|ForecastApp1\\ForecastApp1.csproj|c:\\\u0432\u0441\u0435\u043F\u043E\u0434\u0440\u044F\u0434\\\u0443\u043D\u0438\u043A\\lbgkjv\\\u043D\u043E\u0432\u044B\u0439 \u043F\u0440\u043E\u0435\u043A\u0442\\forecastapp1\\wwwroot\\main.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{17FF0C5B-ACCF-4153-8B87-C40B6D2F5F38}|ForecastApp1\\ForecastApp1.csproj|solutionrelative:forecastapp1\\wwwroot\\main.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{17FF0C5B-ACCF-4153-8B87-C40B6D2F5F38}|ForecastApp1\\ForecastApp1.csproj|c:\\users\\79518\\source\\repos\\forecastapp1\\forecastapp1\\models\\shipmentitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{17FF0C5B-ACCF-4153-8B87-C40B6D2F5F38}|ForecastApp1\\ForecastApp1.csproj|solutionrelative:forecastapp1\\models\\shipmentitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{17FF0C5B-ACCF-4153-8B87-C40B6D2F5F38}|ForecastApp1\\ForecastApp1.csproj|c:\\\u0432\u0441\u0435\u043F\u043E\u0434\u0440\u044F\u0434\\\u0443\u043D\u0438\u043A\\lbgkjv\\\u043D\u043E\u0432\u044B\u0439 \u043F\u0440\u043E\u0435\u043A\u0442\\forecastapp1\\wwwroot\\rasschet.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{17FF0C5B-ACCF-4153-8B87-C40B6D2F5F38}|ForecastApp1\\ForecastApp1.csproj|solutionrelative:forecastapp1\\wwwroot\\rasschet.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{17FF0C5B-ACCF-4153-8B87-C40B6D2F5F38}|ForecastApp1\\ForecastApp1.csproj|c:\\users\\79518\\source\\repos\\forecastapp1\\forecastapp1\\models\\debtitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{17FF0C5B-ACCF-4153-8B87-C40B6D2F5F38}|ForecastApp1\\ForecastApp1.csproj|solutionrelative:forecastapp1\\models\\debtitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{17FF0C5B-ACCF-4153-8B87-C40B6D2F5F38}|ForecastApp1\\ForecastApp1.csproj|c:\\\u0432\u0441\u0435\u043F\u043E\u0434\u0440\u044F\u0434\\\u0443\u043D\u0438\u043A\\lbgkjv\\\u043D\u043E\u0432\u044B\u0439 \u043F\u0440\u043E\u0435\u043A\u0442\\forecastapp1\\wwwroot\\login.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{17FF0C5B-ACCF-4153-8B87-C40B6D2F5F38}|ForecastApp1\\ForecastApp1.csproj|solutionrelative:forecastapp1\\wwwroot\\login.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{17FF0C5B-ACCF-4153-8B87-C40B6D2F5F38}|ForecastApp1\\ForecastApp1.csproj|c:\\users\\79518\\source\\repos\\forecastapp1\\forecastapp1\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{17FF0C5B-ACCF-4153-8B87-C40B6D2F5F38}|ForecastApp1\\ForecastApp1.csproj|c:\\\u0432\u0441\u0435\u043F\u043E\u0434\u0440\u044F\u0434\\\u0443\u043D\u0438\u043A\\lbgkjv\\\u043D\u043E\u0432\u044B\u0439 \u043F\u0440\u043E\u0435\u043A\u0442\\forecastapp1\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{17FF0C5B-ACCF-4153-8B87-C40B6D2F5F38}|ForecastApp1\\ForecastApp1.csproj|solutionrelative:forecastapp1\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17FF0C5B-ACCF-4153-8B87-C40B6D2F5F38}|ForecastApp1\\ForecastApp1.csproj|c:\\\u0432\u0441\u0435\u043F\u043E\u0434\u0440\u044F\u0434\\\u0443\u043D\u0438\u043A\\lbgkjv\\\u043D\u043E\u0432\u044B\u0439 \u043F\u0440\u043E\u0435\u043A\u0442\\forecastapp1\\wwwroot\\favicon.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{17FF0C5B-ACCF-4153-8B87-C40B6D2F5F38}|ForecastApp1\\ForecastApp1.csproj|solutionrelative:forecastapp1\\wwwroot\\favicon.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17FF0C5B-ACCF-4153-8B87-C40B6D2F5F38}|ForecastApp1\\ForecastApp1.csproj|c:\\\u0432\u0441\u0435\u043F\u043E\u0434\u0440\u044F\u0434\\\u0443\u043D\u0438\u043A\\lbgkjv\\\u043D\u043E\u0432\u044B\u0439 \u043F\u0440\u043E\u0435\u043A\u0442\\forecastapp1\\wwwroot\\admin.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{17FF0C5B-ACCF-4153-8B87-C40B6D2F5F38}|ForecastApp1\\ForecastApp1.csproj|solutionrelative:forecastapp1\\wwwroot\\admin.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17FF0C5B-ACCF-4153-8B87-C40B6D2F5F38}|ForecastApp1\\ForecastApp1.csproj|c:\\\u0432\u0441\u0435\u043F\u043E\u0434\u0440\u044F\u0434\\\u0443\u043D\u0438\u043A\\lbgkjv\\\u043D\u043E\u0432\u044B\u0439 \u043F\u0440\u043E\u0435\u043A\u0442\\forecastapp1\\wwwroot\\add.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{17FF0C5B-ACCF-4153-8B87-C40B6D2F5F38}|ForecastApp1\\ForecastApp1.csproj|solutionrelative:forecastapp1\\wwwroot\\add.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17FF0C5B-ACCF-4153-8B87-C40B6D2F5F38}|ForecastApp1\\ForecastApp1.csproj|c:\\\u0432\u0441\u0435\u043F\u043E\u0434\u0440\u044F\u0434\\\u0443\u043D\u0438\u043A\\lbgkjv\\\u043D\u043E\u0432\u044B\u0439 \u043F\u0440\u043E\u0435\u043A\u0442\\forecastapp1\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{17FF0C5B-ACCF-4153-8B87-C40B6D2F5F38}|ForecastApp1\\ForecastApp1.csproj|solutionrelative:forecastapp1\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{17FF0C5B-ACCF-4153-8B87-C40B6D2F5F38}|ForecastApp1\\ForecastApp1.csproj|c:\\users\\79518\\source\\repos\\forecastapp1\\forecastapp1\\models\\supplierpaymententry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{17FF0C5B-ACCF-4153-8B87-C40B6D2F5F38}|ForecastApp1\\ForecastApp1.csproj|solutionrelative:forecastapp1\\models\\supplierpaymententry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\\u0432\u0441\u0435\u043F\u043E\u0434\u0440\u044F\u0434\\\u0443\u043D\u0438\u043A\\ProEct (5)\\ForecastApp1\\ForecastApp1\\Services\\PaymentScheduleService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\\u0432\u0441\u0435\u043F\u043E\u0434\u0440\u044F\u0434\\\u0443\u043D\u0438\u043A\\ProEct (5)\\ForecastApp1\\ForecastApp1\\Controllers\\ConditionsController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\\u0432\u0441\u0435\u043F\u043E\u0434\u0440\u044F\u0434\\\u0443\u043D\u0438\u043A\\ProEct (5)\\ForecastApp1\\ForecastApp1\\Services\\ExcelImportService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\\u0432\u0441\u0435\u043F\u043E\u0434\u0440\u044F\u0434\\\u0443\u043D\u0438\u043A\\ProEct (5)\\ForecastApp1\\ForecastApp1\\Models\\ConditionDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\\u0432\u0441\u0435\u043F\u043E\u0434\u0440\u044F\u0434\\\u0443\u043D\u0438\u043A\\ProEct (5)\\ForecastApp1\\ForecastApp1\\Models\\SupplierDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\\u0432\u0441\u0435\u043F\u043E\u0434\u0440\u044F\u0434\\\u0443\u043D\u0438\u043A\\ProEct (5)\\ForecastApp1\\ForecastApp1\\Controllers\\ImportSpravochnikiController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\\u0432\u0441\u0435\u043F\u043E\u0434\u0440\u044F\u0434\\\u0443\u043D\u0438\u043A\\ProEct (5)\\ForecastApp1\\ForecastApp1\\Controllers\\PaymentScheduleController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\\u0432\u0441\u0435\u043F\u043E\u0434\u0440\u044F\u0434\\\u0443\u043D\u0438\u043A\\ProEct (5)\\ForecastApp1\\ForecastApp1\\Controllers\\AdminController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\\u0432\u0441\u0435\u043F\u043E\u0434\u0440\u044F\u0434\\\u0443\u043D\u0438\u043A\\ProEct (5)\\ForecastApp1\\ForecastApp1\\Controllers\\PaymentsController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\\u0432\u0441\u0435\u043F\u043E\u0434\u0440\u044F\u0434\\\u0443\u043D\u0438\u043A\\ProEct (5)\\ForecastApp1\\ForecastApp1\\Services\\SpravochnikiImportService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\\u0432\u0441\u0435\u043F\u043E\u0434\u0440\u044F\u0434\\\u0443\u043D\u0438\u043A\\ProEct (5)\\ForecastApp1\\ForecastApp1\\Controllers\\ImportController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\\u0432\u0441\u0435\u043F\u043E\u0434\u0440\u044F\u0434\\\u0443\u043D\u0438\u043A\\ProEct (5)\\ForecastApp1\\ForecastApp1\\Models\\PaymentScheduleItemDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\\u0432\u0441\u0435\u043F\u043E\u0434\u0440\u044F\u0434\\\u0443\u043D\u0438\u043A\\ProEct (5)\\ForecastApp1\\ForecastApp1\\Models\\SupplierPaymentEntry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\\u0432\u0441\u0435\u043F\u043E\u0434\u0440\u044F\u0434\\\u0443\u043D\u0438\u043A\\ProEct (5)\\ForecastApp1\\ForecastApp1\\Models\\ContractDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\\u0432\u0441\u0435\u043F\u043E\u0434\u0440\u044F\u0434\\\u0443\u043D\u0438\u043A\\ProEct (5)\\ForecastApp1\\ForecastApp1\\Models\\ShipmentItem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\\u0432\u0441\u0435\u043F\u043E\u0434\u0440\u044F\u0434\\\u0443\u043D\u0438\u043A\\ProEct (5)\\ForecastApp1\\ForecastApp1\\Models\\DebtItem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,171 +118,392 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "import.html",
-              "DocumentMoniker": "C:\\Users\\79518\\source\\repos\\ForecastApp1\\ForecastApp1\\wwwroot\\import.html",
-              "RelativeDocumentMoniker": "ForecastApp1\\wwwroot\\import.html",
-              "ToolTip": "C:\\Users\\79518\\source\\repos\\ForecastApp1\\ForecastApp1\\wwwroot\\import.html*",
-              "RelativeToolTip": "ForecastApp1\\wwwroot\\import.html*",
-              "ViewState": "AgIAAHgAAAAAAAAAAAAAAIoAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-07-20T18:13:10.592Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ImportController.cs",
-              "DocumentMoniker": "C:\\Users\\79518\\source\\repos\\ForecastApp1\\ForecastApp1\\Controllers\\ImportController.cs",
-              "RelativeDocumentMoniker": "ForecastApp1\\Controllers\\ImportController.cs",
-              "ToolTip": "C:\\Users\\79518\\source\\repos\\ForecastApp1\\ForecastApp1\\Controllers\\ImportController.cs",
-              "RelativeToolTip": "ForecastApp1\\Controllers\\ImportController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-20T17:38:51.779Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ExcelImportService.cs",
-              "DocumentMoniker": "C:\\Users\\79518\\source\\repos\\ForecastApp1\\ForecastApp1\\Services\\ExcelImportService.cs",
-              "RelativeDocumentMoniker": "ForecastApp1\\Services\\ExcelImportService.cs",
-              "ToolTip": "C:\\Users\\79518\\source\\repos\\ForecastApp1\\ForecastApp1\\Services\\ExcelImportService.cs",
-              "RelativeToolTip": "ForecastApp1\\Services\\ExcelImportService.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-20T17:38:11.938Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\79518\\source\\repos\\ForecastApp1\\ForecastApp1\\Program.cs",
-              "RelativeDocumentMoniker": "ForecastApp1\\Program.cs",
-              "ToolTip": "C:\\Users\\79518\\source\\repos\\ForecastApp1\\ForecastApp1\\Program.cs",
-              "RelativeToolTip": "ForecastApp1\\Program.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAADAAAAAAAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\\u0432\u0441\u0435\u043F\u043E\u0434\u0440\u044F\u0434\\\u0443\u043D\u0438\u043A\\lbgkjv\\\u041D\u043E\u0432\u044B\u0439 \u043F\u0440\u043E\u0435\u043A\u0442\\ForecastApp1\\Tools\\SampleImportGen\\Program.cs",
+              "RelativeDocumentMoniker": "ForecastApp1\\Tools\\SampleImportGen\\Program.cs",
+              "ToolTip": "C:\\\u0432\u0441\u0435\u043F\u043E\u0434\u0440\u044F\u0434\\\u0443\u043D\u0438\u043A\\lbgkjv\\\u041D\u043E\u0432\u044B\u0439 \u043F\u0440\u043E\u0435\u043A\u0442\\ForecastApp1\\Tools\\SampleImportGen\\Program.cs",
+              "RelativeToolTip": "ForecastApp1\\Tools\\SampleImportGen\\Program.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-20T18:10:01.828Z",
+              "WhenOpened": "2026-05-03T17:16:57.059Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "index.html",
-              "DocumentMoniker": "C:\\Users\\79518\\source\\repos\\ForecastApp1\\ForecastApp1\\wwwroot\\index.html",
-              "RelativeDocumentMoniker": "ForecastApp1\\wwwroot\\index.html",
-              "ToolTip": "C:\\Users\\79518\\source\\repos\\ForecastApp1\\ForecastApp1\\wwwroot\\index.html",
-              "RelativeToolTip": "ForecastApp1\\wwwroot\\index.html",
-              "ViewState": "AgIAAIoAAAAAAAAAAAAAAKIAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-07-23T00:37:43.611Z",
-              "EditorCaption": ""
+              "DocumentIndex": 15,
+              "Title": "PaymentScheduleService.cs",
+              "DocumentMoniker": "C:\\\u0432\u0441\u0435\u043F\u043E\u0434\u0440\u044F\u0434\\\u0443\u043D\u0438\u043A\\ProEct (5)\\ForecastApp1\\ForecastApp1\\Services\\PaymentScheduleService.cs",
+              "RelativeDocumentMoniker": "..\\..\\ProEct (5)\\ForecastApp1\\ForecastApp1\\Services\\PaymentScheduleService.cs",
+              "ToolTip": "C:\\\u0432\u0441\u0435\u043F\u043E\u0434\u0440\u044F\u0434\\\u0443\u043D\u0438\u043A\\ProEct (5)\\ForecastApp1\\ForecastApp1\\Services\\PaymentScheduleService.cs",
+              "RelativeToolTip": "..\\..\\ProEct (5)\\ForecastApp1\\ForecastApp1\\Services\\PaymentScheduleService.cs",
+              "ViewState": "AgIAAI8AAAAAAAAAAAAgwCIAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T22:18:57.376Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ConditionsController.cs",
+              "DocumentMoniker": "C:\\\u0432\u0441\u0435\u043F\u043E\u0434\u0440\u044F\u0434\\\u0443\u043D\u0438\u043A\\ProEct (5)\\ForecastApp1\\ForecastApp1\\Controllers\\ConditionsController.cs",
+              "RelativeDocumentMoniker": "..\\..\\ProEct (5)\\ForecastApp1\\ForecastApp1\\Controllers\\ConditionsController.cs",
+              "ToolTip": "C:\\\u0432\u0441\u0435\u043F\u043E\u0434\u0440\u044F\u0434\\\u0443\u043D\u0438\u043A\\ProEct (5)\\ForecastApp1\\ForecastApp1\\Controllers\\ConditionsController.cs",
+              "RelativeToolTip": "..\\..\\ProEct (5)\\ForecastApp1\\ForecastApp1\\Controllers\\ConditionsController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAADgvykAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-26T23:04:02.36Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "PaymentsController.cs",
-              "DocumentMoniker": "C:\\Users\\79518\\source\\repos\\ForecastApp1\\ForecastApp1\\Controllers\\PaymentsController.cs",
-              "RelativeDocumentMoniker": "ForecastApp1\\Controllers\\PaymentsController.cs",
-              "ToolTip": "C:\\Users\\79518\\source\\repos\\ForecastApp1\\ForecastApp1\\Controllers\\PaymentsController.cs",
-              "RelativeToolTip": "ForecastApp1\\Controllers\\PaymentsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\\u0432\u0441\u0435\u043F\u043E\u0434\u0440\u044F\u0434\\\u0443\u043D\u0438\u043A\\lbgkjv\\\u041D\u043E\u0432\u044B\u0439 \u043F\u0440\u043E\u0435\u043A\u0442\\ForecastApp1\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "ForecastApp1\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\\u0432\u0441\u0435\u043F\u043E\u0434\u0440\u044F\u0434\\\u0443\u043D\u0438\u043A\\lbgkjv\\\u041D\u043E\u0432\u044B\u0439 \u043F\u0440\u043E\u0435\u043A\u0442\\ForecastApp1\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "ForecastApp1\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAjwCMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-20T22:19:55.151Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-29T00:50:09.295Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ContractsController.cs",
+              "DocumentMoniker": "C:\\\u0432\u0441\u0435\u043F\u043E\u0434\u0440\u044F\u0434\\\u0443\u043D\u0438\u043A\\lbgkjv\\\u041D\u043E\u0432\u044B\u0439 \u043F\u0440\u043E\u0435\u043A\u0442\\ForecastApp1\\Controllers\\ContractsController.cs",
+              "RelativeDocumentMoniker": "ForecastApp1\\Controllers\\ContractsController.cs",
+              "ToolTip": "C:\\\u0432\u0441\u0435\u043F\u043E\u0434\u0440\u044F\u0434\\\u0443\u043D\u0438\u043A\\lbgkjv\\\u041D\u043E\u0432\u044B\u0439 \u043F\u0440\u043E\u0435\u043A\u0442\\ForecastApp1\\Controllers\\ContractsController.cs",
+              "RelativeToolTip": "ForecastApp1\\Controllers\\ContractsController.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAIAwwCsAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-26T23:03:10.625Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\\u0432\u0441\u0435\u043F\u043E\u0434\u0440\u044F\u0434\\\u0443\u043D\u0438\u043A\\lbgkjv\\\u041D\u043E\u0432\u044B\u0439 \u043F\u0440\u043E\u0435\u043A\u0442\\ForecastApp1\\Program.cs",
+              "RelativeDocumentMoniker": "ForecastApp1\\Program.cs",
+              "ToolTip": "C:\\\u0432\u0441\u0435\u043F\u043E\u0434\u0440\u044F\u0434\\\u0443\u043D\u0438\u043A\\lbgkjv\\\u041D\u043E\u0432\u044B\u0439 \u043F\u0440\u043E\u0435\u043A\u0442\\ForecastApp1\\Program.cs",
+              "RelativeToolTip": "ForecastApp1\\Program.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACQAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T18:10:01.828Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "PaymentScheduleService.cs",
-              "DocumentMoniker": "C:\\Users\\79518\\source\\repos\\ForecastApp1\\ForecastApp1\\Services\\PaymentScheduleService.cs",
-              "RelativeDocumentMoniker": "ForecastApp1\\Services\\PaymentScheduleService.cs",
-              "ToolTip": "C:\\Users\\79518\\source\\repos\\ForecastApp1\\ForecastApp1\\Services\\PaymentScheduleService.cs",
-              "RelativeToolTip": "ForecastApp1\\Services\\PaymentScheduleService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
+              "Title": "import.html",
+              "DocumentMoniker": "C:\\\u0432\u0441\u0435\u043F\u043E\u0434\u0440\u044F\u0434\\\u0443\u043D\u0438\u043A\\lbgkjv\\\u041D\u043E\u0432\u044B\u0439 \u043F\u0440\u043E\u0435\u043A\u0442\\ForecastApp1\\wwwroot\\import.html",
+              "RelativeDocumentMoniker": "ForecastApp1\\wwwroot\\import.html",
+              "ToolTip": "C:\\\u0432\u0441\u0435\u043F\u043E\u0434\u0440\u044F\u0434\\\u0443\u043D\u0438\u043A\\lbgkjv\\\u041D\u043E\u0432\u044B\u0439 \u043F\u0440\u043E\u0435\u043A\u0442\\ForecastApp1\\wwwroot\\import.html",
+              "RelativeToolTip": "ForecastApp1\\wwwroot\\import.html",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAIwGoAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-07-20T18:13:10.592Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ExcelImportService.cs",
+              "DocumentMoniker": "C:\\\u0432\u0441\u0435\u043F\u043E\u0434\u0440\u044F\u0434\\\u0443\u043D\u0438\u043A\\ProEct (5)\\ForecastApp1\\ForecastApp1\\Services\\ExcelImportService.cs",
+              "RelativeDocumentMoniker": "..\\..\\ProEct (5)\\ForecastApp1\\ForecastApp1\\Services\\ExcelImportService.cs",
+              "ToolTip": "C:\\\u0432\u0441\u0435\u043F\u043E\u0434\u0440\u044F\u0434\\\u0443\u043D\u0438\u043A\\ProEct (5)\\ForecastApp1\\ForecastApp1\\Services\\ExcelImportService.cs",
+              "RelativeToolTip": "..\\..\\ProEct (5)\\ForecastApp1\\ForecastApp1\\Services\\ExcelImportService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAK0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-20T22:18:57.376Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-20T17:38:11.938Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ConditionDTO.cs",
+              "DocumentMoniker": "C:\\\u0432\u0441\u0435\u043F\u043E\u0434\u0440\u044F\u0434\\\u0443\u043D\u0438\u043A\\ProEct (5)\\ForecastApp1\\ForecastApp1\\Models\\ConditionDTO.cs",
+              "RelativeDocumentMoniker": "..\\..\\ProEct (5)\\ForecastApp1\\ForecastApp1\\Models\\ConditionDTO.cs",
+              "ToolTip": "C:\\\u0432\u0441\u0435\u043F\u043E\u0434\u0440\u044F\u0434\\\u0443\u043D\u0438\u043A\\ProEct (5)\\ForecastApp1\\ForecastApp1\\Models\\ConditionDTO.cs",
+              "RelativeToolTip": "..\\..\\ProEct (5)\\ForecastApp1\\ForecastApp1\\Models\\ConditionDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-26T23:00:18.968Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "SupplierDTO.cs",
+              "DocumentMoniker": "C:\\\u0432\u0441\u0435\u043F\u043E\u0434\u0440\u044F\u0434\\\u0443\u043D\u0438\u043A\\ProEct (5)\\ForecastApp1\\ForecastApp1\\Models\\SupplierDTO.cs",
+              "RelativeDocumentMoniker": "..\\..\\ProEct (5)\\ForecastApp1\\ForecastApp1\\Models\\SupplierDTO.cs",
+              "ToolTip": "C:\\\u0432\u0441\u0435\u043F\u043E\u0434\u0440\u044F\u0434\\\u0443\u043D\u0438\u043A\\ProEct (5)\\ForecastApp1\\ForecastApp1\\Models\\SupplierDTO.cs",
+              "RelativeToolTip": "..\\..\\ProEct (5)\\ForecastApp1\\ForecastApp1\\Models\\SupplierDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-26T22:59:08.176Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ImportSpravochnikiController.cs",
+              "DocumentMoniker": "C:\\\u0432\u0441\u0435\u043F\u043E\u0434\u0440\u044F\u0434\\\u0443\u043D\u0438\u043A\\ProEct (5)\\ForecastApp1\\ForecastApp1\\Controllers\\ImportSpravochnikiController.cs",
+              "RelativeDocumentMoniker": "..\\..\\ProEct (5)\\ForecastApp1\\ForecastApp1\\Controllers\\ImportSpravochnikiController.cs",
+              "ToolTip": "C:\\\u0432\u0441\u0435\u043F\u043E\u0434\u0440\u044F\u0434\\\u0443\u043D\u0438\u043A\\ProEct (5)\\ForecastApp1\\ForecastApp1\\Controllers\\ImportSpravochnikiController.cs",
+              "RelativeToolTip": "..\\..\\ProEct (5)\\ForecastApp1\\ForecastApp1\\Controllers\\ImportSpravochnikiController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T23:39:42.859Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "PaymentScheduleController.cs",
+              "DocumentMoniker": "C:\\\u0432\u0441\u0435\u043F\u043E\u0434\u0440\u044F\u0434\\\u0443\u043D\u0438\u043A\\ProEct (5)\\ForecastApp1\\ForecastApp1\\Controllers\\PaymentScheduleController.cs",
+              "RelativeDocumentMoniker": "..\\..\\ProEct (5)\\ForecastApp1\\ForecastApp1\\Controllers\\PaymentScheduleController.cs",
+              "ToolTip": "C:\\\u0432\u0441\u0435\u043F\u043E\u0434\u0440\u044F\u0434\\\u0443\u043D\u0438\u043A\\ProEct (5)\\ForecastApp1\\ForecastApp1\\Controllers\\PaymentScheduleController.cs",
+              "RelativeToolTip": "..\\..\\ProEct (5)\\ForecastApp1\\ForecastApp1\\Controllers\\PaymentScheduleController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwBAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-27T22:46:37.612Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\\u0432\u0441\u0435\u043F\u043E\u0434\u0440\u044F\u0434\\\u0443\u043D\u0438\u043A\\ProEct (5)\\ForecastApp1\\ForecastApp1\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "..\\..\\ProEct (5)\\ForecastApp1\\ForecastApp1\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\\u0432\u0441\u0435\u043F\u043E\u0434\u0440\u044F\u0434\\\u0443\u043D\u0438\u043A\\ProEct (5)\\ForecastApp1\\ForecastApp1\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "..\\..\\ProEct (5)\\ForecastApp1\\ForecastApp1\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-29T00:52:28.97Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "PaymentsController.cs",
+              "DocumentMoniker": "C:\\\u0432\u0441\u0435\u043F\u043E\u0434\u0440\u044F\u0434\\\u0443\u043D\u0438\u043A\\ProEct (5)\\ForecastApp1\\ForecastApp1\\Controllers\\PaymentsController.cs",
+              "RelativeDocumentMoniker": "..\\..\\ProEct (5)\\ForecastApp1\\ForecastApp1\\Controllers\\PaymentsController.cs",
+              "ToolTip": "C:\\\u0432\u0441\u0435\u043F\u043E\u0434\u0440\u044F\u0434\\\u0443\u043D\u0438\u043A\\ProEct (5)\\ForecastApp1\\ForecastApp1\\Controllers\\PaymentsController.cs",
+              "RelativeToolTip": "..\\..\\ProEct (5)\\ForecastApp1\\ForecastApp1\\Controllers\\PaymentsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T22:19:55.151Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SuppliersController.cs",
+              "DocumentMoniker": "C:\\\u0432\u0441\u0435\u043F\u043E\u0434\u0440\u044F\u0434\\\u0443\u043D\u0438\u043A\\lbgkjv\\\u041D\u043E\u0432\u044B\u0439 \u043F\u0440\u043E\u0435\u043A\u0442\\ForecastApp1\\Controllers\\SuppliersController.cs",
+              "RelativeDocumentMoniker": "ForecastApp1\\Controllers\\SuppliersController.cs",
+              "ToolTip": "C:\\\u0432\u0441\u0435\u043F\u043E\u0434\u0440\u044F\u0434\\\u0443\u043D\u0438\u043A\\lbgkjv\\\u041D\u043E\u0432\u044B\u0439 \u043F\u0440\u043E\u0435\u043A\u0442\\ForecastApp1\\Controllers\\SuppliersController.cs",
+              "RelativeToolTip": "ForecastApp1\\Controllers\\SuppliersController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAD4vxkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-26T23:01:10.427Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\\u0432\u0441\u0435\u043F\u043E\u0434\u0440\u044F\u0434\\\u0443\u043D\u0438\u043A\\lbgkjv\\\u041D\u043E\u0432\u044B\u0439 \u043F\u0440\u043E\u0435\u043A\u0442\\ForecastApp1\\appsettings.json",
+              "RelativeDocumentMoniker": "ForecastApp1\\appsettings.json",
+              "ToolTip": "C:\\\u0432\u0441\u0435\u043F\u043E\u0434\u0440\u044F\u0434\\\u0443\u043D\u0438\u043A\\lbgkjv\\\u041D\u043E\u0432\u044B\u0439 \u043F\u0440\u043E\u0435\u043A\u0442\\ForecastApp1\\appsettings.json",
+              "RelativeToolTip": "ForecastApp1\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-20T17:36:26.057Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "add.html",
+              "DocumentMoniker": "C:\\\u0432\u0441\u0435\u043F\u043E\u0434\u0440\u044F\u0434\\\u0443\u043D\u0438\u043A\\lbgkjv\\\u041D\u043E\u0432\u044B\u0439 \u043F\u0440\u043E\u0435\u043A\u0442\\ForecastApp1\\wwwroot\\add.html",
+              "RelativeDocumentMoniker": "ForecastApp1\\wwwroot\\add.html",
+              "ToolTip": "C:\\\u0432\u0441\u0435\u043F\u043E\u0434\u0440\u044F\u0434\\\u0443\u043D\u0438\u043A\\lbgkjv\\\u041D\u043E\u0432\u044B\u0439 \u043F\u0440\u043E\u0435\u043A\u0442\\ForecastApp1\\wwwroot\\add.html",
+              "RelativeToolTip": "ForecastApp1\\wwwroot\\add.html",
+              "ViewState": "AgIAACABAAAAAAAAAAAgwDgBAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-08-26T23:05:32.31Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\79518\\source\\repos\\ForecastApp1\\ForecastApp1\\appsettings.json",
-              "RelativeDocumentMoniker": "ForecastApp1\\appsettings.json",
-              "ToolTip": "C:\\Users\\79518\\source\\repos\\ForecastApp1\\ForecastApp1\\appsettings.json",
-              "RelativeToolTip": "ForecastApp1\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-07-20T17:36:26.057Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ShipmentItem.cs",
-              "DocumentMoniker": "C:\\Users\\79518\\source\\repos\\ForecastApp1\\ForecastApp1\\Models\\ShipmentItem.cs",
-              "RelativeDocumentMoniker": "ForecastApp1\\Models\\ShipmentItem.cs",
-              "ToolTip": "C:\\Users\\79518\\source\\repos\\ForecastApp1\\ForecastApp1\\Models\\ShipmentItem.cs",
-              "RelativeToolTip": "ForecastApp1\\Models\\ShipmentItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-21T17:09:39.225Z"
+              "Title": "main.html",
+              "DocumentMoniker": "C:\\\u0432\u0441\u0435\u043F\u043E\u0434\u0440\u044F\u0434\\\u0443\u043D\u0438\u043A\\lbgkjv\\\u041D\u043E\u0432\u044B\u0439 \u043F\u0440\u043E\u0435\u043A\u0442\\ForecastApp1\\wwwroot\\main.html",
+              "RelativeDocumentMoniker": "ForecastApp1\\wwwroot\\main.html",
+              "ToolTip": "C:\\\u0432\u0441\u0435\u043F\u043E\u0434\u0440\u044F\u0434\\\u0443\u043D\u0438\u043A\\lbgkjv\\\u041D\u043E\u0432\u044B\u0439 \u043F\u0440\u043E\u0435\u043A\u0442\\ForecastApp1\\wwwroot\\main.html",
+              "RelativeToolTip": "ForecastApp1\\wwwroot\\main.html",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAAAIsAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-08-27T23:55:11.516Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "rasschet.html",
+              "DocumentMoniker": "C:\\\u0432\u0441\u0435\u043F\u043E\u0434\u0440\u044F\u0434\\\u0443\u043D\u0438\u043A\\lbgkjv\\\u041D\u043E\u0432\u044B\u0439 \u043F\u0440\u043E\u0435\u043A\u0442\\ForecastApp1\\wwwroot\\rasschet.html",
+              "RelativeDocumentMoniker": "ForecastApp1\\wwwroot\\rasschet.html",
+              "ToolTip": "C:\\\u0432\u0441\u0435\u043F\u043E\u0434\u0440\u044F\u0434\\\u0443\u043D\u0438\u043A\\lbgkjv\\\u041D\u043E\u0432\u044B\u0439 \u043F\u0440\u043E\u0435\u043A\u0442\\ForecastApp1\\wwwroot\\rasschet.html",
+              "RelativeToolTip": "ForecastApp1\\wwwroot\\rasschet.html",
+              "ViewState": "AgIAAIwAAAAAAAAAAAAgwKAAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-08-27T22:45:25.675Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\\u0432\u0441\u0435\u043F\u043E\u0434\u0440\u044F\u0434\\\u0443\u043D\u0438\u043A\\lbgkjv\\\u041D\u043E\u0432\u044B\u0439 \u043F\u0440\u043E\u0435\u043A\u0442\\ForecastApp1\\wwwroot\\index.html",
+              "RelativeDocumentMoniker": "ForecastApp1\\wwwroot\\index.html",
+              "ToolTip": "C:\\\u0432\u0441\u0435\u043F\u043E\u0434\u0440\u044F\u0434\\\u0443\u043D\u0438\u043A\\lbgkjv\\\u041D\u043E\u0432\u044B\u0439 \u043F\u0440\u043E\u0435\u043A\u0442\\ForecastApp1\\wwwroot\\index.html",
+              "RelativeToolTip": "ForecastApp1\\wwwroot\\index.html",
+              "ViewState": "AgIAAJEAAAAAAAAAAAAAAKQAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-07-23T00:37:43.611Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "login.html",
+              "DocumentMoniker": "C:\\\u0432\u0441\u0435\u043F\u043E\u0434\u0440\u044F\u0434\\\u0443\u043D\u0438\u043A\\lbgkjv\\\u041D\u043E\u0432\u044B\u0439 \u043F\u0440\u043E\u0435\u043A\u0442\\ForecastApp1\\wwwroot\\login.html",
+              "RelativeDocumentMoniker": "ForecastApp1\\wwwroot\\login.html",
+              "ToolTip": "C:\\\u0432\u0441\u0435\u043F\u043E\u0434\u0440\u044F\u0434\\\u0443\u043D\u0438\u043A\\lbgkjv\\\u041D\u043E\u0432\u044B\u0439 \u043F\u0440\u043E\u0435\u043A\u0442\\ForecastApp1\\wwwroot\\login.html",
+              "RelativeToolTip": "ForecastApp1\\wwwroot\\login.html",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAEUAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-08-29T00:55:28.58Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "favicon.ico - Icon [32x32, 32-\u0440\u0430\u0437\u0440\u044F\u0434\u043D\u043E\u0435, BMP]",
+              "DocumentMoniker": "C:\\\u0432\u0441\u0435\u043F\u043E\u0434\u0440\u044F\u0434\\\u0443\u043D\u0438\u043A\\lbgkjv\\\u041D\u043E\u0432\u044B\u0439 \u043F\u0440\u043E\u0435\u043A\u0442\\ForecastApp1\\wwwroot\\favicon.ico",
+              "RelativeDocumentMoniker": "ForecastApp1\\wwwroot\\favicon.ico",
+              "ToolTip": "C:\\\u0432\u0441\u0435\u043F\u043E\u0434\u0440\u044F\u0434\\\u0443\u043D\u0438\u043A\\lbgkjv\\\u041D\u043E\u0432\u044B\u0439 \u043F\u0440\u043E\u0435\u043A\u0442\\ForecastApp1\\wwwroot\\favicon.ico - Icon [32x32, 32-\u0440\u0430\u0437\u0440\u044F\u0434\u043D\u043E\u0435, BMP]",
+              "RelativeToolTip": "ForecastApp1\\wwwroot\\favicon.ico - Icon [32x32, 32-\u0440\u0430\u0437\u0440\u044F\u0434\u043D\u043E\u0435, BMP]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001525|",
+              "WhenOpened": "2025-09-02T18:55:24.87Z",
+              "EditorCaption": " - Icon [32x32, 32-\u0440\u0430\u0437\u0440\u044F\u0434\u043D\u043E\u0435, BMP]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "admin.html",
+              "DocumentMoniker": "C:\\\u0432\u0441\u0435\u043F\u043E\u0434\u0440\u044F\u0434\\\u0443\u043D\u0438\u043A\\lbgkjv\\\u041D\u043E\u0432\u044B\u0439 \u043F\u0440\u043E\u0435\u043A\u0442\\ForecastApp1\\wwwroot\\admin.html",
+              "RelativeDocumentMoniker": "ForecastApp1\\wwwroot\\admin.html",
+              "ToolTip": "C:\\\u0432\u0441\u0435\u043F\u043E\u0434\u0440\u044F\u0434\\\u0443\u043D\u0438\u043A\\lbgkjv\\\u041D\u043E\u0432\u044B\u0439 \u043F\u0440\u043E\u0435\u043A\u0442\\ForecastApp1\\wwwroot\\admin.html",
+              "RelativeToolTip": "ForecastApp1\\wwwroot\\admin.html",
+              "ViewState": "AgIAAKsAAAAAAAAAAAAAAH4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-08-29T00:56:07.204Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "SpravochnikiImportService.cs",
+              "DocumentMoniker": "C:\\\u0432\u0441\u0435\u043F\u043E\u0434\u0440\u044F\u0434\\\u0443\u043D\u0438\u043A\\ProEct (5)\\ForecastApp1\\ForecastApp1\\Services\\SpravochnikiImportService.cs",
+              "RelativeDocumentMoniker": "..\\..\\ProEct (5)\\ForecastApp1\\ForecastApp1\\Services\\SpravochnikiImportService.cs",
+              "ToolTip": "C:\\\u0432\u0441\u0435\u043F\u043E\u0434\u0440\u044F\u0434\\\u0443\u043D\u0438\u043A\\ProEct (5)\\ForecastApp1\\ForecastApp1\\Services\\SpravochnikiImportService.cs",
+              "RelativeToolTip": "..\\..\\ProEct (5)\\ForecastApp1\\ForecastApp1\\Services\\SpravochnikiImportService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJAAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T23:25:32.88Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ImportController.cs",
+              "DocumentMoniker": "C:\\\u0432\u0441\u0435\u043F\u043E\u0434\u0440\u044F\u0434\\\u0443\u043D\u0438\u043A\\ProEct (5)\\ForecastApp1\\ForecastApp1\\Controllers\\ImportController.cs",
+              "RelativeDocumentMoniker": "..\\..\\ProEct (5)\\ForecastApp1\\ForecastApp1\\Controllers\\ImportController.cs",
+              "ToolTip": "C:\\\u0432\u0441\u0435\u043F\u043E\u0434\u0440\u044F\u0434\\\u0443\u043D\u0438\u043A\\ProEct (5)\\ForecastApp1\\ForecastApp1\\Controllers\\ImportController.cs",
+              "RelativeToolTip": "..\\..\\ProEct (5)\\ForecastApp1\\ForecastApp1\\Controllers\\ImportController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T17:38:51.779Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\\u0432\u0441\u0435\u043F\u043E\u0434\u0440\u044F\u0434\\\u0443\u043D\u0438\u043A\\lbgkjv\\\u041D\u043E\u0432\u044B\u0439 \u043F\u0440\u043E\u0435\u043A\u0442\\ForecastApp1\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "ForecastApp1\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\\u0432\u0441\u0435\u043F\u043E\u0434\u0440\u044F\u0434\\\u0443\u043D\u0438\u043A\\lbgkjv\\\u041D\u043E\u0432\u044B\u0439 \u043F\u0440\u043E\u0435\u043A\u0442\\ForecastApp1\\Properties\\launchSettings.json",
+              "RelativeToolTip": "ForecastApp1\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-21T18:54:13.93Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
               "Title": "PaymentScheduleItemDto.cs",
-              "DocumentMoniker": "C:\\Users\\79518\\source\\repos\\ForecastApp1\\ForecastApp1\\Models\\PaymentScheduleItemDto.cs",
-              "RelativeDocumentMoniker": "ForecastApp1\\Models\\PaymentScheduleItemDto.cs",
-              "ToolTip": "C:\\Users\\79518\\source\\repos\\ForecastApp1\\ForecastApp1\\Models\\PaymentScheduleItemDto.cs",
-              "RelativeToolTip": "ForecastApp1\\Models\\PaymentScheduleItemDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\\u0432\u0441\u0435\u043F\u043E\u0434\u0440\u044F\u0434\\\u0443\u043D\u0438\u043A\\ProEct (5)\\ForecastApp1\\ForecastApp1\\Models\\PaymentScheduleItemDto.cs",
+              "RelativeDocumentMoniker": "..\\..\\ProEct (5)\\ForecastApp1\\ForecastApp1\\Models\\PaymentScheduleItemDto.cs",
+              "ToolTip": "C:\\\u0432\u0441\u0435\u043F\u043E\u0434\u0440\u044F\u0434\\\u0443\u043D\u0438\u043A\\ProEct (5)\\ForecastApp1\\ForecastApp1\\Models\\PaymentScheduleItemDto.cs",
+              "RelativeToolTip": "..\\..\\ProEct (5)\\ForecastApp1\\ForecastApp1\\Models\\PaymentScheduleItemDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-21T17:08:44.012Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "DebtItem.cs",
-              "DocumentMoniker": "C:\\Users\\79518\\source\\repos\\ForecastApp1\\ForecastApp1\\Models\\DebtItem.cs",
-              "RelativeDocumentMoniker": "ForecastApp1\\Models\\DebtItem.cs",
-              "ToolTip": "C:\\Users\\79518\\source\\repos\\ForecastApp1\\ForecastApp1\\Models\\DebtItem.cs",
-              "RelativeToolTip": "ForecastApp1\\Models\\DebtItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-21T17:09:18.879Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 27,
               "Title": "SupplierPaymentEntry.cs",
-              "DocumentMoniker": "C:\\Users\\79518\\source\\repos\\ForecastApp1\\ForecastApp1\\Models\\SupplierPaymentEntry.cs",
-              "RelativeDocumentMoniker": "ForecastApp1\\Models\\SupplierPaymentEntry.cs",
-              "ToolTip": "C:\\Users\\79518\\source\\repos\\ForecastApp1\\ForecastApp1\\Models\\SupplierPaymentEntry.cs",
-              "RelativeToolTip": "ForecastApp1\\Models\\SupplierPaymentEntry.cs",
+              "DocumentMoniker": "C:\\\u0432\u0441\u0435\u043F\u043E\u0434\u0440\u044F\u0434\\\u0443\u043D\u0438\u043A\\ProEct (5)\\ForecastApp1\\ForecastApp1\\Models\\SupplierPaymentEntry.cs",
+              "RelativeDocumentMoniker": "..\\..\\ProEct (5)\\ForecastApp1\\ForecastApp1\\Models\\SupplierPaymentEntry.cs",
+              "ToolTip": "C:\\\u0432\u0441\u0435\u043F\u043E\u0434\u0440\u044F\u0434\\\u0443\u043D\u0438\u043A\\ProEct (5)\\ForecastApp1\\ForecastApp1\\Models\\SupplierPaymentEntry.cs",
+              "RelativeToolTip": "..\\..\\ProEct (5)\\ForecastApp1\\ForecastApp1\\Models\\SupplierPaymentEntry.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-20T22:18:22.538Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\79518\\source\\repos\\ForecastApp1\\ForecastApp1\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "ForecastApp1\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\79518\\source\\repos\\ForecastApp1\\ForecastApp1\\Properties\\launchSettings.json",
-              "RelativeToolTip": "ForecastApp1\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-07-21T18:54:13.93Z"
+              "DocumentIndex": 28,
+              "Title": "ContractDTO.cs",
+              "DocumentMoniker": "C:\\\u0432\u0441\u0435\u043F\u043E\u0434\u0440\u044F\u0434\\\u0443\u043D\u0438\u043A\\ProEct (5)\\ForecastApp1\\ForecastApp1\\Models\\ContractDTO.cs",
+              "RelativeDocumentMoniker": "..\\..\\ProEct (5)\\ForecastApp1\\ForecastApp1\\Models\\ContractDTO.cs",
+              "ToolTip": "C:\\\u0432\u0441\u0435\u043F\u043E\u0434\u0440\u044F\u0434\\\u0443\u043D\u0438\u043A\\ProEct (5)\\ForecastApp1\\ForecastApp1\\Models\\ContractDTO.cs",
+              "RelativeToolTip": "..\\..\\ProEct (5)\\ForecastApp1\\ForecastApp1\\Models\\ContractDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-26T22:59:41.109Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ShipmentItem.cs",
+              "DocumentMoniker": "C:\\\u0432\u0441\u0435\u043F\u043E\u0434\u0440\u044F\u0434\\\u0443\u043D\u0438\u043A\\ProEct (5)\\ForecastApp1\\ForecastApp1\\Models\\ShipmentItem.cs",
+              "RelativeDocumentMoniker": "..\\..\\ProEct (5)\\ForecastApp1\\ForecastApp1\\Models\\ShipmentItem.cs",
+              "ToolTip": "C:\\\u0432\u0441\u0435\u043F\u043E\u0434\u0440\u044F\u0434\\\u0443\u043D\u0438\u043A\\ProEct (5)\\ForecastApp1\\ForecastApp1\\Models\\ShipmentItem.cs",
+              "RelativeToolTip": "..\\..\\ProEct (5)\\ForecastApp1\\ForecastApp1\\Models\\ShipmentItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T17:09:39.225Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "DebtItem.cs",
+              "DocumentMoniker": "C:\\\u0432\u0441\u0435\u043F\u043E\u0434\u0440\u044F\u0434\\\u0443\u043D\u0438\u043A\\ProEct (5)\\ForecastApp1\\ForecastApp1\\Models\\DebtItem.cs",
+              "RelativeDocumentMoniker": "..\\..\\ProEct (5)\\ForecastApp1\\ForecastApp1\\Models\\DebtItem.cs",
+              "ToolTip": "C:\\\u0432\u0441\u0435\u043F\u043E\u0434\u0440\u044F\u0434\\\u0443\u043D\u0438\u043A\\ProEct (5)\\ForecastApp1\\ForecastApp1\\Models\\DebtItem.cs",
+              "RelativeToolTip": "..\\..\\ProEct (5)\\ForecastApp1\\ForecastApp1\\Models\\DebtItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T17:09:18.879Z"
             }
           ]
         }

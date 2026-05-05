@@ -1,31 +1,412 @@
-html {
-  font-size: 14px;
-}
-
-@media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
-}
-
-.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
-}
+/* Neo-brutalist / high-contrast UI (ForecastApp1) */
 
 html {
-  position: relative;
-  min-height: 100%;
+  height: 100%;
 }
 
 body {
-  margin-bottom: 60px;
+  margin: 0;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f7f7f7;
+  color: #000;
 }
 
-.form-floating > .form-control-plaintext::placeholder, .form-floating > .form-control::placeholder {
-  color: var(--bs-secondary-color);
-  text-align: end;
+body.bg-light {
+  background-color: #f7f7f7 !important;
 }
 
-.form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
-  text-align: start;
+main[role='main'] {
+  flex: 1 0 auto;
+  padding: 24px 20px 40px;
+}
+
+@media (min-width: 768px) {
+  main[role='main'] {
+    padding: 30px 60px 48px;
+  }
+}
+
+/* ---------- Типографика ---------- */
+main[role='main'] h1,
+main[role='main'] .h1 {
+  font-size: clamp(1.75rem, 4vw, 2rem);
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  margin-bottom: 1rem;
+}
+
+main[role='main'] h2,
+main[role='main'] .h2,
+main[role='main'] .h5,
+main[role='main'] .h6 {
+  font-weight: 800;
+}
+
+a {
+  color: #000;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 2px;
+}
+
+a:hover {
+  color: #006eff;
+}
+
+/* ---------- Навигация ---------- */
+.navbar.app-navbar {
+  background-color: #f7f7f7 !important;
+  border-bottom: 2px solid #222 !important;
+  box-shadow: none !important;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.navbar.app-navbar .navbar-brand {
+  font-weight: 900;
+  font-size: 1.15rem;
+  color: #000 !important;
+  text-decoration: none;
+}
+
+.navbar.app-navbar .nav-link {
+  color: #000 !important;
+  font-weight: 700;
+  border: 2px solid transparent;
+  margin: 0 2px;
+  padding: 0.4rem 0.65rem !important;
+}
+
+.navbar.app-navbar .nav-link:hover {
+  border-color: #222;
+  background: #fff;
+}
+
+.navbar.app-navbar .nav-link.active {
+  background: #000;
+  color: #fff !important;
+  border-color: #000;
+}
+
+.navbar.app-navbar .navbar-toggler {
+  border: 2px solid #222;
+  border-radius: 0;
+}
+
+#btnLogout {
+  padding: 10px 22px;
+  background: #fff;
+  border: 2px solid #222 !important;
+  border-radius: 0;
+  color: #000 !important;
+  font-weight: 800;
+  font-size: 0.75rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+#btnLogout:hover {
+  background: #000;
+  color: #fff !important;
+}
+
+/* ---------- Карточки и блоки ---------- */
+.card {
+  background: #f7f7f7;
+  border: 2px solid #222 !important;
+  border-radius: 0;
+  box-shadow: 6px 6px 0 rgba(0, 0, 0, 0.85);
+}
+
+.card .card-title {
+  font-weight: 900;
+}
+
+.box-shadow {
+  box-shadow: 6px 6px 0 rgba(0, 0, 0, 0.85);
+}
+
+/* ---------- Кнопки Bootstrap ---------- */
+.btn {
+  border-radius: 0;
+  border-width: 2px;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+}
+
+.btn-primary {
+  color: #fff !important;
+  background-color: #006eff !important;
+  border: 2px solid #006eff !important;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #0056cc !important;
+  border-color: #0056cc !important;
+}
+
+.btn-outline-primary {
+  color: #000 !important;
+  border: 2px solid #222 !important;
+  background: #fff;
+}
+
+.btn-outline-primary:hover {
+  background: #000 !important;
+  color: #fff !important;
+  border-color: #000 !important;
+}
+
+.btn-outline-secondary,
+.btn-secondary {
+  border: 2px solid #222 !important;
+  border-radius: 0;
+  font-weight: 800;
+  color: #000 !important;
+  background: #fff;
+}
+
+.btn-outline-secondary:hover,
+.btn-secondary:hover {
+  background: #000 !important;
+  color: #fff !important;
+}
+
+.btn-sm {
+  font-weight: 800;
+}
+
+/* Утилиты как в макете */
+.btn-brutalist {
+  padding: 12px 24px;
+  border: 2px solid #222;
+  background: #fff;
+  color: #000;
+  font-weight: 800;
+  cursor: pointer;
+  border-radius: 0;
+}
+
+.btn-brutalist-dark {
+  background: #000;
+  color: #fff;
+  border-color: #000;
+}
+
+.btn-brutalist-blue {
+  background: #006eff;
+  color: #fff;
+  border-color: #006eff;
+}
+
+/* ---------- Формы ---------- */
+.form-control,
+.form-select {
+  border: 2px solid #333;
+  border-radius: 0;
+  background: #f7f7f7;
+  font-weight: 600;
+}
+
+.form-control:focus,
+.form-select:focus {
+  border-color: #000;
+  box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+.form-label {
+  font-weight: 800;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: #000;
+}
+
+/* ---------- Таблицы ---------- */
+.table {
+  border: 2px solid #222;
+}
+
+.table thead th {
+  border-bottom: 2px solid #222;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  letter-spacing: 0.05em;
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) > * {
+  --bs-table-accent-bg: rgba(0, 0, 0, 0.04);
+}
+
+/* ---------- Алерты ---------- */
+.alert {
+  border: 2px solid #222;
+  border-radius: 0;
+  font-weight: 700;
+}
+
+.alert-danger {
+  background: #ffe8e8;
+  color: #000;
+  border-color: #000;
+}
+
+.alert-success {
+  background: #e8ffe8;
+  color: #000;
+  border-color: #000;
+}
+
+.alert-info {
+  background: #e8f2ff;
+  color: #000;
+  border-color: #000;
+}
+
+/* ---------- Аккордеон ---------- */
+.accordion-item {
+  border: 2px solid #222;
+  border-radius: 0 !important;
+  margin-bottom: 8px;
+  overflow: hidden;
+}
+
+.accordion-button {
+  font-weight: 800;
+  background: #f7f7f7;
+  color: #000;
+  box-shadow: none !important;
+}
+
+.accordion-button:not(.collapsed) {
+  background: #000;
+  color: #fff;
+}
+
+.accordion-body {
+  background: #f7f7f7;
+  border-top: 2px solid #222;
+}
+
+/* ---------- Футер ---------- */
+.border-top {
+  border-top: 2px solid #222 !important;
+}
+
+.footer {
+  flex-shrink: 0;
+  width: 100%;
+  line-height: 1.5;
+  padding: 1rem 0;
+  white-space: normal;
+  font-weight: 700;
+  font-size: 0.8rem;
+  background: #f7f7f7;
+}
+
+.border-bottom {
+  border-bottom: 2px solid #222 !important;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #000;
+  border: 2px solid #000;
+  border-radius: 0;
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+/* ---------- Модальные окна (login и др.) ---------- */
+.modal-content.brutalist-modal,
+.brutalist-modal {
+  border-radius: 0;
+  border: 14px solid #2b2b2b;
+  box-shadow: 12px 12px 0 rgba(0, 0, 0, 0.75);
+  background: #f7f7f7;
+}
+
+.modal.brutalist-modal-wrap .modal-dialog {
+  max-width: 520px;
+}
+
+.modal.brutalist-modal-wrap .modal-content {
+  padding: 2rem 2.5rem;
+  border: 14px solid #2b2b2b;
+  box-shadow: 12px 12px 0 rgba(0, 0, 0, 0.75);
+  background: #f7f7f7;
+  border-radius: 0;
+}
+
+.modal.brutalist-modal-wrap .modal-header {
+  border-bottom: 2px solid #222;
+  padding-bottom: 1rem;
+}
+
+.modal.brutalist-modal-wrap .modal-title {
+  font-size: 1.75rem;
+  font-weight: 900;
+}
+
+.modal.brutalist-modal-wrap .modal-footer {
+  border-top: 2px solid #222;
+  gap: 1rem;
+}
+
+/* ---------- Прочее ---------- */
+.table-actions {
+  white-space: nowrap;
+}
+
+code.raw-preview {
+  font-size: 0.8rem;
+  word-break: break-all;
+  border: 2px solid #333;
+  border-radius: 0;
+  padding: 0.75rem;
+  background: #fff;
+}
+
+/* Диаграммы */
+.chart-card .chart-canvas-host {
+  height: 280px;
+  position: relative;
+}
+
+.chart-card .chart-stack-months {
+  height: 340px;
+}
+
+.chart-card .chart-pie {
+  height: 340px;
+  max-width: 420px;
+  margin: 0 auto;
+}
+
+.chart-placeholder {
+  min-height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #333;
+  font-size: 0.95rem;
+  font-weight: 700;
+  background: #fff;
+  border: 2px dashed #222;
+  border-radius: 0;
+}
+
+pre.bg-light {
+  background: #fff !important;
+  border: 2px solid #222 !important;
+  border-radius: 0 !important;
 }

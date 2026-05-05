@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Отчёты — ForecastApp1</title>
+  <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.css" />
+  <link rel="stylesheet" href="/css/site.css" />
+</head>
+<body>
+  <script src="/lib/jquery/dist/jquery.js"></script>
+  <script src="/lib/bootstrap/dist/js/bootstrap.bundle.js"></script>
+  <script src="/js/api.js"></script>
+  <script>document.write(layoutHeader('reports.html'));</script>
+  <main role="main" class="container pb-3">
+    <h1 class="mb-3">Отчёты и диаграммы</h1>
+    <p class="text-muted small mb-1">
+      Сводка по прогнозным платежам из <strong>всех неархивных</strong> расчётов (без отбора по статусу «завершён»).
+      <strong>Круговая</strong> — доли по поставщикам; <strong>столбчатая</strong> — выплаты по месяцам (сводно по всем или только по коду поставщика, если указан).
+    </p>
+    <p class="text-muted small mb-3" id="scopeHint"></p>
+
+    <div id="msg" class="alert alert-danger" style="display: none" role="alert"></div>
+
+    <div class="card box-shadow mb-3">
+      <div class="card-body row g-2 align-items-end">
+        <div class="col-sm-6 col-md-5 col-lg-4">
+          <label class="form-label">Код поставщика (опционально)</label>
+          <input class="form-control" id="supplierCode" type="text" autocomplete="off" placeholder="пусто — по месяцам сводно по всем; иначе только этот поставщик" />
+        </div>
+        <div class="col-auto">
+          <button type="button" class="btn btn-primary" id="build">Обновить диаграммы</button>
+        </div>
+        <div class="col-auto">
+          <a class="btn btn-outline-secondary" href="schedule.html">Таблица графика (по расчёту)</a>
+        </div>
+      </div>
+    </div>
+
+    <div id="summaryRow" class="row g-3 mb-3" style="display: none">
+      <div class="col-6 col-md-3">
+        <div class="card border-0 bg-light h-100">
+          <div class="card-body py-3">
+            <div class="text-muted small">Всего к оплате</div>
+            <div class="h5 mb-0" id="sumTotal">—</div>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="card border-0 bg-light h-100">
+          <div class="card-body py-3">
+            <div class="text-muted small">Поставщиков</div>
+            <div class="h5 mb-0" id="sumSuppliers">—</div>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="card border-0 bg-light h-100">
+          <div class="card-body py-3">
+            <div class="text-muted small">Месяцев в графике</div>
+            <div class="h5 mb-0" id="sumMonths">—</div>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="card border-0 bg-light h-100">
+          <div class="card-body py-3">
+            <div class="text-muted small">Строк расписания</div>
+            <div class="h5 mb-0" id="sumLines">—</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row g-3 mb-3">
+      <div class="col-12 col-xl-6">
+        <div class="card box-shadow chart-card h-100">
+          <div class="card-body">
+            <h2 class="h6 card-title text-muted mb-2">Распределение сумм по поставщикам</h2>
+            <div id="pieWrap" class="chart-canvas-host chart-pie">
+              <canvas id="chartPie" aria-label="Доли поставщиков"></canvas>
+            </div>
+            <div id="pieEmpty" class="chart-placeholder" style="display: none">
+              Нет данных (нет строк графика в неархивных расчётах).
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-xl-6">
+        <div class="card box-shadow chart-card h-100">
+          <div class="card-body">
+            <h2 class="h6 card-title text-muted mb-2">Выплаты по месяцам</h2>
+            <div id="monthWrap" class="chart-canvas-host chart-stack-months">
+              <canvas id="chartMonthly" aria-label="По месяцам"></canvas>
+            </div>
+            <div id="monthEmpty" class="chart-placeholder" style="display: none"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="accordion mb-3" id="accExtra">
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExtra">
+            Дополнительно: выгрузки JSON, сравнение расчётов, динамика долга
+          </button>
+        </h2>
+        <div id="collapseExtra" class="accordion-collapse collapse" data-bs-parent="#accExtra">
+          <div class="accordion-body">
+            <p class="small text-muted mb-2">
+              Для выгрузок JSON укажите <strong>номер расчёта (runId)</strong> — он отдельно от диаграмм наверху.
+            </p>
+            <div class="row g-2 mb-3">
+              <div class="col-sm-4 col-md-3">
+                <label class="form-label small text-muted">runId (основной)</label>
+                <input class="form-control form-control-sm" id="runIdExtra" type="number" />
+              </div>
+              <div class="col-sm-4 col-md-3">
+                <label class="form-label small text-muted">runId B (сравнение)</label>
+                <input class="form-control form-control-sm" id="ridb" type="number" />
+              </div>
+            </div>
+            <div class="d-flex flex-wrap gap-2 mb-3">
+              <button type="button" class="btn btn-outline-primary btn-sm" data-e="payments-by-day">По дням</button>
+              <button type="button" class="btn btn-outline-primary btn-sm" data-e="payments-by-week">По неделям</button>
+              <button type="button" class="btn btn-outline-primary btn-sm" data-e="payments-by-month">По месяцам (сумма)</button>
+              <button type="button" class="btn btn-outline-primary btn-sm" data-e="payments-by-supplier">По поставщикам</button>
+              <button type="button" class="btn btn-outline-primary btn-sm" data-e="payments-by-contract">По договорам</button>
+              <button type="button" class="btn btn-outline-primary btn-sm" data-e="overdue-payments">Просрочка</button>
+              <button type="button" class="btn btn-outline-primary btn-sm" data-e="uncovered-debts">Непокрытые</button>
+              <button type="button" class="btn btn-outline-secondary btn-sm" data-e="import-quality">Качество импорта</button>
+              <button type="button" class="btn btn-outline-secondary btn-sm" id="cmp">Сравнение A/B</button>
+              <button type="button" class="btn btn-outline-secondary btn-sm" id="hz">Горизонт 30 дн.</button>
+            </div>
+            <div class="row g-2 align-items-end mb-2">
+              <div class="col-sm-3">
+                <label class="form-label small text-muted">supplierId</label>
+                <input class="form-control form-control-sm" id="dsid" type="number" />
+              </div>
+              <div class="col-sm-3">
+                <label class="form-label small text-muted">contractId</label>
+                <input class="form-control form-control-sm" id="dcid" type="number" />
+              </div>
+              <div class="col-auto">
+                <button type="button" class="btn btn-primary btn-sm" id="debtDyn">Динамика долга</button>
+              </div>
+            </div>
+            <h3 class="h6 text-muted">Результат (JSON)</h3>
+            <pre id="out" class="mb-0 small bg-light border rounded p-3" style="max-height: 360px; overflow: auto"></pre>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <script>document.write(layoutFooter());</script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+  <script>
+    var chartPie = null;
+    var chartMonthly = null;
+
+    function supplierPalette(n) {
+      var base = [
+        '#006eff',
+        '#2ca02c',
+        '#ff7f0e',
+        '#9467bd',
+        '#17becf',
+        '#e377c2',
+        '#8c564b',
+        '#bcbd22',
+        '#7f7f7f',
+        '#d62728'
+      ];
+      var out = [];
+      for (var i = 0; i < n; i++) out.push(base[i % base.length]);
+      return out;
+    }
+
+    function showErr(t) {
+      var m = document.getElementById('msg');
+      m.textContent = t || '';
+      m.style.display = t ? 'block' : 'none';
+    }
+
+    function showJson(data) {
+      document.getElementById('out').textContent = JSON.stringify(data, null, 2);
+    }
+
+    function destroyCharts() {
+      if (chartPie) {
+        chartPie.destroy();
+        chartPie = null;
+      }
+      if (chartMonthly) {
+        chartMonthly.destroy();
+        chartMonthly = null;
+      }
+    }
+
+    function axisTickShort(v) {
+      return v >= 1e9 ? (v / 1e9).toFixed(1) + ' млрд' : v >= 1e6 ? (v / 1e6).toFixed(1) + ' млн' : v;
+    }
+
+    async function buildCharts() {
+      showErr('');
+      destroyCharts();
+      var code = document.getElementById('supplierCode').value.trim();
+      var params = new URLSearchParams();
+      if (code) params.set('supplierCode', code);
+      var url = '/api/reports/payments-by-month-and-supplier?' + params.toString();
+
+      var data = await api(url);
+      var suppliers = data.suppliers || [];
+      var monthLabels = data.monthLabels || [];
+      var monthlyAmounts = (data.monthlyAmounts || []).map(function (x) {
+        return Number(x);
+      });
+
+      var hint = document.getElementById('scopeHint');
+      var monthEmpty = document.getElementById('monthEmpty');
+      var monthWrap = document.getElementById('monthWrap');
+
+      if (!suppliers.length) {
+        document.getElementById('summaryRow').style.display = 'none';
+        document.getElementById('pieWrap').style.display = 'none';
+        document.getElementById('pieEmpty').style.display = 'flex';
+        monthWrap.style.display = 'none';
+        monthEmpty.style.display = 'flex';
+        monthEmpty.textContent = 'Нет данных по месяцам.';
+        hint.textContent = 'В неархивных расчётах нет строк графика — выполните расчёт или импорт.';
+        return;
+      }
+
+      hint.textContent =
+        'Учтены все неархивные расчёты. ' +
+        (code
+          ? data.supplierResolved
+            ? 'Столбцы — только поставщик «' + code + '».'
+            : 'Код «' + code + '» не найден в справочнике; столбцы показаны сводно по всем поставщикам.'
+          : 'Код не указан — столбцы сводно по всем поставщикам.');
+
+      var colors = supplierPalette(suppliers.length);
+      var totalAll = suppliers.reduce(function (s, x) {
+        return s + Number(x.total || 0);
+      }, 0);
+
+      document.getElementById('summaryRow').style.display = 'flex';
+      document.getElementById('sumTotal').textContent = fmtMoney(totalAll);
+      document.getElementById('sumSuppliers').textContent = String(suppliers.length);
+      document.getElementById('sumMonths').textContent = String(monthLabels.length);
+      document.getElementById('sumLines').textContent =
+        data.scheduleLineCount != null ? String(data.scheduleLineCount) : '—';
+
+      document.getElementById('pieEmpty').style.display = 'none';
+      document.getElementById('pieWrap').style.display = 'block';
+
+      var pieLabels = suppliers.map(function (s) {
+        var c = s.supplierCode || '';
+        var n = s.name || '—';
+        return c ? n + ' (' + c + ')' : n;
+      });
+      var pieTotals = suppliers.map(function (s) {
+        return Number(s.total || 0);
+      });
+
+      chartPie = new Chart(document.getElementById('chartPie'), {
+        type: 'pie',
+        data: {
+          labels: pieLabels,
+          datasets: [
+            {
+              data: pieTotals,
+              backgroundColor: colors,
+              borderColor: '#222',
+              borderWidth: 2
+            }
+          ]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: {
+            legend: {
+              position: 'right',
+              labels: { boxWidth: 12, font: { size: 11 }, padding: 8 }
+            },
+            tooltip: {
+              callbacks: {
+                label: function (ctx) {
+                  var v = ctx.raw;
+                  var sum = pieTotals.reduce(function (a, b) {
+                    return a + b;
+                  }, 0);
+                  var pct = sum > 0 ? ((100 * v) / sum).toFixed(1) : '0';
+                  return (ctx.label || '') + ': ' + fmtMoney(v) + ' (' + pct + '%)';
+                }
+              }
+            }
+          }
+        }
+      });
+
+      if (!monthLabels.length) {
+        monthWrap.style.display = 'none';
+        monthEmpty.style.display = 'flex';
+        monthEmpty.textContent = 'Нет месяцев для отображения.';
+        return;
+      }
+
+      monthEmpty.style.display = 'none';
+      monthWrap.style.display = 'block';
+
+      var barLabel =
+        code && data.supplierResolved
+          ? (data.supplierName || '') + ' (' + code + ')'
+          : 'Все поставщики (сводно)';
+      chartMonthly = new Chart(document.getElementById('chartMonthly'), {
+        type: 'bar',
+        data: {
+          labels: monthLabels,
+          datasets: [
+            {
+              label: barLabel,
+              data: monthlyAmounts,
+              backgroundColor: '#006eff',
+              borderColor: '#222',
+              borderWidth: 2
+            }
+          ]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: {
+            legend: { display: true, position: 'top' },
+            tooltip: {
+              callbacks: {
+                label: function (ctx) {
+                  return fmtMoney(ctx.raw);
+                }
+              }
+            }
+          },
+          scales: {
+            x: {
+              ticks: { maxRotation: 30 }
+            },
+            y: {
+              beginAtZero: true,
+              ticks: {
+                callback: function (v) {
+                  return axisTickShort(v);
+                }
+              }
+            }
+          }
+        }
+      });
+    }
+
+    document.getElementById('build').onclick = function () {
+      buildCharts().catch(function (e) {
+        showErr(e.message);
+        destroyCharts();
+        document.getElementById('summaryRow').style.display = 'none';
+        document.getElementById('scopeHint').textContent = '';
+      });
+    };
+
+    buildCharts().catch(function (e) {
+      showErr(e.message);
+    });
+
+    document.querySelectorAll('button[data-e]').forEach(function (btn) {
+      btn.onclick = async function () {
+        try {
+          var id = document.getElementById('runIdExtra').value;
+          if (!id && btn.getAttribute('data-e') !== 'import-quality') throw new Error('Укажите runId');
+          var ep = btn.getAttribute('data-e');
+          var url = '/api/reports/' + ep + (ep === 'import-quality' ? '' : '?runId=' + id);
+          showJson(await api(url));
+        } catch (e) {
+          alert(e.message);
+        }
+      };
+    });
+    document.getElementById('cmp').onclick = async function () {
+      try {
+        var a = document.getElementById('runIdExtra').value;
+        var b = document.getElementById('ridb').value;
+        showJson(await api('/api/reports/calculation-comparison?runA=' + a + '&runB=' + b));
+      } catch (e) {
+        alert(e.message);
+      }
+    };
+    document.getElementById('hz').onclick = async function () {
+      try {
+        var id = document.getElementById('runIdExtra').value;
+        showJson(await api('/api/reports/payments-horizon?runId=' + id + '&days=30'));
+      } catch (e) {
+        alert(e.message);
+      }
+    };
+    document.getElementById('debtDyn').onclick = async function () {
+      try {
+        var s = document.getElementById('dsid').value;
+        var c = document.getElementById('dcid').value;
+        showJson(await api('/api/reports/debt-dynamics?supplierId=' + s + '&contractId=' + c));
+      } catch (e) {
+        alert(e.message);
+      }
+    };
+  </script>
+</body>
+</html>

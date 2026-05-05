@@ -1,0 +1,106 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Администрирование — ForecastApp1</title>
+  <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.css" />
+  <link rel="stylesheet" href="/css/site.css" />
+</head>
+<body>
+  <script src="/lib/jquery/dist/jquery.js"></script>
+  <script src="/lib/bootstrap/dist/js/bootstrap.bundle.js"></script>
+  <script src="/js/api.js"></script>
+  <script>document.write(layoutHeader('admin.html'));</script>
+  <main role="main" class="container pb-3">
+    <h1 class="mb-3">Пользователи</h1>
+    <div id="msg" class="alert alert-danger" style="display: none" role="alert"></div>
+    <div class="card box-shadow mb-3">
+      <div class="card-body table-responsive"><div id="list"></div></div>
+    </div>
+    <div class="card box-shadow">
+      <div class="card-body">
+        <h2 class="h5 card-title">Новый пользователь</h2>
+        <div class="row g-2 mb-2">
+          <div class="col-md-4">
+            <label class="form-label">Email</label>
+            <input class="form-control" id="em" />
+          </div>
+          <div class="col-md-4">
+            <label class="form-label">Пароль</label>
+            <input class="form-control" id="pw" type="password" />
+          </div>
+          <div class="col-md-4">
+            <label class="form-label">ФИО</label>
+            <input class="form-control" id="fn" />
+          </div>
+        </div>
+        <div class="d-flex flex-wrap gap-3 align-items-center mb-3">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="rAd" />
+            <label class="form-check-label" for="rAd">admin</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="rAc" checked />
+            <label class="form-check-label" for="rAc">accountant</label>
+          </div>
+          <button type="button" class="btn btn-primary" id="add">Создать</button>
+        </div>
+      </div>
+    </div>
+  </main>
+  <script>document.write(layoutFooter());</script>
+  <script>
+    async function load() {
+      try {
+        var rows = await api('/api/users');
+        document.getElementById('msg').style.display = 'none';
+        document.getElementById('list').innerHTML =
+          '<table class="table table-striped table-sm"><thead><tr><th>ID</th><th>Email</th><th>ФИО</th><th>Роли</th><th>Активен</th></tr></thead><tbody>' +
+          rows
+            .map(function (u) {
+              return (
+                '<tr><td>' +
+                u.id +
+                '</td><td>' +
+                u.email +
+                '</td><td>' +
+                u.fullName +
+                '</td><td>' +
+                (u.roles || []).join(', ') +
+                '</td><td>' +
+                (u.isActive ? 'да' : 'нет') +
+                '</td></tr>'
+              );
+            })
+            .join('') +
+          '</tbody></table>';
+      } catch (e) {
+        var m = document.getElementById('msg');
+        m.style.display = 'block';
+        m.textContent = e.message;
+      }
+    }
+    document.getElementById('add').onclick = async function () {
+      var roles = [];
+      if (document.getElementById('rAd').checked) roles.push('admin');
+      if (document.getElementById('rAc').checked) roles.push('accountant');
+      try {
+        await api('/api/users', {
+          method: 'POST',
+          body: {
+            email: document.getElementById('em').value.trim(),
+            password: document.getElementById('pw').value,
+            fullName: document.getElementById('fn').value.trim(),
+            roles: roles
+          }
+        });
+        await load();
+      } catch (e) {
+        alert(e.message);
+      }
+    };
+    load();
+  </script>
+</body>
+</html>

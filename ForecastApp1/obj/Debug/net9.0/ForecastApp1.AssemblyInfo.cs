@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ForecastApp1")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2e2e4ee79a6c54da0921c7d7459c5f9e97064dc7")]
 [assembly: System.Reflection.AssemblyProductAttribute("ForecastApp1")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ForecastApp1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

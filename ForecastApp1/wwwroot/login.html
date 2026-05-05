@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Вход — ForecastApp1</title>
+  <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.css" />
+  <link rel="stylesheet" href="/css/site.css" />
+</head>
+<body class="bg-light">
+  <div class="container py-5">
+    <div class="row justify-content-center">
+      <div class="col-md-5 col-lg-4">
+        <div class="text-center mb-4">
+          <a class="navbar-brand d-inline-block fs-4" href="login.html">ForecastApp1</a>
+          <p class="text-muted small mb-0">Прогноз платежей поставщикам</p>
+        </div>
+        <div class="card box-shadow">
+          <div class="card-body p-4">
+            <h1 class="h4 card-title text-center mb-4">Вход</h1>
+            <div id="err" class="alert alert-danger py-2" style="display: none" role="alert"></div>
+            <div class="mb-3">
+              <label class="form-label" for="email">Email</label>
+              <input class="form-control" id="email" type="email" autocomplete="username" value="admin@local" />
+            </div>
+            <div class="mb-3">
+              <label class="form-label" for="password">Пароль</label>
+              <input class="form-control" id="password" type="password" autocomplete="current-password" value="ChangeMe!1" />
+            </div>
+            <button type="button" class="btn btn-primary w-100" id="btn">Войти</button>
+            <p class="text-muted small mt-3 mb-0">
+              Тестовые учётные записи: <code>admin@local</code> / <code>buh@local</code>, пароль
+              <code>ChangeMe!1</code>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="border-top footer text-muted mt-5">
+    <div class="container">&copy; 2026 — ForecastApp1</div>
+  </footer>
+  <script src="/lib/jquery/dist/jquery.js"></script>
+  <script src="/lib/bootstrap/dist/js/bootstrap.bundle.js"></script>
+  <script src="/js/api.js"></script>
+  <script>
+    document.getElementById('btn').onclick = async function () {
+      var err = document.getElementById('err');
+      err.style.display = 'none';
+      try {
+        await api('/api/auth/login', {
+          method: 'POST',
+          body: { email: email.value.trim(), password: password.value }
+        });
+        location.href = '/main.html';
+      } catch (e) {
+        err.textContent = e.message || 'Ошибка входа';
+        err.style.display = 'block';
+      }
+    };
+  </script>
+</body>
+</html>

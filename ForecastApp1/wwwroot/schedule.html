@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>График платежей — ForecastApp1</title>
+  <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.css" />
+  <link rel="stylesheet" href="/css/site.css" />
+</head>
+<body>
+  <script src="/lib/jquery/dist/jquery.js"></script>
+  <script src="/lib/bootstrap/dist/js/bootstrap.bundle.js"></script>
+  <script src="/js/api.js"></script>
+  <script>document.write(layoutHeader('schedule.html'));</script>
+  <main role="main" class="container pb-3">
+    <h1 class="mb-3">График платежей</h1>
+    <p class="text-muted small mb-3">
+      Сводные диаграммы (круговая по поставщикам, столбцы по месяцам — сводно или по коду поставщика) — на странице
+      <a href="reports.html">Отчёты</a>; здесь таблица по одному расчёту (runId).
+    </p>
+    <div id="msg" class="alert alert-danger" style="display: none" role="alert"></div>
+
+    <div class="card box-shadow mb-3">
+      <div class="card-body row g-2 align-items-end">
+        <div class="col-sm-5 col-md-4">
+          <label class="form-label">Номер расчёта (runId)</label>
+          <input class="form-control" id="rid" type="number" placeholder="из страницы «Расчёт»" />
+        </div>
+        <div class="col-auto">
+          <button type="button" class="btn btn-primary" id="go">Загрузить</button>
+        </div>
+        <div class="col-auto">
+          <a class="btn btn-outline-primary" id="toReports" href="reports.html">Отчёты с диаграммами</a>
+        </div>
+      </div>
+    </div>
+
+    <div id="summaryRow" class="row g-3 mb-3" style="display: none">
+      <div class="col-sm-6 col-md-3">
+        <div class="card border-0 bg-light h-100">
+          <div class="card-body py-3">
+            <div class="text-muted small">Всего к оплате</div>
+            <div class="h5 mb-0" id="sumTotal">—</div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-3">
+        <div class="card border-0 bg-light h-100">
+          <div class="card-body py-3">
+            <div class="text-muted small">Строк графика</div>
+            <div class="h5 mb-0" id="sumCount">—</div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-3">
+        <div class="card border-0 bg-light h-100">
+          <div class="card-body py-3">
+            <div class="text-muted small">Первая дата</div>
+            <div class="h5 mb-0" id="sumFirst">—</div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-3">
+        <div class="card border-0 bg-light h-100">
+          <div class="card-body py-3">
+            <div class="text-muted small">Последняя дата</div>
+            <div class="h5 mb-0" id="sumLast">—</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card box-shadow">
+      <div class="card-body">
+        <h2 class="h6 card-title mb-3">Таблица</h2>
+        <div class="table-responsive"><div id="tbl"></div></div>
+      </div>
+    </div>
+  </main>
+  <script>document.write(layoutFooter());</script>
+  <script>
+    function showErr(t) {
+      var m = document.getElementById('msg');
+      m.textContent = t || '';
+      m.style.display = t ? 'block' : 'none';
+    }
+
+    function updateSummary(rows) {
+      var row = document.getElementById('summaryRow');
+      if (!rows.length) {
+        row.style.display = 'none';
+        return;
+      }
+      row.style.display = 'flex';
+      var total = rows.reduce(function (s, r) {
+        return s + Number(r.payAmount || 0);
+      }, 0);
+      var dates = rows
+        .map(function (r) {
+          return (r.forecastPaymentDate || '').slice(0, 10);
+        })
+        .filter(Boolean)
+        .sort();
+      document.getElementById('sumTotal').textContent = fmtMoney(total);
+      document.getElementById('sumCount').textContent = String(rows.length);
+      document.getElementById('sumFirst').textContent = dates.length ? fmtDate(dates[0]) : '—';
+      document.getElementById('sumLast').textContent = dates.length ? fmtDate(dates[dates.length - 1]) : '—';
+    }
+
+    var q = new URLSearchParams(location.search).get('runId');
+    if (q) document.getElementById('rid').value = q;
+    if (!document.getElementById('rid').value) document.getElementById('rid').value = localStorage.getItem('lastRunId') || '';
+
+    async function load() {
+      showErr('');
+      var id = document.getElementById('rid').value;
+      if (!id) {
+        showErr('Укажите номер расчёта.');
+        return;
+      }
+      var rows = await api('/api/calculations/' + id + '/schedule');
+      updateSummary(rows);
+
+      if (!rows.length) {
+        document.getElementById('tbl').innerHTML =
+          '<p class="text-muted mb-0">Нет строк графика для этого расчёта.</p>';
+        return;
+      }
+
+      document.getElementById('tbl').innerHTML =
+        '<table class="table table-striped table-sm"><thead><tr><th>Прогноз дата</th><th>Сумма</th><th>Поставщик</th><th>Договор</th><th>Отгрузка</th><th></th></tr></thead><tbody>' +
+        rows
+          .map(function (r) {
+            return (
+              '<tr><td>' +
+              fmtDate(r.forecastPaymentDate) +
+              '</td><td>' +
+              fmtMoney(r.payAmount) +
+              '</td><td>' +
+              (r.supplierName || '') +
+              '</td><td>' +
+              (r.contractNumber || '') +
+              '</td><td>' +
+              (r.shipmentDocNumber || '') +
+              '</td><td class="table-actions"><a href="schedule-details.html?runId=' +
+              id +
+              '&itemId=' +
+              r.id +
+              '">Детали</a></td></tr>'
+            );
+          })
+          .join('') +
+        '</tbody></table>';
+    }
+
+    document.getElementById('go').onclick = function () {
+      load().catch(function (e) {
+        showErr(e.message);
+        document.getElementById('summaryRow').style.display = 'none';
+        document.getElementById('tbl').innerHTML = '';
+      });
+    };
+
+    if (document.getElementById('rid').value) {
+      load().catch(function (e) {
+        showErr(e.message);
+      });
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Предпросмотр импорта — ForecastApp1</title>
+  <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.css" />
+  <link rel="stylesheet" href="/css/site.css" />
+</head>
+<body>
+  <script src="/lib/jquery/dist/jquery.js"></script>
+  <script src="/lib/bootstrap/dist/js/bootstrap.bundle.js"></script>
+  <script src="/js/api.js"></script>
+  <script>document.write(layoutHeader('import.html'));</script>
+  <main role="main" class="container pb-3">
+    <h1 class="mb-3">Предпросмотр импорта <span class="text-muted" id="bid"></span></h1>
+    <div id="msg" class="alert" style="display: none" role="alert"></div>
+    <div class="card box-shadow mb-3">
+      <div class="card-body d-flex flex-wrap gap-2 align-items-center">
+        <button type="button" class="btn btn-primary" id="validate">Валидация</button>
+        <button type="button" class="btn btn-success" id="commit">Подтвердить импорт</button>
+        <div class="form-check ms-sm-2">
+          <input class="form-check-input" type="checkbox" id="confirmWarnings" />
+          <label class="form-check-label" for="confirmWarnings">подтвердить с предупреждениями</label>
+        </div>
+      </div>
+    </div>
+    <div class="card box-shadow mb-3">
+      <div class="card-body">
+        <h2 class="h5 card-title">Ошибки и предупреждения</h2>
+        <div class="table-responsive"><div id="errors">—</div></div>
+      </div>
+    </div>
+    <div class="card box-shadow">
+      <div class="card-body">
+        <h2 class="h5 card-title">Строки (первые 200)</h2>
+        <div class="table-responsive"><div id="rows">—</div></div>
+      </div>
+    </div>
+  </main>
+  <script>document.write(layoutFooter());</script>
+  <script>
+    var id = new URLSearchParams(location.search).get('id');
+    document.getElementById('bid').textContent = id ? '#' + id : '';
+    function show(t, kind) {
+      var m = document.getElementById('msg');
+      m.textContent = t || '';
+      m.style.display = t ? 'block' : 'none';
+      m.className = 'alert alert-' + (kind === 'ok' ? 'success' : kind === 'err' ? 'danger' : 'info');
+    }
+    async function load() {
+      if (!id) return;
+      var errs = await api('/api/imports/' + id + '/errors');
+      document.getElementById('errors').innerHTML =
+        '<table class="table table-sm table-striped"><thead><tr><th>Строка</th><th>Код</th><th>Уровень</th><th>Сообщение</th></tr></thead><tbody>' +
+        errs
+          .map(function (e) {
+            return (
+              '<tr><td>' +
+              (e.rowNumber ?? '') +
+              '</td><td>' +
+              e.errorCode +
+              '</td><td>' +
+              e.severity +
+              '</td><td>' +
+              e.message +
+              '</td></tr>'
+            );
+          })
+          .join('') +
+        '</tbody></table>';
+      var rows = await api('/api/imports/' + id + '/rows?take=200');
+      document.getElementById('rows').innerHTML =
+        '<table class="table table-sm"><thead><tr><th>Лист</th><th>Стр</th><th>Тип</th><th>Данные</th></tr></thead><tbody>' +
+        rows
+          .map(function (r) {
+            return (
+              '<tr><td>' +
+              r.sheetName +
+              '</td><td>' +
+              r.rowNumber +
+              '</td><td>' +
+              (r.detectedEntityType || '') +
+              '</td><td><code class="raw-preview">' +
+              (r.rawJson || '').slice(0, 200) +
+              '…</code></td></tr>'
+            );
+          })
+          .join('') +
+        '</tbody></table>';
+    }
+    document.getElementById('validate').onclick = async function () {
+      try {
+        var r = await api('/api/imports/' + id + '/validate', { method: 'POST' });
+        var bad = r.status && r.status.indexOf('fail') >= 0;
+        show('Блокирующих: ' + r.blockingCount + ', предупреждений: ' + r.warningCount + ', статус: ' + r.status, bad ? 'err' : 'ok');
+        await load();
+      } catch (e) {
+        show(e.message, 'err');
+      }
+    };
+    document.getElementById('commit').onclick = async function () {
+      try {
+        await api('/api/imports/' + id + '/commit', {
+          method: 'POST',
+          body: { confirmWarnings: document.getElementById('confirmWarnings').checked }
+        });
+        show('Импорт подтверждён', 'ok');
+      } catch (e) {
+        show(e.message, 'err');
+      }
+    };
+    if (id) load().catch(function (e) { show(e.message, 'err'); });
+  </script>
+</body>
+</html>

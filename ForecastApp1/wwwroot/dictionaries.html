@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Справочники — ForecastApp1</title>
+  <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.css" />
+  <link rel="stylesheet" href="/css/site.css" />
+</head>
+<body>
+  <script src="/lib/jquery/dist/jquery.js"></script>
+  <script src="/lib/bootstrap/dist/js/bootstrap.bundle.js"></script>
+  <script src="/js/api.js"></script>
+  <script>document.write(layoutHeader('dictionaries.html'));</script>
+  <main role="main" class="container pb-3">
+    <h1 class="mb-3">Справочники</h1>
+    <div class="card box-shadow mb-3">
+      <div class="card-body row g-2 align-items-end">
+        <div class="col-sm-6 col-md-4">
+          <label class="form-label">Поиск</label>
+          <input class="form-control" id="q" placeholder="код / название" />
+        </div>
+        <div class="col-auto">
+          <button type="button" class="btn btn-primary" id="search">Обновить</button>
+        </div>
+      </div>
+    </div>
+    <div class="card box-shadow mb-3">
+      <div class="card-body">
+        <h2 class="h5 card-title">Поставщики</h2>
+        <div class="table-responsive"><div id="sup"></div></div>
+      </div>
+    </div>
+    <div class="card box-shadow">
+      <div class="card-body">
+        <h2 class="h5 card-title">Договоры</h2>
+        <div class="table-responsive"><div id="ctr"></div></div>
+      </div>
+    </div>
+  </main>
+  <script>document.write(layoutFooter());</script>
+  <script>
+    async function load() {
+      var q = document.getElementById('q').value.trim();
+      var sup = await api('/api/suppliers' + (q ? '?q=' + encodeURIComponent(q) : ''));
+      document.getElementById('sup').innerHTML =
+        '<table class="table table-striped table-sm"><thead><tr><th>ID</th><th>Код</th><th>Название</th></tr></thead><tbody>' +
+        sup.map(function (s) {
+          return '<tr><td>' + s.id + '</td><td>' + s.supplierCode + '</td><td>' + s.name + '</td></tr>';
+        }).join('') +
+        '</tbody></table>';
+      var ctr = await api('/api/contracts' + (q ? '?q=' + encodeURIComponent(q) : ''));
+      document.getElementById('ctr').innerHTML =
+        '<table class="table table-striped table-sm"><thead><tr><th>ID</th><th>Поставщик</th><th>Договор</th></tr></thead><tbody>' +
+        ctr.map(function (c) {
+          return (
+            '<tr><td>' +
+            c.id +
+            '</td><td>' +
+            c.supplierCode +
+            '</td><td>' +
+            c.internalContractNumber +
+            '</td></tr>'
+          );
+        }).join('') +
+        '</tbody></table>';
+    }
+    document.getElementById('search').onclick = load;
+    load().catch(function (e) {
+      alert(e.message);
+    });
+  </script>
+</body>
+</html>
