@@ -99,59 +99,6 @@
       </div>
     </div>
 
-    <div class="accordion mb-3" id="accExtra">
-      <div class="accordion-item">
-        <h2 class="accordion-header">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExtra">
-            Дополнительно: выгрузки JSON, сравнение расчётов, динамика долга
-          </button>
-        </h2>
-        <div id="collapseExtra" class="accordion-collapse collapse" data-bs-parent="#accExtra">
-          <div class="accordion-body">
-            <p class="small text-muted mb-2">
-              Для выгрузок JSON укажите <strong>номер расчёта (runId)</strong> — он отдельно от диаграмм наверху.
-            </p>
-            <div class="row g-2 mb-3">
-              <div class="col-sm-4 col-md-3">
-                <label class="form-label small text-muted">runId (основной)</label>
-                <input class="form-control form-control-sm" id="runIdExtra" type="number" />
-              </div>
-              <div class="col-sm-4 col-md-3">
-                <label class="form-label small text-muted">runId B (сравнение)</label>
-                <input class="form-control form-control-sm" id="ridb" type="number" />
-              </div>
-            </div>
-            <div class="d-flex flex-wrap gap-2 mb-3">
-              <button type="button" class="btn btn-outline-primary btn-sm" data-e="payments-by-day">По дням</button>
-              <button type="button" class="btn btn-outline-primary btn-sm" data-e="payments-by-week">По неделям</button>
-              <button type="button" class="btn btn-outline-primary btn-sm" data-e="payments-by-month">По месяцам (сумма)</button>
-              <button type="button" class="btn btn-outline-primary btn-sm" data-e="payments-by-supplier">По поставщикам</button>
-              <button type="button" class="btn btn-outline-primary btn-sm" data-e="payments-by-contract">По договорам</button>
-              <button type="button" class="btn btn-outline-primary btn-sm" data-e="overdue-payments">Просрочка</button>
-              <button type="button" class="btn btn-outline-primary btn-sm" data-e="uncovered-debts">Непокрытые</button>
-              <button type="button" class="btn btn-outline-secondary btn-sm" data-e="import-quality">Качество импорта</button>
-              <button type="button" class="btn btn-outline-secondary btn-sm" id="cmp">Сравнение A/B</button>
-              <button type="button" class="btn btn-outline-secondary btn-sm" id="hz">Горизонт 30 дн.</button>
-            </div>
-            <div class="row g-2 align-items-end mb-2">
-              <div class="col-sm-3">
-                <label class="form-label small text-muted">supplierId</label>
-                <input class="form-control form-control-sm" id="dsid" type="number" />
-              </div>
-              <div class="col-sm-3">
-                <label class="form-label small text-muted">contractId</label>
-                <input class="form-control form-control-sm" id="dcid" type="number" />
-              </div>
-              <div class="col-auto">
-                <button type="button" class="btn btn-primary btn-sm" id="debtDyn">Динамика долга</button>
-              </div>
-            </div>
-            <h3 class="h6 text-muted">Результат (JSON)</h3>
-            <pre id="out" class="mb-0 small bg-light border rounded p-3" style="max-height: 360px; overflow: auto"></pre>
-          </div>
-        </div>
-      </div>
-    </div>
   </main>
   <script>document.write(layoutFooter());</script>
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
@@ -181,10 +128,6 @@
       var m = document.getElementById('msg');
       m.textContent = t || '';
       m.style.display = t ? 'block' : 'none';
-    }
-
-    function showJson(data) {
-      document.getElementById('out').textContent = JSON.stringify(data, null, 2);
     }
 
     function destroyCharts() {
@@ -372,45 +315,6 @@
       showErr(e.message);
     });
 
-    document.querySelectorAll('button[data-e]').forEach(function (btn) {
-      btn.onclick = async function () {
-        try {
-          var id = document.getElementById('runIdExtra').value;
-          if (!id && btn.getAttribute('data-e') !== 'import-quality') throw new Error('Укажите runId');
-          var ep = btn.getAttribute('data-e');
-          var url = '/api/reports/' + ep + (ep === 'import-quality' ? '' : '?runId=' + id);
-          showJson(await api(url));
-        } catch (e) {
-          alert(e.message);
-        }
-      };
-    });
-    document.getElementById('cmp').onclick = async function () {
-      try {
-        var a = document.getElementById('runIdExtra').value;
-        var b = document.getElementById('ridb').value;
-        showJson(await api('/api/reports/calculation-comparison?runA=' + a + '&runB=' + b));
-      } catch (e) {
-        alert(e.message);
-      }
-    };
-    document.getElementById('hz').onclick = async function () {
-      try {
-        var id = document.getElementById('runIdExtra').value;
-        showJson(await api('/api/reports/payments-horizon?runId=' + id + '&days=30'));
-      } catch (e) {
-        alert(e.message);
-      }
-    };
-    document.getElementById('debtDyn').onclick = async function () {
-      try {
-        var s = document.getElementById('dsid').value;
-        var c = document.getElementById('dcid').value;
-        showJson(await api('/api/reports/debt-dynamics?supplierId=' + s + '&contractId=' + c));
-      } catch (e) {
-        alert(e.message);
-      }
-    };
   </script>
 </body>
 </html>

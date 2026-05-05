@@ -13,6 +13,7 @@ public record RunCalculationRequest(DateOnly CalculationDate, long? SupplierId, 
 public record ScheduleItemDto(
     long Id,
     DateOnly ForecastPaymentDate,
+    DateOnly DueByCondition,
     decimal PayAmount,
     long SupplierId,
     string SupplierName,

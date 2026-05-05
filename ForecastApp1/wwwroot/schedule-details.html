@@ -14,6 +14,9 @@
   <script>document.write(layoutHeader('schedule.html'));</script>
   <main role="main" class="container pb-3">
     <h1 class="mb-3">Детализация строки графика</h1>
+    <p class="small text-muted mb-2">
+      Здесь показано, почему появилась эта строка и как получилась дата платежа.
+    </p>
     <p><a href="schedule.html" id="back">← К графику</a></p>
     <div class="card box-shadow">
       <div class="card-body" id="box">Загрузка…</div>
@@ -30,6 +33,10 @@
         var d = await api('/api/calculations/' + runId + '/schedule/' + itemId + '/details');
         var i = d.item;
         document.getElementById('box').innerHTML =
+          '<div class="alert alert-info mb-3">' +
+          'Эта строка сформирована по данным долга и отгрузки на дату расчета. ' +
+          'Если дата оплаты по договору раньше даты расчета, платеж переносится на дату расчета.' +
+          '</div>' +
           '<table class="table table-bordered table-sm"><tbody>' +
           '<tr><th class="w-25">Прогнозная дата</th><td>' +
           fmtDate(i.forecastPaymentDate) +
@@ -43,14 +50,14 @@
           '<tr><th>Отсрочка (дн.)</th><td>' +
           d.delayDays +
           '</td></tr>' +
-          '<tr><th>Перенос выходного</th><td>' +
-          (d.weekendShift ? 'да' : 'нет') +
+          '<tr><th>Дата попала на выходной</th><td>' +
+          (d.weekendShift ? 'Да, дата перенесена на рабочий день' : 'Нет') +
           '</td></tr>' +
-          '<tr><th>Поднято до даты расчёта</th><td>' +
-          (d.raisedToCalcDate ? 'да' : 'нет') +
+          '<tr><th>Дата оплаты раньше даты расчета</th><td>' +
+          (d.raisedToCalcDate ? 'Да, поэтому платеж показан на дату расчета' : 'Нет') +
           '</td></tr>' +
-          '<tr><th>Просрочка (условие &lt; дата расчёта)</th><td>' +
-          (d.overdue ? 'да' : 'нет') +
+          '<tr><th>Есть просрочка</th><td>' +
+          (d.overdue ? 'Да' : 'Нет') +
           '</td></tr>' +
           '<tr><th>Снимок долга</th><td>#' +
           d.debtSnapshotId +
@@ -59,7 +66,7 @@
           ', сумма ' +
           fmtMoney(d.debtAmount) +
           '</td></tr>' +
-          '<tr><th>Распределено из долга</th><td>' +
+          '<tr><th>Часть долга, попавшая в эту строку</th><td>' +
           fmtMoney(d.allocatedAmount) +
           '</td></tr>' +
           '<tr><th>Отгрузка</th><td>#' +
@@ -67,8 +74,8 @@
           ', всего ' +
           fmtMoney(d.shipmentTotal) +
           '</td></tr>' +
-          '<tr><th>Условие (id)</th><td>' +
-          (d.conditionId ?? '—') +
+          '<tr><th>Правило оплаты</th><td>' +
+          (d.conditionId ? 'Найдено (№ ' + d.conditionId + ')' : 'Не найдено') +
           '</td></tr>' +
           '<tr><th>Предупреждение</th><td>' +
           (d.warning || '—') +

@@ -14,19 +14,31 @@
   <script>document.write(layoutHeader('import.html'));</script>
   <main role="main" class="container pb-3">
     <h1 class="mb-3">Импорт Excel</h1>
-    <p class="small text-muted mb-3"><a href="help.html#import-file">Требования к файлу и формату</a> — в справке.</p>
+    <p class="small text-muted mb-3">
+      Здесь вы загружаете файл Excel, проверяете данные и сохраняете их в систему.
+      После загрузки откроется страница проверки, где можно посмотреть ошибки и подтвердить сохранение.
+    </p>
     <div id="msg" class="alert" style="display: none" role="alert"></div>
     <div class="card box-shadow mb-3">
       <div class="card-body">
         <h2 class="h5 card-title">Загрузка файла</h2>
         <label class="form-label">Файл .xlsx</label>
         <input class="form-control mb-3" type="file" id="file" accept=".xlsx,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" />
-        <button type="button" class="btn btn-primary" id="upload">Загрузить и разобрать</button>
+        <button type="button" class="btn btn-primary" id="upload">Загрузить и проверить</button>
+        <p class="small text-muted mb-0 mt-2"><a href="help.html#import-file">Какие колонки должны быть в Excel</a>.</p>
       </div>
     </div>
     <div class="card box-shadow">
       <div class="card-body">
-        <h2 class="h5 card-title">Последние пакеты</h2>
+        <h2 class="h5 card-title">Последние загруженные файлы</h2>
+        <p class="small text-muted mb-2">
+          Статусы:
+          «Файл загружен, идет проверка»,
+          «Файл проверен, можно сохранить данные»,
+          «В файле найдены ошибки»,
+          «Данные сохранены в системе»,
+          «Загрузка отменена».
+        </p>
         <div class="table-responsive"><div id="list">…</div></div>
       </div>
     </div>
@@ -42,7 +54,7 @@
     async function refresh() {
       var rows = await api('/api/imports');
       document.getElementById('list').innerHTML =
-        '<table class="table table-striped table-sm"><thead><tr><th>ID</th><th>Файл</th><th>Статус</th><th>Строк</th><th></th></tr></thead><tbody>' +
+        '<table class="table table-striped table-sm"><thead><tr><th>Номер</th><th>Файл</th><th>Статус</th><th>Строк</th><th></th></tr></thead><tbody>' +
         rows
           .map(function (r) {
             return (
@@ -51,12 +63,12 @@
               '</td><td>' +
               r.fileName +
               '</td><td>' +
-              r.status +
+              toDisplayImportStatus(r.status) +
               '</td><td>' +
               (r.rowCount ?? '') +
               '</td><td class="table-actions"><a href="import-preview.html?id=' +
               r.id +
-              '">Открыть</a></td></tr>'
+              '">Открыть загрузку</a></td></tr>'
             );
           })
           .join('') +
@@ -68,7 +80,7 @@
         show('Выберите файл', 'err');
         return;
       }
-      show('Загрузка…', 'info');
+      show('Файл загружен, идет проверка.', 'info');
       try {
         var fd = new FormData();
         fd.append('file', f);
@@ -76,7 +88,7 @@
         var text = await res.text();
         var data = text ? JSON.parse(text) : {};
         if (!res.ok) throw new Error(data.message || text);
-        show('Пакет #' + data.batchId + ', статус: ' + data.status, 'ok');
+        show('Загрузка #' + data.batchId + ': ' + toDisplayImportStatus(data.status), 'ok');
         await refresh();
         location.href = 'import-preview.html?id=' + data.batchId;
       } catch (e) {

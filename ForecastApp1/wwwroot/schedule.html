@@ -15,16 +15,17 @@
   <main role="main" class="container pb-3">
     <h1 class="mb-3">График платежей</h1>
     <p class="text-muted small mb-3">
-      Сводные диаграммы (круговая по поставщикам, столбцы по месяцам — сводно или по коду поставщика) — на странице
-      <a href="reports.html">Отчёты</a>; здесь таблица по одному расчёту (runId).
+      Здесь показан график по выбранному расчету.
+      В таблице: поставщик, договор, документ отгрузки, сумма к оплате, дата по договору, прогнозная дата платежа и предупреждения.
+      Сводные диаграммы находятся в разделе <a href="reports.html">Отчеты</a>.
     </p>
     <div id="msg" class="alert alert-danger" style="display: none" role="alert"></div>
 
     <div class="card box-shadow mb-3">
       <div class="card-body row g-2 align-items-end">
         <div class="col-sm-5 col-md-4">
-          <label class="form-label">Номер расчёта (runId)</label>
-          <input class="form-control" id="rid" type="number" placeholder="из страницы «Расчёт»" />
+          <label class="form-label">Номер расчета</label>
+          <input class="form-control" id="rid" type="number" placeholder="возьмите номер из раздела «Расчет»" />
         </div>
         <div class="col-auto">
           <button type="button" class="btn btn-primary" id="go">Загрузить</button>
@@ -128,11 +129,13 @@
       }
 
       document.getElementById('tbl').innerHTML =
-        '<table class="table table-striped table-sm"><thead><tr><th>Прогноз дата</th><th>Сумма</th><th>Поставщик</th><th>Договор</th><th>Отгрузка</th><th></th></tr></thead><tbody>' +
+        '<table class="table table-striped table-sm"><thead><tr><th>Дата по договору (изначально)</th><th>Прогнозная дата платежа</th><th>Сумма к оплате</th><th>Поставщик</th><th>Договор</th><th>Документ отгрузки</th><th>Предупреждения</th></tr></thead><tbody>' +
         rows
           .map(function (r) {
             return (
               '<tr><td>' +
+              fmtDate(r.dueByCondition) +
+              '</td><td>' +
               fmtDate(r.forecastPaymentDate) +
               '</td><td>' +
               fmtMoney(r.payAmount) +
@@ -142,11 +145,9 @@
               (r.contractNumber || '') +
               '</td><td>' +
               (r.shipmentDocNumber || '') +
-              '</td><td class="table-actions"><a href="schedule-details.html?runId=' +
-              id +
-              '&itemId=' +
-              r.id +
-              '">Детали</a></td></tr>'
+              '</td><td>' +
+              (r.warning || '—') +
+              '</td></tr>'
             );
           })
           .join('') +

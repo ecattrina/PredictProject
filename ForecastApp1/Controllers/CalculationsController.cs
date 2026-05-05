@@ -150,6 +150,7 @@ public class CalculationsController : ControllerBase
             .Select(i => new ScheduleItemDto(
                 i.Id,
                 i.ForecastPaymentDate,
+                i.DueDateByCondition,
                 i.PayAmount,
                 i.SupplierId,
                 i.Supplier.Name,
@@ -177,6 +178,7 @@ public class CalculationsController : ControllerBase
         var dto = new ScheduleItemDto(
             i.Id,
             i.ForecastPaymentDate,
+            i.DueDateByCondition,
             i.PayAmount,
             i.SupplierId,
             i.Supplier.Name,

@@ -13,7 +13,11 @@
   <script src="/js/api.js?v=20260505"></script>
   <script>document.write(layoutHeader('calculation.html'));</script>
   <main role="main" class="container pb-3">
-    <h1 class="mb-3">Запуск расчёта графика</h1>
+    <h1 class="mb-3">Расчет графика платежей</h1>
+    <p class="small text-muted mb-3">
+      Здесь вы запускаете расчет. После нажатия кнопки система создаст новый расчет,
+      а результат можно открыть в разделе «График».
+    </p>
     <div id="msg" class="alert" style="display: none" role="alert"></div>
     <div class="card box-shadow mb-3">
       <div class="card-body row g-2 align-items-end">
@@ -22,21 +26,21 @@
           <input class="form-control" id="d" type="date" />
         </div>
         <div class="col-sm-4 col-md-3">
-          <label class="form-label">Поставщик (опц.)</label>
+          <label class="form-label">Поставщик (необязательно)</label>
           <input class="form-control" id="sid" type="text" inputmode="numeric" placeholder="id или код, напр. 10001" />
         </div>
         <div class="col-sm-4 col-md-3">
-          <label class="form-label">Договор (опц.)</label>
+          <label class="form-label">Договор (необязательно)</label>
           <input class="form-control" id="cid" type="text" inputmode="numeric" placeholder="id или номер, напр. 245" />
         </div>
         <div class="col-auto">
-          <button type="button" class="btn btn-primary" id="run">Запустить</button>
+          <button type="button" class="btn btn-primary" id="run">Рассчитать график платежей</button>
         </div>
       </div>
     </div>
     <div class="card box-shadow">
       <div class="card-body">
-        <h2 class="h5 card-title">История расчётов</h2>
+        <h2 class="h5 card-title">История расчетов</h2>
         <div class="table-responsive"><div id="runs"></div></div>
       </div>
     </div>
@@ -54,7 +58,7 @@
     async function loadRuns() {
       var r = await api('/api/calculations');
       document.getElementById('runs').innerHTML =
-        '<table class="table table-striped table-sm"><thead><tr><th>ID</th><th>Дата</th><th>Статус</th><th></th></tr></thead><tbody>' +
+        '<table class="table table-striped table-sm"><thead><tr><th>Номер</th><th>Дата</th><th>Статус</th><th></th></tr></thead><tbody>' +
         r
           .map(function (x) {
             return (
@@ -63,10 +67,10 @@
               '</td><td>' +
               fmtDate(x.calculationDate) +
               '</td><td>' +
-              x.status +
+              toDisplayCalculationStatus(x.status) +
               '</td><td class="table-actions"><a href="reports.html">Отчёты</a> · <a href="schedule.html?runId=' +
               x.id +
-              '">Таблица</a></td></tr>'
+              '">Открыть график</a></td></tr>'
             );
           })
           .join('') +
@@ -81,7 +85,7 @@
         if (cid) body.contractId = Number(cid);
         var res = await api('/api/calculations/run', { method: 'POST', body: body });
         localStorage.setItem('lastRunId', res.runId);
-        show('Создан расчёт #' + res.runId, 'ok');
+        show('Расчет #' + res.runId + ' создан.', 'ok');
         location.href = 'reports.html';
       } catch (e) {
         show(e.message, 'err');

@@ -5,6 +5,35 @@
     'admin.html': [ROLE_ADMIN],
     'audit.html': [ROLE_ADMIN]
   };
+  var IMPORT_STATUS_LABELS = {
+    uploaded: 'Файл загружен, идет проверка',
+    parsing: 'Файл загружен, идет проверка',
+    parsed: 'Файл проверен, можно сохранить данные',
+    validated: 'Файл проверен, можно сохранить данные',
+    awaiting_commit: 'Ожидает подтверждения',
+    committed: 'Данные сохранены в системе',
+    committed_with_warnings: 'Данные сохранены, но есть предупреждения',
+    validation_failed: 'В файле найдены ошибки',
+    rolled_back: 'Загрузка отменена',
+    rollbacked: 'Загрузка отменена',
+    failed: 'В файле найдены ошибки'
+  };
+  var CALC_STATUS_LABELS = {
+    created: 'Расчет создан',
+    running: 'Идет расчет',
+    completed: 'Расчет выполнен',
+    completed_with_warnings: 'Расчет выполнен, но есть предупреждения',
+    failed: 'Расчет завершился с ошибкой'
+  };
+  var ERROR_MESSAGE_REPLACEMENTS = [
+    { from: 'Internal server error', to: 'Не удалось выполнить действие. Попробуйте еще раз или обратитесь к администратору.' },
+    { from: 'server error', to: 'Внутренняя ошибка системы.' },
+    { from: 'API error', to: 'Ошибка при выполнении операции.' },
+    { from: 'Foreign key constraint error', to: 'Не найдена связанная запись в справочнике. Проверьте поставщика, договор и другие связанные данные.' },
+    { from: 'foreign key constraint', to: 'Не найдена связанная запись в справочнике.' },
+    { from: 'Duplicate key', to: 'Такая запись уже есть в системе.' },
+    { from: 'unique constraint', to: 'Такая запись уже есть в системе.' }
+  ];
   var mePromise = null;
 
   function normalizeHref(href) {
@@ -46,6 +75,38 @@
     return mePromise;
   }
 
+  function toDisplayStatus(value, map, fallback) {
+    var raw = value == null ? '' : String(value);
+    var key = raw.toLowerCase();
+    return map[key] || fallback || raw || '—';
+  }
+
+  function toDisplayImportStatus(value) {
+    return toDisplayStatus(value, IMPORT_STATUS_LABELS, 'Статус обрабатывается');
+  }
+
+  function toDisplayCalculationStatus(value) {
+    return toDisplayStatus(value, CALC_STATUS_LABELS, 'Статус обрабатывается');
+  }
+
+  function toDisplaySeverity(value) {
+    var key = String(value || '').toLowerCase();
+    if (key === 'error') return 'Ошибка';
+    if (key === 'warning') return 'Предупреждение';
+    if (key === 'info') return 'Подсказка';
+    return value || '—';
+  }
+
+  function toDisplayErrorMessage(message) {
+    var text = String(message || '');
+    if (!text) return 'Не удалось выполнить действие. Попробуйте еще раз.';
+    for (var i = 0; i < ERROR_MESSAGE_REPLACEMENTS.length; i++) {
+      var pair = ERROR_MESSAGE_REPLACEMENTS[i];
+      if (text.toLowerCase().indexOf(pair.from.toLowerCase()) >= 0) return pair.to;
+    }
+    return text;
+  }
+
   window.api = async function (path, options = {}) {
     const headers = Object.assign({ Accept: 'application/json' }, options.headers || {});
     if (options.body && typeof options.body === 'object' && !(options.body instanceof FormData))
@@ -66,7 +127,8 @@
       data = text;
     }
     if (!res.ok) {
-      const msg = (data && (data.message || data.title)) || text || res.statusText;
+      const raw = (data && (data.message || data.title)) || text || res.statusText;
+      const msg = toDisplayErrorMessage(raw);
       throw new Error(msg);
     }
     return data;
@@ -162,6 +224,10 @@
   /** Совместимость со старыми страницами */
   window.navBar = window.layoutHeader;
   window.getCurrentUser = getCurrentUser;
+  window.toDisplayImportStatus = toDisplayImportStatus;
+  window.toDisplayCalculationStatus = toDisplayCalculationStatus;
+  window.toDisplaySeverity = toDisplaySeverity;
+  window.toDisplayErrorMessage = toDisplayErrorMessage;
 
   document.addEventListener('DOMContentLoaded', function () {
     document.body.addEventListener('click', function (e) {
