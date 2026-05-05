@@ -1,5 +1,50 @@
 (function () {
   window.APP_TITLE = 'ForecastApp1';
+  var ROLE_ADMIN = 'admin';
+  var PAGE_ACCESS = {
+    'admin.html': [ROLE_ADMIN],
+    'audit.html': [ROLE_ADMIN]
+  };
+  var mePromise = null;
+
+  function normalizeHref(href) {
+    if (!href) return '';
+    try {
+      return new URL(href, window.location.origin).pathname.split('/').pop().toLowerCase();
+    } catch {
+      return String(href).split('?')[0].split('/').pop().toLowerCase();
+    }
+  }
+
+  function hasAnyRole(userRoles, allowedRoles) {
+    if (!allowedRoles || allowedRoles.length === 0) return true;
+    var set = new Set((userRoles || []).map(function (r) { return String(r).toLowerCase(); }));
+    return allowedRoles.some(function (role) { return set.has(String(role).toLowerCase()); });
+  }
+
+  function applyNavAccess(userRoles) {
+    document.querySelectorAll('a.nav-link[href]').forEach(function (link) {
+      var key = normalizeHref(link.getAttribute('href'));
+      var allowed = PAGE_ACCESS[key];
+      if (!hasAnyRole(userRoles, allowed)) {
+        var li = link.closest('li.nav-item');
+        if (li) li.remove();
+      }
+    });
+  }
+
+  function guardCurrentPage(userRoles) {
+    var current = normalizeHref(window.location.pathname);
+    var allowed = PAGE_ACCESS[current];
+    if (!hasAnyRole(userRoles, allowed)) {
+      window.location.replace('/main.html');
+    }
+  }
+
+  async function getCurrentUser() {
+    if (!mePromise) mePromise = window.api('/api/auth/me');
+    return mePromise;
+  }
 
   window.api = async function (path, options = {}) {
     const headers = Object.assign({ Accept: 'application/json' }, options.headers || {});
@@ -116,6 +161,7 @@
 
   /** Совместимость со старыми страницами */
   window.navBar = window.layoutHeader;
+  window.getCurrentUser = getCurrentUser;
 
   document.addEventListener('DOMContentLoaded', function () {
     document.body.addEventListener('click', function (e) {
@@ -125,5 +171,15 @@
         });
       }
     });
+
+    getCurrentUser()
+      .then(function (u) {
+        var roles = (u && u.roles) || [];
+        applyNavAccess(roles);
+        guardCurrentPage(roles);
+      })
+      .catch(function () {
+        // Не дублируем редирект: window.api уже отправит на /login.html при 401.
+      });
   });
 })();

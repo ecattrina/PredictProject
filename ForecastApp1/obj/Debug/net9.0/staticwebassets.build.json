@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "B1F06GUgHLmio0ZgajgS9SQqTGfDIlu0TpirCNlkVUM=",
+  "Hash": "LMET0oZO/mjDb2L9/gCMv19VN68EAbCjYzs8UvhcaNI=",
   "Source": "ForecastApp1",
   "BasePath": "_content/ForecastApp1",
   "Mode": "Default",
@@ -101,12 +101,12 @@
       "OriginalItemSpec": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\24zmuf6160-w49eq3y7js.gz",
+      "Identity": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\24zmuf6160-jajtnanycc.gz",
       "SourceId": "ForecastApp1",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/ForecastApp1",
-      "RelativePath": "js/api#[.{fingerprint=w49eq3y7js}]?.js.gz",
+      "RelativePath": "js/api#[.{fingerprint=jajtnanycc}]?.js.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -115,8 +115,8 @@
       "RelatedAsset": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\wwwroot\\js\\api.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "zo0trnwgh5",
-      "Integrity": "PaCXkgiwFFTMbH98yqYsSNnCP2aazSopt/sm5y2FzSA=",
+      "Fingerprint": "riig0q4gst",
+      "Integrity": "PVYPUDPgH/HKOomf8az3DGLU0gJ/vhF9g77GRBfbces=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\wwwroot\\js\\api.js"
@@ -395,12 +395,12 @@
       "OriginalItemSpec": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\7p7eq69gew-bjhyzaf339.gz",
+      "Identity": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\7p7eq69gew-iq2p6i8e7s.gz",
       "SourceId": "ForecastApp1",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/ForecastApp1",
-      "RelativePath": "debts#[.{fingerprint=bjhyzaf339}]?.html.gz",
+      "RelativePath": "debts#[.{fingerprint=iq2p6i8e7s}]?.html.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -409,8 +409,8 @@
       "RelatedAsset": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\wwwroot\\debts.html",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "81mntrypzb",
-      "Integrity": "tEc1NrHEjI6xvSW7RLzgFstCUiw/5qrVXxMQdBoNzss=",
+      "Fingerprint": "j0in2eddjg",
+      "Integrity": "DfvmyTTMgFj5w0qtHLLZPVkZ6hYiPpCPknNK4I5Tp7s=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\wwwroot\\debts.html"
@@ -521,12 +521,12 @@
       "OriginalItemSpec": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\av0kdzdnem-jk91sg0voj.gz",
+      "Identity": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\av0kdzdnem-da3bui38pa.gz",
       "SourceId": "ForecastApp1",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/ForecastApp1",
-      "RelativePath": "schedule-details#[.{fingerprint=jk91sg0voj}]?.html.gz",
+      "RelativePath": "schedule-details#[.{fingerprint=da3bui38pa}]?.html.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -535,8 +535,8 @@
       "RelatedAsset": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\wwwroot\\schedule-details.html",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "ugk2ognmgw",
-      "Integrity": "Hhx3/VOpcNVqls02Lwe15Sw3futx143RYmBTZs1+lIc=",
+      "Fingerprint": "ytp7k9gn1w",
+      "Integrity": "emmwbABIFaqKAyzIp9EySvpxfpMhBFeQ93PwIaV4Lxs=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\wwwroot\\schedule-details.html"
@@ -605,12 +605,12 @@
       "OriginalItemSpec": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\cim1m8nu9w-mfudcqg8qj.gz",
+      "Identity": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\cim1m8nu9w-uueb7gkvch.gz",
       "SourceId": "ForecastApp1",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/ForecastApp1",
-      "RelativePath": "dictionaries#[.{fingerprint=mfudcqg8qj}]?.html.gz",
+      "RelativePath": "dictionaries#[.{fingerprint=uueb7gkvch}]?.html.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -619,8 +619,8 @@
       "RelatedAsset": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\wwwroot\\dictionaries.html",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "ly4dgwy6i9",
-      "Integrity": "XYojSvVu2mMdJOawK5BUc4wyyBWnSBtBRftG+9aJ1kM=",
+      "Fingerprint": "o56bj0100s",
+      "Integrity": "FAmiSMlVyT+XEB7EPwPhxrVdvwqLPOfxijyasHDfwus=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\wwwroot\\dictionaries.html"
@@ -836,12 +836,12 @@
       "OriginalItemSpec": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\h0arspibd8-qk6944o7hp.gz",
+      "Identity": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\h0arspibd8-qkude8aji8.gz",
       "SourceId": "ForecastApp1",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/ForecastApp1",
-      "RelativePath": "help#[.{fingerprint=qk6944o7hp}]?.html.gz",
+      "RelativePath": "help#[.{fingerprint=qkude8aji8}]?.html.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -850,8 +850,8 @@
       "RelatedAsset": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\wwwroot\\help.html",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "omcno91va4",
-      "Integrity": "sEtKRTxVMmc0c+o3cV+yVjxHMi3iIFB9HGhMdVMJvXQ=",
+      "Fingerprint": "e81f51n398",
+      "Integrity": "/qxDDvT+kVJFgEoKfn32Te3qeVK3wDLTWEzZOdfzs6U=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\wwwroot\\help.html"
@@ -997,8 +997,8 @@
       "RelatedAsset": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\wwwroot\\add.html",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "ecyyl7rfc7",
-      "Integrity": "XgMya7r0IdIUkH2Wor8uvEPZCCnKihQanzkosqPGM98=",
+      "Fingerprint": "kzchrrpotl",
+      "Integrity": "AM1Qqe5HhFzXSLT+GKjHkfVN+2F1Yza1KSd04AeLi2k=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\wwwroot\\add.html"
@@ -1046,12 +1046,12 @@
       "OriginalItemSpec": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\l5hnwf46rr-tb4i9o4elz.gz",
+      "Identity": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\l5hnwf46rr-00z7nbr64r.gz",
       "SourceId": "ForecastApp1",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/ForecastApp1",
-      "RelativePath": "audit#[.{fingerprint=tb4i9o4elz}]?.html.gz",
+      "RelativePath": "audit#[.{fingerprint=00z7nbr64r}]?.html.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -1060,8 +1060,8 @@
       "RelatedAsset": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\wwwroot\\audit.html",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "b0kd59mka3",
-      "Integrity": "dRAYo0DLp//iq7HlkguxaNl9YBDoEvny0denhet8Ueo=",
+      "Fingerprint": "56ecynac7a",
+      "Integrity": "vZBVLlJWyVJZ6AN0ANW3frgm6zSWAAsW/3SO3foH/J8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\wwwroot\\audit.html"
@@ -1130,12 +1130,12 @@
       "OriginalItemSpec": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\msfziu6qho-j90m23xmwr.gz",
+      "Identity": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\msfziu6qho-llz8mbxghk.gz",
       "SourceId": "ForecastApp1",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/ForecastApp1",
-      "RelativePath": "reports#[.{fingerprint=j90m23xmwr}]?.html.gz",
+      "RelativePath": "reports#[.{fingerprint=llz8mbxghk}]?.html.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -1144,8 +1144,8 @@
       "RelatedAsset": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\wwwroot\\reports.html",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "3pzqx1x0dl",
-      "Integrity": "N6wNAt0pxh93UzRzqeYaTJpZjb8zRydt7+nVASV7RIc=",
+      "Fingerprint": "186e1sa87y",
+      "Integrity": "/7fasd7B3vO6dQM2bviymd+zwNFxuHyfghlAx2phlkE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\wwwroot\\reports.html"
@@ -1214,12 +1214,12 @@
       "OriginalItemSpec": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\nyrnla5oyj-myj9mdr11j.gz",
+      "Identity": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\nyrnla5oyj-jszld5l3bp.gz",
       "SourceId": "ForecastApp1",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/ForecastApp1",
-      "RelativePath": "login#[.{fingerprint=myj9mdr11j}]?.html.gz",
+      "RelativePath": "login#[.{fingerprint=jszld5l3bp}]?.html.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -1228,19 +1228,19 @@
       "RelatedAsset": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\wwwroot\\login.html",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "etg61q93ag",
-      "Integrity": "XsxwooS2pUWCD0x9jhPZRNA5A4Z5kxyrQLE+a+uFCfU=",
+      "Fingerprint": "rgea73dj2m",
+      "Integrity": "RbXII8zuAbOLK2cITA4RclXAeMw4ddQNCtu2OtVgXF0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\wwwroot\\login.html"
     },
     {
-      "Identity": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\ofhya28w84-vifv0kdsls.gz",
+      "Identity": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\ofhya28w84-n3xx25lf42.gz",
       "SourceId": "ForecastApp1",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/ForecastApp1",
-      "RelativePath": "main#[.{fingerprint=vifv0kdsls}]?.html.gz",
+      "RelativePath": "main#[.{fingerprint=n3xx25lf42}]?.html.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -1249,19 +1249,19 @@
       "RelatedAsset": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\wwwroot\\main.html",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "vwivuuncif",
-      "Integrity": "f/c5rHAxznxrSpastBYI7ncOtgEPyQ2n+ubnKjrjgus=",
+      "Fingerprint": "zcxr5rkof4",
+      "Integrity": "o5LlLmMTNm0H5buHEf7VcSQ4BxTY2jymOYdSyFi4YKE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\wwwroot\\main.html"
     },
     {
-      "Identity": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\okagwqjyw4-gc1qfx4iso.gz",
+      "Identity": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\okagwqjyw4-txiz0w6ev7.gz",
       "SourceId": "ForecastApp1",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/ForecastApp1",
-      "RelativePath": "calculation#[.{fingerprint=gc1qfx4iso}]?.html.gz",
+      "RelativePath": "calculation#[.{fingerprint=txiz0w6ev7}]?.html.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -1270,8 +1270,8 @@
       "RelatedAsset": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\wwwroot\\calculation.html",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "lo8yeehx9m",
-      "Integrity": "i4mEOUM7JFatY7WU9oibBiQoVHHzK991Q5QAxFdcMTY=",
+      "Fingerprint": "6koel43enx",
+      "Integrity": "KhchwGzaqpSuxLvLf9XFofUvZ5nKob7Ag9jF+EsohtY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\wwwroot\\calculation.html"
@@ -1445,12 +1445,12 @@
       "OriginalItemSpec": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\rpq38bah7j-6a398r1wuy.gz",
+      "Identity": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\rpq38bah7j-aw4lyzgvk2.gz",
       "SourceId": "ForecastApp1",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/ForecastApp1",
-      "RelativePath": "shipments#[.{fingerprint=6a398r1wuy}]?.html.gz",
+      "RelativePath": "shipments#[.{fingerprint=aw4lyzgvk2}]?.html.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -1459,19 +1459,19 @@
       "RelatedAsset": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\wwwroot\\shipments.html",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "a3f4hd1k69",
-      "Integrity": "msWopkjfIKv7fWEhO67NSFpovZZIfstfaU1Wq66PMr8=",
+      "Fingerprint": "afbuxjz5v5",
+      "Integrity": "qg35eP6yy9aT17igvWCoAK0FuX95iptRo3vrZsKIihI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\wwwroot\\shipments.html"
     },
     {
-      "Identity": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\s4w9mrz3z8-4dib6iungk.gz",
+      "Identity": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\s4w9mrz3z8-nysj0ggi9o.gz",
       "SourceId": "ForecastApp1",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/ForecastApp1",
-      "RelativePath": "import-preview#[.{fingerprint=4dib6iungk}]?.html.gz",
+      "RelativePath": "import-preview#[.{fingerprint=nysj0ggi9o}]?.html.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -1480,8 +1480,8 @@
       "RelatedAsset": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\wwwroot\\import-preview.html",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "l3gzqz8fyb",
-      "Integrity": "QUKUClGge/oMcXRPgGXlV6e1Kewwi0ozyj52tzr9qiE=",
+      "Fingerprint": "rlyr0pdj20",
+      "Integrity": "EYT95pPT3N2L44gh59iTIuwdCqMlNS3B0IrFgj1DiLo=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\wwwroot\\import-preview.html"
@@ -1592,12 +1592,12 @@
       "OriginalItemSpec": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\wwwroot\\index.html"
     },
     {
-      "Identity": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\wbkdbwljak-e7h2ks07dh.gz",
+      "Identity": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\wbkdbwljak-ua6sagrmq7.gz",
       "SourceId": "ForecastApp1",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/ForecastApp1",
-      "RelativePath": "schedule#[.{fingerprint=e7h2ks07dh}]?.html.gz",
+      "RelativePath": "schedule#[.{fingerprint=ua6sagrmq7}]?.html.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -1606,8 +1606,8 @@
       "RelatedAsset": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\wwwroot\\schedule.html",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "2pgfbxfw8y",
-      "Integrity": "uv4BM15D2dukB+BU7brmqxz79pKWv7pejmxYxXYSJpc=",
+      "Fingerprint": "txhc87x8sv",
+      "Integrity": "0Xlro+8Dja1J3MX285L3x/fPFBXNk3qtqkcfv/0OCbk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\wwwroot\\schedule.html"
@@ -1634,12 +1634,12 @@
       "OriginalItemSpec": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\xamixlcj72-1xz0pc6kgx.gz",
+      "Identity": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\xamixlcj72-7tsezarr5w.gz",
       "SourceId": "ForecastApp1",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/ForecastApp1",
-      "RelativePath": "import#[.{fingerprint=1xz0pc6kgx}]?.html.gz",
+      "RelativePath": "import#[.{fingerprint=7tsezarr5w}]?.html.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -1648,19 +1648,19 @@
       "RelatedAsset": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\wwwroot\\import.html",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "dori6spf4c",
-      "Integrity": "Y528PSt3qZTe/jlWQZT5CROdw70nsvWXGULA1mlxF5A=",
+      "Fingerprint": "1sgeh00y7u",
+      "Integrity": "cX1h0iMiGPQxONO9VtsblstczhQMXQZ7KuOUMbbmTRQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\wwwroot\\import.html"
     },
     {
-      "Identity": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\xayp6txf43-ytxecx6vwz.gz",
+      "Identity": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\xayp6txf43-8ojadqgkt7.gz",
       "SourceId": "ForecastApp1",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/ForecastApp1",
-      "RelativePath": "admin#[.{fingerprint=ytxecx6vwz}]?.html.gz",
+      "RelativePath": "admin#[.{fingerprint=8ojadqgkt7}]?.html.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -1669,8 +1669,8 @@
       "RelatedAsset": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\wwwroot\\admin.html",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "zn84y6izs4",
-      "Integrity": "IeEH2lrO9C2SXQCRSY0tumOwrrON1vXWgLTpp8x2e+g=",
+      "Fingerprint": "vq3v31igg2",
+      "Integrity": "t8u4mdmP6AEOAbqx8DdsRwOdTVV4zS6Z5sjjTk6/Ykg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\wwwroot\\admin.html"
@@ -1816,8 +1816,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "ytxecx6vwz",
-      "Integrity": "Oo3yZ5GhRqyWMG+hyzH9ein+gK4y/TsE41nmR3cYxgk=",
+      "Fingerprint": "8ojadqgkt7",
+      "Integrity": "6Kiv/2KAtJiNzG7Q3VJwQzpffT3yW8pPc04fZ2DRLfY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\admin.html"
@@ -1837,8 +1837,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "tb4i9o4elz",
-      "Integrity": "l1DIgFbsXGred881PE47A/kIZdZ0PDpD9794UZ18/os=",
+      "Fingerprint": "00z7nbr64r",
+      "Integrity": "8F/kqpnZTrsViFwHvAMA8GkBPHbmdUHRDnPaEebnVec=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\audit.html"
@@ -1858,8 +1858,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "gc1qfx4iso",
-      "Integrity": "sCNFzEN+8kDQz9Im1b2RP5Pa6XGt4L/upe5yZsyk5yY=",
+      "Fingerprint": "txiz0w6ev7",
+      "Integrity": "X1WF0ArlEluHcH6EKcj8o/fZnDsPMdVTmq+S9DPzNs8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\calculation.html"
@@ -1900,8 +1900,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "bjhyzaf339",
-      "Integrity": "uVc4I2ifXh7s35oQfrB70N+gZQCKRQZb550drNNPW9k=",
+      "Fingerprint": "iq2p6i8e7s",
+      "Integrity": "5tdN5fRl9Rn/2qwQDlP+UpgZ3V3mu09T8KyrItYmZZw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\debts.html"
@@ -1921,8 +1921,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "mfudcqg8qj",
-      "Integrity": "Ug9r8A0+HJVhpjwq2F2ozpFZBIMJv09tl4mtPwI45bQ=",
+      "Fingerprint": "uueb7gkvch",
+      "Integrity": "9sbsOP9q/Vkc03ZMe+/Aos1SbRP+8rqVduT2OZG2f0k=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\dictionaries.html"
@@ -1963,8 +1963,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "qk6944o7hp",
-      "Integrity": "diK2ldh34eS06Lq2Y4vn78i4bO9bl58qQ6npXiHR6ic=",
+      "Fingerprint": "qkude8aji8",
+      "Integrity": "9tUyakaxrvG3JZlF9OUmkf2OsczVOoa4UHDcMk7scZY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\help.html"
@@ -1984,8 +1984,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "1xz0pc6kgx",
-      "Integrity": "K4HjQna5rrPHVcBM2U6UZslKAPtKX5D/C8bIvVHIFyQ=",
+      "Fingerprint": "7tsezarr5w",
+      "Integrity": "W2TyyK/1NAMeG9/pu0RNoen6vaf19dsmyjscY7JEPXM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\import.html"
@@ -2005,8 +2005,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "4dib6iungk",
-      "Integrity": "SOCSt7WVdyXFkGj1orwC42cMVd4NdZ4dkF0Y4UttK1g=",
+      "Fingerprint": "nysj0ggi9o",
+      "Integrity": "X9liqTLO9IFy6mUm9as+/zP6hO4Tng2W0ZGaHDL5j5E=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\import-preview.html"
@@ -2047,8 +2047,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "w49eq3y7js",
-      "Integrity": "wEvrD4iFA8E9+db6db+gA2dJbXR8HOpbwfq0kWJFBGc=",
+      "Fingerprint": "jajtnanycc",
+      "Integrity": "FSpY1WI/s1/yZ/mjN3zz9rIJ0SuWl3EDtvESLeIOURQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\api.js"
@@ -3349,8 +3349,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "myj9mdr11j",
-      "Integrity": "shg5frvnITrwq2VnD+lj1EFsZkf4dTyr311ySBq42pA=",
+      "Fingerprint": "jszld5l3bp",
+      "Integrity": "cxkIytgLhFY6DmzHHo62TGZwqzCDMecOnCr0lVEoSSI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\login.html"
@@ -3370,8 +3370,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "vifv0kdsls",
-      "Integrity": "qf+cczMhOo+L+BFEgXAGiuruTkFP//743sGlnow0N3s=",
+      "Fingerprint": "n3xx25lf42",
+      "Integrity": "06tuVFWVds0MccD7QwqorBjcK8BfFew+cJ+fyJdEYWE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\main.html"
@@ -3412,8 +3412,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "j90m23xmwr",
-      "Integrity": "12gZ6k9VKvY5QFNRCt9DskhsGl9tcj/Qwe7m34VrNFI=",
+      "Fingerprint": "llz8mbxghk",
+      "Integrity": "OVhlOAvQhL5CF71QdoCqfK43Hs9OADgo1WK6Qd/dzOg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\reports.html"
@@ -3475,8 +3475,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "e7h2ks07dh",
-      "Integrity": "ZvgOhU1W65WwKLKkshtqz8lX10VxZK9kTwmN463tHNU=",
+      "Fingerprint": "ua6sagrmq7",
+      "Integrity": "GjdLYGeS4nX8cSL6mUVesK4g7eNfBRPdgPbAvpnD8N8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\schedule.html"
@@ -3496,8 +3496,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "jk91sg0voj",
-      "Integrity": "s4ImzV71EBY1MMsKpifzMS22v/AbGDoTqAsH/Waa3Hc=",
+      "Fingerprint": "da3bui38pa",
+      "Integrity": "m4S3XFXQIvXqJN7Xngb7b1GXZ3MOKa2flRRDENeCxY0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\schedule-details.html"
@@ -3517,8 +3517,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "6a398r1wuy",
-      "Integrity": "IiMQiFf2BRjJNR3L28Pm1vuAolz5ryG5k4W0m0MNV18=",
+      "Fingerprint": "aw4lyzgvk2",
+      "Integrity": "CpoxTnqUJHFiDQEkVqlYmKi8zzCMoD4y6lMr1mdoB0A=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\shipments.html"
@@ -3532,7 +3532,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000200561572"
+          "Quality": "0.000200160128"
         }
       ],
       "ResponseHeaders": [
@@ -3542,11 +3542,11 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4985"
+          "Value": "4995"
         },
         {
           "Name": "ETag",
-          "Value": "\"XgMya7r0IdIUkH2Wor8uvEPZCCnKihQanzkosqPGM98=\""
+          "Value": "\"AM1Qqe5HhFzXSLT+GKjHkfVN+2F1Yza1KSd04AeLi2k=\""
         },
         {
           "Name": "Last-Modified",
@@ -3644,7 +3644,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4985"
+          "Value": "4995"
         },
         {
           "Name": "Content-Type",
@@ -3652,7 +3652,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"XgMya7r0IdIUkH2Wor8uvEPZCCnKihQanzkosqPGM98=\""
+          "Value": "\"AM1Qqe5HhFzXSLT+GKjHkfVN+2F1Yza1KSd04AeLi2k=\""
         },
         {
           "Name": "Last-Modified",
@@ -3682,7 +3682,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-XgMya7r0IdIUkH2Wor8uvEPZCCnKihQanzkosqPGM98="
+          "Value": "sha256-AM1Qqe5HhFzXSLT+GKjHkfVN+2F1Yza1KSd04AeLi2k="
         }
       ]
     },
@@ -3693,7 +3693,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000200561572"
+          "Quality": "0.000200160128"
         }
       ],
       "ResponseHeaders": [
@@ -3703,11 +3703,11 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4985"
+          "Value": "4995"
         },
         {
           "Name": "ETag",
-          "Value": "\"XgMya7r0IdIUkH2Wor8uvEPZCCnKihQanzkosqPGM98=\""
+          "Value": "\"AM1Qqe5HhFzXSLT+GKjHkfVN+2F1Yza1KSd04AeLi2k=\""
         },
         {
           "Name": "Last-Modified",
@@ -3789,7 +3789,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4985"
+          "Value": "4995"
         },
         {
           "Name": "Content-Type",
@@ -3797,7 +3797,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"XgMya7r0IdIUkH2Wor8uvEPZCCnKihQanzkosqPGM98=\""
+          "Value": "\"AM1Qqe5HhFzXSLT+GKjHkfVN+2F1Yza1KSd04AeLi2k=\""
         },
         {
           "Name": "Last-Modified",
@@ -3819,18 +3819,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-XgMya7r0IdIUkH2Wor8uvEPZCCnKihQanzkosqPGM98="
+          "Value": "sha256-AM1Qqe5HhFzXSLT+GKjHkfVN+2F1Yza1KSd04AeLi2k="
         }
       ]
     },
     {
-      "Route": "admin.html",
-      "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\xayp6txf43-ytxecx6vwz.gz",
+      "Route": "admin.8ojadqgkt7.html",
+      "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\xayp6txf43-8ojadqgkt7.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000736377025"
+          "Quality": "0.000729394602"
         }
       ],
       "ResponseHeaders": [
@@ -3840,19 +3840,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1357"
+          "Value": "1370"
         },
         {
           "Name": "ETag",
-          "Value": "\"IeEH2lrO9C2SXQCRSY0tumOwrrON1vXWgLTpp8x2e+g=\""
+          "Value": "\"t8u4mdmP6AEOAbqx8DdsRwOdTVV4zS6Z5sjjTk6/Ykg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 05 May 2026 03:11:17 GMT"
+          "Value": "Tue, 05 May 2026 06:35:53 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "no-cache"
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Encoding",
@@ -3868,18 +3868,26 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"Oo3yZ5GhRqyWMG+hyzH9ein+gK4y/TsE41nmR3cYxgk=\""
+          "Value": "W/\"6Kiv/2KAtJiNzG7Q3VJwQzpffT3yW8pPc04fZ2DRLfY=\""
         }
       ],
       "EndpointProperties": [
         {
+          "Name": "fingerprint",
+          "Value": "8ojadqgkt7"
+        },
+        {
+          "Name": "label",
+          "Value": "admin.html"
+        },
+        {
           "Name": "integrity",
-          "Value": "sha256-Oo3yZ5GhRqyWMG+hyzH9ein+gK4y/TsE41nmR3cYxgk="
+          "Value": "sha256-6Kiv/2KAtJiNzG7Q3VJwQzpffT3yW8pPc04fZ2DRLfY="
         }
       ]
     },
     {
-      "Route": "admin.html",
+      "Route": "admin.8ojadqgkt7.html",
       "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\wwwroot\\admin.html",
       "Selectors": [],
       "ResponseHeaders": [
@@ -3889,7 +3897,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3930"
+          "Value": "3941"
         },
         {
           "Name": "Content-Type",
@@ -3897,121 +3905,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Oo3yZ5GhRqyWMG+hyzH9ein+gK4y/TsE41nmR3cYxgk=\""
+          "Value": "\"6Kiv/2KAtJiNzG7Q3VJwQzpffT3yW8pPc04fZ2DRLfY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 05 May 2026 03:11:17 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-Oo3yZ5GhRqyWMG+hyzH9ein+gK4y/TsE41nmR3cYxgk="
-        }
-      ]
-    },
-    {
-      "Route": "admin.html.gz",
-      "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\xayp6txf43-ytxecx6vwz.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1357"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"IeEH2lrO9C2SXQCRSY0tumOwrrON1vXWgLTpp8x2e+g=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 05 May 2026 03:11:17 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-IeEH2lrO9C2SXQCRSY0tumOwrrON1vXWgLTpp8x2e+g="
-        }
-      ]
-    },
-    {
-      "Route": "admin.ytxecx6vwz.html",
-      "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\xayp6txf43-ytxecx6vwz.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000736377025"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1357"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"IeEH2lrO9C2SXQCRSY0tumOwrrON1vXWgLTpp8x2e+g=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 05 May 2026 03:11:17 GMT"
+          "Value": "Tue, 05 May 2026 06:35:53 GMT"
         },
         {
           "Name": "Cache-Control",
           "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"Oo3yZ5GhRqyWMG+hyzH9ein+gK4y/TsE41nmR3cYxgk=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ytxecx6vwz"
+          "Value": "8ojadqgkt7"
         },
         {
           "Name": "label",
@@ -4019,13 +3927,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Oo3yZ5GhRqyWMG+hyzH9ein+gK4y/TsE41nmR3cYxgk="
+          "Value": "sha256-6Kiv/2KAtJiNzG7Q3VJwQzpffT3yW8pPc04fZ2DRLfY="
         }
       ]
     },
     {
-      "Route": "admin.ytxecx6vwz.html",
-      "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\wwwroot\\admin.html",
+      "Route": "admin.8ojadqgkt7.html.gz",
+      "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\xayp6txf43-8ojadqgkt7.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4034,7 +3942,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3930"
+          "Value": "1370"
         },
         {
           "Name": "Content-Type",
@@ -4042,56 +3950,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Oo3yZ5GhRqyWMG+hyzH9ein+gK4y/TsE41nmR3cYxgk=\""
+          "Value": "\"t8u4mdmP6AEOAbqx8DdsRwOdTVV4zS6Z5sjjTk6/Ykg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 05 May 2026 03:11:17 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "ytxecx6vwz"
-        },
-        {
-          "Name": "label",
-          "Value": "admin.html"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-Oo3yZ5GhRqyWMG+hyzH9ein+gK4y/TsE41nmR3cYxgk="
-        }
-      ]
-    },
-    {
-      "Route": "admin.ytxecx6vwz.html.gz",
-      "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\xayp6txf43-ytxecx6vwz.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1357"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"IeEH2lrO9C2SXQCRSY0tumOwrrON1vXWgLTpp8x2e+g=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 05 May 2026 03:11:17 GMT"
+          "Value": "Tue, 05 May 2026 06:35:53 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4109,7 +3972,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ytxecx6vwz"
+          "Value": "8ojadqgkt7"
         },
         {
           "Name": "label",
@@ -4117,18 +3980,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-IeEH2lrO9C2SXQCRSY0tumOwrrON1vXWgLTpp8x2e+g="
+          "Value": "sha256-t8u4mdmP6AEOAbqx8DdsRwOdTVV4zS6Z5sjjTk6/Ykg="
         }
       ]
     },
     {
-      "Route": "audit.html",
-      "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\l5hnwf46rr-tb4i9o4elz.gz",
+      "Route": "admin.html",
+      "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\xayp6txf43-8ojadqgkt7.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001091703057"
+          "Quality": "0.000729394602"
         }
       ],
       "ResponseHeaders": [
@@ -4138,15 +4001,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "915"
+          "Value": "1370"
         },
         {
           "Name": "ETag",
-          "Value": "\"dRAYo0DLp//iq7HlkguxaNl9YBDoEvny0denhet8Ueo=\""
+          "Value": "\"t8u4mdmP6AEOAbqx8DdsRwOdTVV4zS6Z5sjjTk6/Ykg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 05 May 2026 03:11:17 GMT"
+          "Value": "Tue, 05 May 2026 06:35:53 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4166,18 +4029,163 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"l1DIgFbsXGred881PE47A/kIZdZ0PDpD9794UZ18/os=\""
+          "Value": "W/\"6Kiv/2KAtJiNzG7Q3VJwQzpffT3yW8pPc04fZ2DRLfY=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-l1DIgFbsXGred881PE47A/kIZdZ0PDpD9794UZ18/os="
+          "Value": "sha256-6Kiv/2KAtJiNzG7Q3VJwQzpffT3yW8pPc04fZ2DRLfY="
         }
       ]
     },
     {
-      "Route": "audit.html",
+      "Route": "admin.html",
+      "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\wwwroot\\admin.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3941"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6Kiv/2KAtJiNzG7Q3VJwQzpffT3yW8pPc04fZ2DRLfY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 05 May 2026 06:35:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-6Kiv/2KAtJiNzG7Q3VJwQzpffT3yW8pPc04fZ2DRLfY="
+        }
+      ]
+    },
+    {
+      "Route": "admin.html.gz",
+      "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\xayp6txf43-8ojadqgkt7.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1370"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"t8u4mdmP6AEOAbqx8DdsRwOdTVV4zS6Z5sjjTk6/Ykg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 05 May 2026 06:35:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-t8u4mdmP6AEOAbqx8DdsRwOdTVV4zS6Z5sjjTk6/Ykg="
+        }
+      ]
+    },
+    {
+      "Route": "audit.00z7nbr64r.html",
+      "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\l5hnwf46rr-00z7nbr64r.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001076426265"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "928"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vZBVLlJWyVJZ6AN0ANW3frgm6zSWAAsW/3SO3foH/J8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 05 May 2026 06:35:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"8F/kqpnZTrsViFwHvAMA8GkBPHbmdUHRDnPaEebnVec=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "00z7nbr64r"
+        },
+        {
+          "Name": "label",
+          "Value": "audit.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-8F/kqpnZTrsViFwHvAMA8GkBPHbmdUHRDnPaEebnVec="
+        }
+      ]
+    },
+    {
+      "Route": "audit.00z7nbr64r.html",
       "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\wwwroot\\audit.html",
       "Selectors": [],
       "ResponseHeaders": [
@@ -4187,7 +4195,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2166"
+          "Value": "2177"
         },
         {
           "Name": "Content-Type",
@@ -4195,121 +4203,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"l1DIgFbsXGred881PE47A/kIZdZ0PDpD9794UZ18/os=\""
+          "Value": "\"8F/kqpnZTrsViFwHvAMA8GkBPHbmdUHRDnPaEebnVec=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 05 May 2026 03:11:17 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-l1DIgFbsXGred881PE47A/kIZdZ0PDpD9794UZ18/os="
-        }
-      ]
-    },
-    {
-      "Route": "audit.html.gz",
-      "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\l5hnwf46rr-tb4i9o4elz.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "915"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"dRAYo0DLp//iq7HlkguxaNl9YBDoEvny0denhet8Ueo=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 05 May 2026 03:11:17 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-dRAYo0DLp//iq7HlkguxaNl9YBDoEvny0denhet8Ueo="
-        }
-      ]
-    },
-    {
-      "Route": "audit.tb4i9o4elz.html",
-      "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\l5hnwf46rr-tb4i9o4elz.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.001091703057"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "915"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"dRAYo0DLp//iq7HlkguxaNl9YBDoEvny0denhet8Ueo=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 05 May 2026 03:11:17 GMT"
+          "Value": "Tue, 05 May 2026 06:35:55 GMT"
         },
         {
           "Name": "Cache-Control",
           "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"l1DIgFbsXGred881PE47A/kIZdZ0PDpD9794UZ18/os=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "tb4i9o4elz"
+          "Value": "00z7nbr64r"
         },
         {
           "Name": "label",
@@ -4317,13 +4225,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-l1DIgFbsXGred881PE47A/kIZdZ0PDpD9794UZ18/os="
+          "Value": "sha256-8F/kqpnZTrsViFwHvAMA8GkBPHbmdUHRDnPaEebnVec="
         }
       ]
     },
     {
-      "Route": "audit.tb4i9o4elz.html",
-      "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\wwwroot\\audit.html",
+      "Route": "audit.00z7nbr64r.html.gz",
+      "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\l5hnwf46rr-00z7nbr64r.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4332,7 +4240,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2166"
+          "Value": "928"
         },
         {
           "Name": "Content-Type",
@@ -4340,56 +4248,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"l1DIgFbsXGred881PE47A/kIZdZ0PDpD9794UZ18/os=\""
+          "Value": "\"vZBVLlJWyVJZ6AN0ANW3frgm6zSWAAsW/3SO3foH/J8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 05 May 2026 03:11:17 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "tb4i9o4elz"
-        },
-        {
-          "Name": "label",
-          "Value": "audit.html"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-l1DIgFbsXGred881PE47A/kIZdZ0PDpD9794UZ18/os="
-        }
-      ]
-    },
-    {
-      "Route": "audit.tb4i9o4elz.html.gz",
-      "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\l5hnwf46rr-tb4i9o4elz.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "915"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"dRAYo0DLp//iq7HlkguxaNl9YBDoEvny0denhet8Ueo=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 05 May 2026 03:11:17 GMT"
+          "Value": "Tue, 05 May 2026 06:35:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4407,7 +4270,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "tb4i9o4elz"
+          "Value": "00z7nbr64r"
         },
         {
           "Name": "label",
@@ -4415,18 +4278,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-dRAYo0DLp//iq7HlkguxaNl9YBDoEvny0denhet8Ueo="
+          "Value": "sha256-vZBVLlJWyVJZ6AN0ANW3frgm6zSWAAsW/3SO3foH/J8="
         }
       ]
     },
     {
-      "Route": "calculation.gc1qfx4iso.html",
-      "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\okagwqjyw4-gc1qfx4iso.gz",
+      "Route": "audit.html",
+      "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\l5hnwf46rr-00z7nbr64r.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000659195781"
+          "Quality": "0.001076426265"
         }
       ],
       "ResponseHeaders": [
@@ -4436,19 +4299,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1516"
+          "Value": "928"
         },
         {
           "Name": "ETag",
-          "Value": "\"i4mEOUM7JFatY7WU9oibBiQoVHHzK991Q5QAxFdcMTY=\""
+          "Value": "\"vZBVLlJWyVJZ6AN0ANW3frgm6zSWAAsW/3SO3foH/J8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 05 May 2026 03:11:17 GMT"
+          "Value": "Tue, 05 May 2026 06:35:55 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -4464,26 +4327,155 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"sCNFzEN+8kDQz9Im1b2RP5Pa6XGt4L/upe5yZsyk5yY=\""
+          "Value": "W/\"8F/kqpnZTrsViFwHvAMA8GkBPHbmdUHRDnPaEebnVec=\""
         }
       ],
       "EndpointProperties": [
         {
-          "Name": "fingerprint",
-          "Value": "gc1qfx4iso"
-        },
-        {
-          "Name": "label",
-          "Value": "calculation.html"
-        },
-        {
           "Name": "integrity",
-          "Value": "sha256-sCNFzEN+8kDQz9Im1b2RP5Pa6XGt4L/upe5yZsyk5yY="
+          "Value": "sha256-8F/kqpnZTrsViFwHvAMA8GkBPHbmdUHRDnPaEebnVec="
         }
       ]
     },
     {
-      "Route": "calculation.gc1qfx4iso.html",
+      "Route": "audit.html",
+      "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\wwwroot\\audit.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2177"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8F/kqpnZTrsViFwHvAMA8GkBPHbmdUHRDnPaEebnVec=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 05 May 2026 06:35:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-8F/kqpnZTrsViFwHvAMA8GkBPHbmdUHRDnPaEebnVec="
+        }
+      ]
+    },
+    {
+      "Route": "audit.html.gz",
+      "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\l5hnwf46rr-00z7nbr64r.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "928"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vZBVLlJWyVJZ6AN0ANW3frgm6zSWAAsW/3SO3foH/J8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 05 May 2026 06:35:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-vZBVLlJWyVJZ6AN0ANW3frgm6zSWAAsW/3SO3foH/J8="
+        }
+      ]
+    },
+    {
+      "Route": "calculation.html",
+      "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\okagwqjyw4-txiz0w6ev7.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000653167864"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1530"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KhchwGzaqpSuxLvLf9XFofUvZ5nKob7Ag9jF+EsohtY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 05 May 2026 06:35:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"X1WF0ArlEluHcH6EKcj8o/fZnDsPMdVTmq+S9DPzNs8=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-X1WF0ArlEluHcH6EKcj8o/fZnDsPMdVTmq+S9DPzNs8="
+        }
+      ]
+    },
+    {
+      "Route": "calculation.html",
       "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\wwwroot\\calculation.html",
       "Selectors": [],
       "ResponseHeaders": [
@@ -4493,7 +4485,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4008"
+          "Value": "4019"
         },
         {
           "Name": "Content-Type",
@@ -4501,11 +4493,156 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"sCNFzEN+8kDQz9Im1b2RP5Pa6XGt4L/upe5yZsyk5yY=\""
+          "Value": "\"X1WF0ArlEluHcH6EKcj8o/fZnDsPMdVTmq+S9DPzNs8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 05 May 2026 03:11:17 GMT"
+          "Value": "Tue, 05 May 2026 06:35:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-X1WF0ArlEluHcH6EKcj8o/fZnDsPMdVTmq+S9DPzNs8="
+        }
+      ]
+    },
+    {
+      "Route": "calculation.html.gz",
+      "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\okagwqjyw4-txiz0w6ev7.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1530"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KhchwGzaqpSuxLvLf9XFofUvZ5nKob7Ag9jF+EsohtY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 05 May 2026 06:35:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-KhchwGzaqpSuxLvLf9XFofUvZ5nKob7Ag9jF+EsohtY="
+        }
+      ]
+    },
+    {
+      "Route": "calculation.txiz0w6ev7.html",
+      "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\okagwqjyw4-txiz0w6ev7.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000653167864"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1530"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KhchwGzaqpSuxLvLf9XFofUvZ5nKob7Ag9jF+EsohtY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 05 May 2026 06:35:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"X1WF0ArlEluHcH6EKcj8o/fZnDsPMdVTmq+S9DPzNs8=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "txiz0w6ev7"
+        },
+        {
+          "Name": "label",
+          "Value": "calculation.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-X1WF0ArlEluHcH6EKcj8o/fZnDsPMdVTmq+S9DPzNs8="
+        }
+      ]
+    },
+    {
+      "Route": "calculation.txiz0w6ev7.html",
+      "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\wwwroot\\calculation.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4019"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"X1WF0ArlEluHcH6EKcj8o/fZnDsPMdVTmq+S9DPzNs8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 05 May 2026 06:35:39 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4515,7 +4652,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "gc1qfx4iso"
+          "Value": "txiz0w6ev7"
         },
         {
           "Name": "label",
@@ -4523,13 +4660,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-sCNFzEN+8kDQz9Im1b2RP5Pa6XGt4L/upe5yZsyk5yY="
+          "Value": "sha256-X1WF0ArlEluHcH6EKcj8o/fZnDsPMdVTmq+S9DPzNs8="
         }
       ]
     },
     {
-      "Route": "calculation.gc1qfx4iso.html.gz",
-      "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\okagwqjyw4-gc1qfx4iso.gz",
+      "Route": "calculation.txiz0w6ev7.html.gz",
+      "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\okagwqjyw4-txiz0w6ev7.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4538,7 +4675,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1516"
+          "Value": "1530"
         },
         {
           "Name": "Content-Type",
@@ -4546,11 +4683,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"i4mEOUM7JFatY7WU9oibBiQoVHHzK991Q5QAxFdcMTY=\""
+          "Value": "\"KhchwGzaqpSuxLvLf9XFofUvZ5nKob7Ag9jF+EsohtY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 05 May 2026 03:11:17 GMT"
+          "Value": "Tue, 05 May 2026 06:35:39 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4568,7 +4705,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "gc1qfx4iso"
+          "Value": "txiz0w6ev7"
         },
         {
           "Name": "label",
@@ -4576,144 +4713,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-i4mEOUM7JFatY7WU9oibBiQoVHHzK991Q5QAxFdcMTY="
-        }
-      ]
-    },
-    {
-      "Route": "calculation.html",
-      "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\okagwqjyw4-gc1qfx4iso.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000659195781"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1516"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"i4mEOUM7JFatY7WU9oibBiQoVHHzK991Q5QAxFdcMTY=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 05 May 2026 03:11:17 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"sCNFzEN+8kDQz9Im1b2RP5Pa6XGt4L/upe5yZsyk5yY=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-sCNFzEN+8kDQz9Im1b2RP5Pa6XGt4L/upe5yZsyk5yY="
-        }
-      ]
-    },
-    {
-      "Route": "calculation.html",
-      "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\wwwroot\\calculation.html",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "4008"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"sCNFzEN+8kDQz9Im1b2RP5Pa6XGt4L/upe5yZsyk5yY=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 05 May 2026 03:11:17 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-sCNFzEN+8kDQz9Im1b2RP5Pa6XGt4L/upe5yZsyk5yY="
-        }
-      ]
-    },
-    {
-      "Route": "calculation.html.gz",
-      "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\okagwqjyw4-gc1qfx4iso.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1516"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"i4mEOUM7JFatY7WU9oibBiQoVHHzK991Q5QAxFdcMTY=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 05 May 2026 03:11:17 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-i4mEOUM7JFatY7WU9oibBiQoVHHzK991Q5QAxFdcMTY="
+          "Value": "sha256-KhchwGzaqpSuxLvLf9XFofUvZ5nKob7Ag9jF+EsohtY="
         }
       ]
     },
@@ -4742,7 +4742,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 05 May 2026 03:11:17 GMT"
+          "Value": "Tue, 05 May 2026 06:30:47 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4795,7 +4795,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 05 May 2026 03:11:17 GMT"
+          "Value": "Tue, 05 May 2026 06:30:47 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4832,7 +4832,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 05 May 2026 03:11:17 GMT"
+          "Value": "Tue, 05 May 2026 06:30:47 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4879,7 +4879,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 05 May 2026 03:11:17 GMT"
+          "Value": "Tue, 05 May 2026 06:30:47 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4940,7 +4940,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 05 May 2026 03:11:17 GMT"
+          "Value": "Tue, 05 May 2026 06:30:47 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4985,7 +4985,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 05 May 2026 03:11:17 GMT"
+          "Value": "Tue, 05 May 2026 06:30:47 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5016,13 +5016,13 @@
       ]
     },
     {
-      "Route": "debts.bjhyzaf339.html",
-      "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\7p7eq69gew-bjhyzaf339.gz",
+      "Route": "debts.html",
+      "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\7p7eq69gew-iq2p6i8e7s.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000948766603"
+          "Quality": "0.000935453695"
         }
       ],
       "ResponseHeaders": [
@@ -5032,19 +5032,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1053"
+          "Value": "1068"
         },
         {
           "Name": "ETag",
-          "Value": "\"tEc1NrHEjI6xvSW7RLzgFstCUiw/5qrVXxMQdBoNzss=\""
+          "Value": "\"DfvmyTTMgFj5w0qtHLLZPVkZ6hYiPpCPknNK4I5Tp7s=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 05 May 2026 03:11:17 GMT"
+          "Value": "Tue, 05 May 2026 06:35:33 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -5060,26 +5060,18 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"uVc4I2ifXh7s35oQfrB70N+gZQCKRQZb550drNNPW9k=\""
+          "Value": "W/\"5tdN5fRl9Rn/2qwQDlP+UpgZ3V3mu09T8KyrItYmZZw=\""
         }
       ],
       "EndpointProperties": [
         {
-          "Name": "fingerprint",
-          "Value": "bjhyzaf339"
-        },
-        {
-          "Name": "label",
-          "Value": "debts.html"
-        },
-        {
           "Name": "integrity",
-          "Value": "sha256-uVc4I2ifXh7s35oQfrB70N+gZQCKRQZb550drNNPW9k="
+          "Value": "sha256-5tdN5fRl9Rn/2qwQDlP+UpgZ3V3mu09T8KyrItYmZZw="
         }
       ]
     },
     {
-      "Route": "debts.bjhyzaf339.html",
+      "Route": "debts.html",
       "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\wwwroot\\debts.html",
       "Selectors": [],
       "ResponseHeaders": [
@@ -5089,7 +5081,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2763"
+          "Value": "2774"
         },
         {
           "Name": "Content-Type",
@@ -5097,11 +5089,156 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"uVc4I2ifXh7s35oQfrB70N+gZQCKRQZb550drNNPW9k=\""
+          "Value": "\"5tdN5fRl9Rn/2qwQDlP+UpgZ3V3mu09T8KyrItYmZZw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 05 May 2026 03:11:17 GMT"
+          "Value": "Tue, 05 May 2026 06:35:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5tdN5fRl9Rn/2qwQDlP+UpgZ3V3mu09T8KyrItYmZZw="
+        }
+      ]
+    },
+    {
+      "Route": "debts.html.gz",
+      "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\7p7eq69gew-iq2p6i8e7s.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1068"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DfvmyTTMgFj5w0qtHLLZPVkZ6hYiPpCPknNK4I5Tp7s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 05 May 2026 06:35:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-DfvmyTTMgFj5w0qtHLLZPVkZ6hYiPpCPknNK4I5Tp7s="
+        }
+      ]
+    },
+    {
+      "Route": "debts.iq2p6i8e7s.html",
+      "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\7p7eq69gew-iq2p6i8e7s.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000935453695"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1068"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DfvmyTTMgFj5w0qtHLLZPVkZ6hYiPpCPknNK4I5Tp7s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 05 May 2026 06:35:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"5tdN5fRl9Rn/2qwQDlP+UpgZ3V3mu09T8KyrItYmZZw=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "iq2p6i8e7s"
+        },
+        {
+          "Name": "label",
+          "Value": "debts.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-5tdN5fRl9Rn/2qwQDlP+UpgZ3V3mu09T8KyrItYmZZw="
+        }
+      ]
+    },
+    {
+      "Route": "debts.iq2p6i8e7s.html",
+      "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\wwwroot\\debts.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2774"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5tdN5fRl9Rn/2qwQDlP+UpgZ3V3mu09T8KyrItYmZZw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 05 May 2026 06:35:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5111,7 +5248,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "bjhyzaf339"
+          "Value": "iq2p6i8e7s"
         },
         {
           "Name": "label",
@@ -5119,13 +5256,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-uVc4I2ifXh7s35oQfrB70N+gZQCKRQZb550drNNPW9k="
+          "Value": "sha256-5tdN5fRl9Rn/2qwQDlP+UpgZ3V3mu09T8KyrItYmZZw="
         }
       ]
     },
     {
-      "Route": "debts.bjhyzaf339.html.gz",
-      "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\7p7eq69gew-bjhyzaf339.gz",
+      "Route": "debts.iq2p6i8e7s.html.gz",
+      "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\7p7eq69gew-iq2p6i8e7s.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5134,7 +5271,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1053"
+          "Value": "1068"
         },
         {
           "Name": "Content-Type",
@@ -5142,11 +5279,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"tEc1NrHEjI6xvSW7RLzgFstCUiw/5qrVXxMQdBoNzss=\""
+          "Value": "\"DfvmyTTMgFj5w0qtHLLZPVkZ6hYiPpCPknNK4I5Tp7s=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 05 May 2026 03:11:17 GMT"
+          "Value": "Tue, 05 May 2026 06:35:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5164,7 +5301,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "bjhyzaf339"
+          "Value": "iq2p6i8e7s"
         },
         {
           "Name": "label",
@@ -5172,155 +5309,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-tEc1NrHEjI6xvSW7RLzgFstCUiw/5qrVXxMQdBoNzss="
-        }
-      ]
-    },
-    {
-      "Route": "debts.html",
-      "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\7p7eq69gew-bjhyzaf339.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000948766603"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1053"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"tEc1NrHEjI6xvSW7RLzgFstCUiw/5qrVXxMQdBoNzss=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 05 May 2026 03:11:17 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"uVc4I2ifXh7s35oQfrB70N+gZQCKRQZb550drNNPW9k=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-uVc4I2ifXh7s35oQfrB70N+gZQCKRQZb550drNNPW9k="
-        }
-      ]
-    },
-    {
-      "Route": "debts.html",
-      "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\wwwroot\\debts.html",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2763"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"uVc4I2ifXh7s35oQfrB70N+gZQCKRQZb550drNNPW9k=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 05 May 2026 03:11:17 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-uVc4I2ifXh7s35oQfrB70N+gZQCKRQZb550drNNPW9k="
-        }
-      ]
-    },
-    {
-      "Route": "debts.html.gz",
-      "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\7p7eq69gew-bjhyzaf339.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1053"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"tEc1NrHEjI6xvSW7RLzgFstCUiw/5qrVXxMQdBoNzss=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 05 May 2026 03:11:17 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-tEc1NrHEjI6xvSW7RLzgFstCUiw/5qrVXxMQdBoNzss="
+          "Value": "sha256-DfvmyTTMgFj5w0qtHLLZPVkZ6hYiPpCPknNK4I5Tp7s="
         }
       ]
     },
     {
       "Route": "dictionaries.html",
-      "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\cim1m8nu9w-mfudcqg8qj.gz",
+      "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\cim1m8nu9w-uueb7gkvch.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000917431193"
+          "Quality": "0.000905797101"
         }
       ],
       "ResponseHeaders": [
@@ -5330,15 +5330,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1089"
+          "Value": "1103"
         },
         {
           "Name": "ETag",
-          "Value": "\"XYojSvVu2mMdJOawK5BUc4wyyBWnSBtBRftG+9aJ1kM=\""
+          "Value": "\"FAmiSMlVyT+XEB7EPwPhxrVdvwqLPOfxijyasHDfwus=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 05 May 2026 03:11:17 GMT"
+          "Value": "Tue, 05 May 2026 06:35:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5358,13 +5358,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"Ug9r8A0+HJVhpjwq2F2ozpFZBIMJv09tl4mtPwI45bQ=\""
+          "Value": "W/\"9sbsOP9q/Vkc03ZMe+/Aos1SbRP+8rqVduT2OZG2f0k=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Ug9r8A0+HJVhpjwq2F2ozpFZBIMJv09tl4mtPwI45bQ="
+          "Value": "sha256-9sbsOP9q/Vkc03ZMe+/Aos1SbRP+8rqVduT2OZG2f0k="
         }
       ]
     },
@@ -5379,7 +5379,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2973"
+          "Value": "2984"
         },
         {
           "Name": "Content-Type",
@@ -5387,11 +5387,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Ug9r8A0+HJVhpjwq2F2ozpFZBIMJv09tl4mtPwI45bQ=\""
+          "Value": "\"9sbsOP9q/Vkc03ZMe+/Aos1SbRP+8rqVduT2OZG2f0k=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 05 May 2026 03:11:17 GMT"
+          "Value": "Tue, 05 May 2026 06:35:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5401,13 +5401,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Ug9r8A0+HJVhpjwq2F2ozpFZBIMJv09tl4mtPwI45bQ="
+          "Value": "sha256-9sbsOP9q/Vkc03ZMe+/Aos1SbRP+8rqVduT2OZG2f0k="
         }
       ]
     },
     {
       "Route": "dictionaries.html.gz",
-      "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\cim1m8nu9w-mfudcqg8qj.gz",
+      "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\cim1m8nu9w-uueb7gkvch.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5416,7 +5416,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1089"
+          "Value": "1103"
         },
         {
           "Name": "Content-Type",
@@ -5424,11 +5424,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"XYojSvVu2mMdJOawK5BUc4wyyBWnSBtBRftG+9aJ1kM=\""
+          "Value": "\"FAmiSMlVyT+XEB7EPwPhxrVdvwqLPOfxijyasHDfwus=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 05 May 2026 03:11:17 GMT"
+          "Value": "Tue, 05 May 2026 06:35:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5446,18 +5446,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-XYojSvVu2mMdJOawK5BUc4wyyBWnSBtBRftG+9aJ1kM="
+          "Value": "sha256-FAmiSMlVyT+XEB7EPwPhxrVdvwqLPOfxijyasHDfwus="
         }
       ]
     },
     {
-      "Route": "dictionaries.mfudcqg8qj.html",
-      "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\cim1m8nu9w-mfudcqg8qj.gz",
+      "Route": "dictionaries.uueb7gkvch.html",
+      "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\cim1m8nu9w-uueb7gkvch.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000917431193"
+          "Quality": "0.000905797101"
         }
       ],
       "ResponseHeaders": [
@@ -5467,15 +5467,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1089"
+          "Value": "1103"
         },
         {
           "Name": "ETag",
-          "Value": "\"XYojSvVu2mMdJOawK5BUc4wyyBWnSBtBRftG+9aJ1kM=\""
+          "Value": "\"FAmiSMlVyT+XEB7EPwPhxrVdvwqLPOfxijyasHDfwus=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 05 May 2026 03:11:17 GMT"
+          "Value": "Tue, 05 May 2026 06:35:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5495,13 +5495,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"Ug9r8A0+HJVhpjwq2F2ozpFZBIMJv09tl4mtPwI45bQ=\""
+          "Value": "W/\"9sbsOP9q/Vkc03ZMe+/Aos1SbRP+8rqVduT2OZG2f0k=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "mfudcqg8qj"
+          "Value": "uueb7gkvch"
         },
         {
           "Name": "label",
@@ -5509,12 +5509,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Ug9r8A0+HJVhpjwq2F2ozpFZBIMJv09tl4mtPwI45bQ="
+          "Value": "sha256-9sbsOP9q/Vkc03ZMe+/Aos1SbRP+8rqVduT2OZG2f0k="
         }
       ]
     },
     {
-      "Route": "dictionaries.mfudcqg8qj.html",
+      "Route": "dictionaries.uueb7gkvch.html",
       "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\wwwroot\\dictionaries.html",
       "Selectors": [],
       "ResponseHeaders": [
@@ -5524,7 +5524,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2973"
+          "Value": "2984"
         },
         {
           "Name": "Content-Type",
@@ -5532,11 +5532,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Ug9r8A0+HJVhpjwq2F2ozpFZBIMJv09tl4mtPwI45bQ=\""
+          "Value": "\"9sbsOP9q/Vkc03ZMe+/Aos1SbRP+8rqVduT2OZG2f0k=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 05 May 2026 03:11:17 GMT"
+          "Value": "Tue, 05 May 2026 06:35:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5546,7 +5546,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "mfudcqg8qj"
+          "Value": "uueb7gkvch"
         },
         {
           "Name": "label",
@@ -5554,13 +5554,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Ug9r8A0+HJVhpjwq2F2ozpFZBIMJv09tl4mtPwI45bQ="
+          "Value": "sha256-9sbsOP9q/Vkc03ZMe+/Aos1SbRP+8rqVduT2OZG2f0k="
         }
       ]
     },
     {
-      "Route": "dictionaries.mfudcqg8qj.html.gz",
-      "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\cim1m8nu9w-mfudcqg8qj.gz",
+      "Route": "dictionaries.uueb7gkvch.html.gz",
+      "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\cim1m8nu9w-uueb7gkvch.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5569,7 +5569,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1089"
+          "Value": "1103"
         },
         {
           "Name": "Content-Type",
@@ -5577,11 +5577,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"XYojSvVu2mMdJOawK5BUc4wyyBWnSBtBRftG+9aJ1kM=\""
+          "Value": "\"FAmiSMlVyT+XEB7EPwPhxrVdvwqLPOfxijyasHDfwus=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 05 May 2026 03:11:17 GMT"
+          "Value": "Tue, 05 May 2026 06:35:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5599,7 +5599,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "mfudcqg8qj"
+          "Value": "uueb7gkvch"
         },
         {
           "Name": "label",
@@ -5607,7 +5607,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-XYojSvVu2mMdJOawK5BUc4wyyBWnSBtBRftG+9aJ1kM="
+          "Value": "sha256-FAmiSMlVyT+XEB7EPwPhxrVdvwqLPOfxijyasHDfwus="
         }
       ]
     },
@@ -5934,7 +5934,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 05 Sep 2025 23:20:15 GMT"
+          "Value": "Tue, 05 May 2026 06:33:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5987,7 +5987,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 05 Sep 2025 23:20:15 GMT"
+          "Value": "Tue, 05 May 2026 06:33:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6024,7 +6024,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 05 Sep 2025 23:20:15 GMT"
+          "Value": "Tue, 05 May 2026 06:33:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6071,7 +6071,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 05 Sep 2025 23:20:15 GMT"
+          "Value": "Tue, 05 May 2026 06:33:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6124,7 +6124,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 05 Sep 2025 23:20:15 GMT"
+          "Value": "Tue, 05 May 2026 06:33:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6161,7 +6161,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 05 Sep 2025 23:20:15 GMT"
+          "Value": "Tue, 05 May 2026 06:33:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6208,7 +6208,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 05 Sep 2025 23:20:15 GMT"
+          "Value": "Tue, 05 May 2026 06:33:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6269,7 +6269,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 05 Sep 2025 23:20:15 GMT"
+          "Value": "Tue, 05 May 2026 06:33:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6314,7 +6314,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 05 Sep 2025 23:20:15 GMT"
+          "Value": "Tue, 05 May 2026 06:33:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6369,7 +6369,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 05 Sep 2025 23:20:15 GMT"
+          "Value": "Tue, 05 May 2026 06:33:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6430,7 +6430,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 05 Sep 2025 23:20:15 GMT"
+          "Value": "Tue, 05 May 2026 06:33:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6475,7 +6475,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 05 Sep 2025 23:20:15 GMT"
+          "Value": "Tue, 05 May 2026 06:33:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6507,12 +6507,12 @@
     },
     {
       "Route": "help.html",
-      "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\h0arspibd8-qk6944o7hp.gz",
+      "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\h0arspibd8-qkude8aji8.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000240558095"
+          "Quality": "0.000239750659"
         }
       ],
       "ResponseHeaders": [
@@ -6522,15 +6522,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4156"
+          "Value": "4170"
         },
         {
           "Name": "ETag",
-          "Value": "\"sEtKRTxVMmc0c+o3cV+yVjxHMi3iIFB9HGhMdVMJvXQ=\""
+          "Value": "\"/qxDDvT+kVJFgEoKfn32Te3qeVK3wDLTWEzZOdfzs6U=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 05 May 2026 03:11:17 GMT"
+          "Value": "Tue, 05 May 2026 06:35:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6550,13 +6550,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"diK2ldh34eS06Lq2Y4vn78i4bO9bl58qQ6npXiHR6ic=\""
+          "Value": "W/\"9tUyakaxrvG3JZlF9OUmkf2OsczVOoa4UHDcMk7scZY=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-diK2ldh34eS06Lq2Y4vn78i4bO9bl58qQ6npXiHR6ic="
+          "Value": "sha256-9tUyakaxrvG3JZlF9OUmkf2OsczVOoa4UHDcMk7scZY="
         }
       ]
     },
@@ -6571,7 +6571,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "15053"
+          "Value": "15064"
         },
         {
           "Name": "Content-Type",
@@ -6579,11 +6579,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"diK2ldh34eS06Lq2Y4vn78i4bO9bl58qQ6npXiHR6ic=\""
+          "Value": "\"9tUyakaxrvG3JZlF9OUmkf2OsczVOoa4UHDcMk7scZY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 05 May 2026 03:11:17 GMT"
+          "Value": "Tue, 05 May 2026 06:35:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6593,13 +6593,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-diK2ldh34eS06Lq2Y4vn78i4bO9bl58qQ6npXiHR6ic="
+          "Value": "sha256-9tUyakaxrvG3JZlF9OUmkf2OsczVOoa4UHDcMk7scZY="
         }
       ]
     },
     {
       "Route": "help.html.gz",
-      "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\h0arspibd8-qk6944o7hp.gz",
+      "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\h0arspibd8-qkude8aji8.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6608,7 +6608,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4156"
+          "Value": "4170"
         },
         {
           "Name": "Content-Type",
@@ -6616,11 +6616,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"sEtKRTxVMmc0c+o3cV+yVjxHMi3iIFB9HGhMdVMJvXQ=\""
+          "Value": "\"/qxDDvT+kVJFgEoKfn32Te3qeVK3wDLTWEzZOdfzs6U=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 05 May 2026 03:11:17 GMT"
+          "Value": "Tue, 05 May 2026 06:35:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6638,18 +6638,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-sEtKRTxVMmc0c+o3cV+yVjxHMi3iIFB9HGhMdVMJvXQ="
+          "Value": "sha256-/qxDDvT+kVJFgEoKfn32Te3qeVK3wDLTWEzZOdfzs6U="
         }
       ]
     },
     {
-      "Route": "help.qk6944o7hp.html",
-      "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\h0arspibd8-qk6944o7hp.gz",
+      "Route": "help.qkude8aji8.html",
+      "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\h0arspibd8-qkude8aji8.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000240558095"
+          "Quality": "0.000239750659"
         }
       ],
       "ResponseHeaders": [
@@ -6659,15 +6659,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4156"
+          "Value": "4170"
         },
         {
           "Name": "ETag",
-          "Value": "\"sEtKRTxVMmc0c+o3cV+yVjxHMi3iIFB9HGhMdVMJvXQ=\""
+          "Value": "\"/qxDDvT+kVJFgEoKfn32Te3qeVK3wDLTWEzZOdfzs6U=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 05 May 2026 03:11:17 GMT"
+          "Value": "Tue, 05 May 2026 06:35:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6687,13 +6687,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"diK2ldh34eS06Lq2Y4vn78i4bO9bl58qQ6npXiHR6ic=\""
+          "Value": "W/\"9tUyakaxrvG3JZlF9OUmkf2OsczVOoa4UHDcMk7scZY=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "qk6944o7hp"
+          "Value": "qkude8aji8"
         },
         {
           "Name": "label",
@@ -6701,12 +6701,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-diK2ldh34eS06Lq2Y4vn78i4bO9bl58qQ6npXiHR6ic="
+          "Value": "sha256-9tUyakaxrvG3JZlF9OUmkf2OsczVOoa4UHDcMk7scZY="
         }
       ]
     },
     {
-      "Route": "help.qk6944o7hp.html",
+      "Route": "help.qkude8aji8.html",
       "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\wwwroot\\help.html",
       "Selectors": [],
       "ResponseHeaders": [
@@ -6716,7 +6716,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "15053"
+          "Value": "15064"
         },
         {
           "Name": "Content-Type",
@@ -6724,11 +6724,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"diK2ldh34eS06Lq2Y4vn78i4bO9bl58qQ6npXiHR6ic=\""
+          "Value": "\"9tUyakaxrvG3JZlF9OUmkf2OsczVOoa4UHDcMk7scZY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 05 May 2026 03:11:17 GMT"
+          "Value": "Tue, 05 May 2026 06:35:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6738,7 +6738,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "qk6944o7hp"
+          "Value": "qkude8aji8"
         },
         {
           "Name": "label",
@@ -6746,13 +6746,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-diK2ldh34eS06Lq2Y4vn78i4bO9bl58qQ6npXiHR6ic="
+          "Value": "sha256-9tUyakaxrvG3JZlF9OUmkf2OsczVOoa4UHDcMk7scZY="
         }
       ]
     },
     {
-      "Route": "help.qk6944o7hp.html.gz",
-      "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\h0arspibd8-qk6944o7hp.gz",
+      "Route": "help.qkude8aji8.html.gz",
+      "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\h0arspibd8-qkude8aji8.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6761,7 +6761,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4156"
+          "Value": "4170"
         },
         {
           "Name": "Content-Type",
@@ -6769,11 +6769,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"sEtKRTxVMmc0c+o3cV+yVjxHMi3iIFB9HGhMdVMJvXQ=\""
+          "Value": "\"/qxDDvT+kVJFgEoKfn32Te3qeVK3wDLTWEzZOdfzs6U=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 05 May 2026 03:11:17 GMT"
+          "Value": "Tue, 05 May 2026 06:35:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6791,7 +6791,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "qk6944o7hp"
+          "Value": "qkude8aji8"
         },
         {
           "Name": "label",
@@ -6799,18 +6799,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-sEtKRTxVMmc0c+o3cV+yVjxHMi3iIFB9HGhMdVMJvXQ="
+          "Value": "sha256-/qxDDvT+kVJFgEoKfn32Te3qeVK3wDLTWEzZOdfzs6U="
         }
       ]
     },
     {
-      "Route": "import.1xz0pc6kgx.html",
-      "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\xamixlcj72-1xz0pc6kgx.gz",
+      "Route": "import.7tsezarr5w.html",
+      "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\xamixlcj72-7tsezarr5w.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000639386189"
+          "Quality": "0.000633713561"
         }
       ],
       "ResponseHeaders": [
@@ -6820,15 +6820,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1563"
+          "Value": "1577"
         },
         {
           "Name": "ETag",
-          "Value": "\"Y528PSt3qZTe/jlWQZT5CROdw70nsvWXGULA1mlxF5A=\""
+          "Value": "\"cX1h0iMiGPQxONO9VtsblstczhQMXQZ7KuOUMbbmTRQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 05 May 2026 03:11:17 GMT"
+          "Value": "Tue, 05 May 2026 06:35:25 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6848,13 +6848,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"K4HjQna5rrPHVcBM2U6UZslKAPtKX5D/C8bIvVHIFyQ=\""
+          "Value": "W/\"W2TyyK/1NAMeG9/pu0RNoen6vaf19dsmyjscY7JEPXM=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "1xz0pc6kgx"
+          "Value": "7tsezarr5w"
         },
         {
           "Name": "label",
@@ -6862,12 +6862,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-K4HjQna5rrPHVcBM2U6UZslKAPtKX5D/C8bIvVHIFyQ="
+          "Value": "sha256-W2TyyK/1NAMeG9/pu0RNoen6vaf19dsmyjscY7JEPXM="
         }
       ]
     },
     {
-      "Route": "import.1xz0pc6kgx.html",
+      "Route": "import.7tsezarr5w.html",
       "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\wwwroot\\import.html",
       "Selectors": [],
       "ResponseHeaders": [
@@ -6877,7 +6877,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3655"
+          "Value": "3666"
         },
         {
           "Name": "Content-Type",
@@ -6885,11 +6885,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"K4HjQna5rrPHVcBM2U6UZslKAPtKX5D/C8bIvVHIFyQ=\""
+          "Value": "\"W2TyyK/1NAMeG9/pu0RNoen6vaf19dsmyjscY7JEPXM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 05 May 2026 03:11:17 GMT"
+          "Value": "Tue, 05 May 2026 06:35:25 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6899,7 +6899,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "1xz0pc6kgx"
+          "Value": "7tsezarr5w"
         },
         {
           "Name": "label",
@@ -6907,13 +6907,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-K4HjQna5rrPHVcBM2U6UZslKAPtKX5D/C8bIvVHIFyQ="
+          "Value": "sha256-W2TyyK/1NAMeG9/pu0RNoen6vaf19dsmyjscY7JEPXM="
         }
       ]
     },
     {
-      "Route": "import.1xz0pc6kgx.html.gz",
-      "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\xamixlcj72-1xz0pc6kgx.gz",
+      "Route": "import.7tsezarr5w.html.gz",
+      "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\xamixlcj72-7tsezarr5w.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6922,7 +6922,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1563"
+          "Value": "1577"
         },
         {
           "Name": "Content-Type",
@@ -6930,11 +6930,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Y528PSt3qZTe/jlWQZT5CROdw70nsvWXGULA1mlxF5A=\""
+          "Value": "\"cX1h0iMiGPQxONO9VtsblstczhQMXQZ7KuOUMbbmTRQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 05 May 2026 03:11:17 GMT"
+          "Value": "Tue, 05 May 2026 06:35:25 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6952,7 +6952,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "1xz0pc6kgx"
+          "Value": "7tsezarr5w"
         },
         {
           "Name": "label",
@@ -6960,18 +6960,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Y528PSt3qZTe/jlWQZT5CROdw70nsvWXGULA1mlxF5A="
+          "Value": "sha256-cX1h0iMiGPQxONO9VtsblstczhQMXQZ7KuOUMbbmTRQ="
         }
       ]
     },
     {
       "Route": "import.html",
-      "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\xamixlcj72-1xz0pc6kgx.gz",
+      "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\xamixlcj72-7tsezarr5w.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000639386189"
+          "Quality": "0.000633713561"
         }
       ],
       "ResponseHeaders": [
@@ -6981,15 +6981,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1563"
+          "Value": "1577"
         },
         {
           "Name": "ETag",
-          "Value": "\"Y528PSt3qZTe/jlWQZT5CROdw70nsvWXGULA1mlxF5A=\""
+          "Value": "\"cX1h0iMiGPQxONO9VtsblstczhQMXQZ7KuOUMbbmTRQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 05 May 2026 03:11:17 GMT"
+          "Value": "Tue, 05 May 2026 06:35:25 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7009,13 +7009,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"K4HjQna5rrPHVcBM2U6UZslKAPtKX5D/C8bIvVHIFyQ=\""
+          "Value": "W/\"W2TyyK/1NAMeG9/pu0RNoen6vaf19dsmyjscY7JEPXM=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-K4HjQna5rrPHVcBM2U6UZslKAPtKX5D/C8bIvVHIFyQ="
+          "Value": "sha256-W2TyyK/1NAMeG9/pu0RNoen6vaf19dsmyjscY7JEPXM="
         }
       ]
     },
@@ -7030,7 +7030,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3655"
+          "Value": "3666"
         },
         {
           "Name": "Content-Type",
@@ -7038,11 +7038,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"K4HjQna5rrPHVcBM2U6UZslKAPtKX5D/C8bIvVHIFyQ=\""
+          "Value": "\"W2TyyK/1NAMeG9/pu0RNoen6vaf19dsmyjscY7JEPXM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 05 May 2026 03:11:17 GMT"
+          "Value": "Tue, 05 May 2026 06:35:25 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7052,13 +7052,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-K4HjQna5rrPHVcBM2U6UZslKAPtKX5D/C8bIvVHIFyQ="
+          "Value": "sha256-W2TyyK/1NAMeG9/pu0RNoen6vaf19dsmyjscY7JEPXM="
         }
       ]
     },
     {
       "Route": "import.html.gz",
-      "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\xamixlcj72-1xz0pc6kgx.gz",
+      "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\xamixlcj72-7tsezarr5w.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7067,7 +7067,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1563"
+          "Value": "1577"
         },
         {
           "Name": "Content-Type",
@@ -7075,11 +7075,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Y528PSt3qZTe/jlWQZT5CROdw70nsvWXGULA1mlxF5A=\""
+          "Value": "\"cX1h0iMiGPQxONO9VtsblstczhQMXQZ7KuOUMbbmTRQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 05 May 2026 03:11:17 GMT"
+          "Value": "Tue, 05 May 2026 06:35:25 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7097,18 +7097,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Y528PSt3qZTe/jlWQZT5CROdw70nsvWXGULA1mlxF5A="
+          "Value": "sha256-cX1h0iMiGPQxONO9VtsblstczhQMXQZ7KuOUMbbmTRQ="
         }
       ]
     },
     {
-      "Route": "import-preview.4dib6iungk.html",
-      "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\s4w9mrz3z8-4dib6iungk.gz",
+      "Route": "import-preview.html",
+      "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\s4w9mrz3z8-nysj0ggi9o.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000587544066"
+          "Quality": "0.000582750583"
         }
       ],
       "ResponseHeaders": [
@@ -7118,19 +7118,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1701"
+          "Value": "1715"
         },
         {
           "Name": "ETag",
-          "Value": "\"QUKUClGge/oMcXRPgGXlV6e1Kewwi0ozyj52tzr9qiE=\""
+          "Value": "\"EYT95pPT3N2L44gh59iTIuwdCqMlNS3B0IrFgj1DiLo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 05 May 2026 03:11:17 GMT"
+          "Value": "Tue, 05 May 2026 06:35:50 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -7146,26 +7146,18 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"SOCSt7WVdyXFkGj1orwC42cMVd4NdZ4dkF0Y4UttK1g=\""
+          "Value": "W/\"X9liqTLO9IFy6mUm9as+/zP6hO4Tng2W0ZGaHDL5j5E=\""
         }
       ],
       "EndpointProperties": [
         {
-          "Name": "fingerprint",
-          "Value": "4dib6iungk"
-        },
-        {
-          "Name": "label",
-          "Value": "import-preview.html"
-        },
-        {
           "Name": "integrity",
-          "Value": "sha256-SOCSt7WVdyXFkGj1orwC42cMVd4NdZ4dkF0Y4UttK1g="
+          "Value": "sha256-X9liqTLO9IFy6mUm9as+/zP6hO4Tng2W0ZGaHDL5j5E="
         }
       ]
     },
     {
-      "Route": "import-preview.4dib6iungk.html",
+      "Route": "import-preview.html",
       "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\wwwroot\\import-preview.html",
       "Selectors": [],
       "ResponseHeaders": [
@@ -7175,7 +7167,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4899"
+          "Value": "4910"
         },
         {
           "Name": "Content-Type",
@@ -7183,11 +7175,156 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"SOCSt7WVdyXFkGj1orwC42cMVd4NdZ4dkF0Y4UttK1g=\""
+          "Value": "\"X9liqTLO9IFy6mUm9as+/zP6hO4Tng2W0ZGaHDL5j5E=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 05 May 2026 03:11:17 GMT"
+          "Value": "Tue, 05 May 2026 06:35:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-X9liqTLO9IFy6mUm9as+/zP6hO4Tng2W0ZGaHDL5j5E="
+        }
+      ]
+    },
+    {
+      "Route": "import-preview.html.gz",
+      "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\s4w9mrz3z8-nysj0ggi9o.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1715"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EYT95pPT3N2L44gh59iTIuwdCqMlNS3B0IrFgj1DiLo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 05 May 2026 06:35:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-EYT95pPT3N2L44gh59iTIuwdCqMlNS3B0IrFgj1DiLo="
+        }
+      ]
+    },
+    {
+      "Route": "import-preview.nysj0ggi9o.html",
+      "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\s4w9mrz3z8-nysj0ggi9o.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000582750583"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1715"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EYT95pPT3N2L44gh59iTIuwdCqMlNS3B0IrFgj1DiLo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 05 May 2026 06:35:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"X9liqTLO9IFy6mUm9as+/zP6hO4Tng2W0ZGaHDL5j5E=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "nysj0ggi9o"
+        },
+        {
+          "Name": "label",
+          "Value": "import-preview.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-X9liqTLO9IFy6mUm9as+/zP6hO4Tng2W0ZGaHDL5j5E="
+        }
+      ]
+    },
+    {
+      "Route": "import-preview.nysj0ggi9o.html",
+      "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\wwwroot\\import-preview.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4910"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"X9liqTLO9IFy6mUm9as+/zP6hO4Tng2W0ZGaHDL5j5E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 05 May 2026 06:35:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7197,7 +7334,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "4dib6iungk"
+          "Value": "nysj0ggi9o"
         },
         {
           "Name": "label",
@@ -7205,13 +7342,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-SOCSt7WVdyXFkGj1orwC42cMVd4NdZ4dkF0Y4UttK1g="
+          "Value": "sha256-X9liqTLO9IFy6mUm9as+/zP6hO4Tng2W0ZGaHDL5j5E="
         }
       ]
     },
     {
-      "Route": "import-preview.4dib6iungk.html.gz",
-      "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\s4w9mrz3z8-4dib6iungk.gz",
+      "Route": "import-preview.nysj0ggi9o.html.gz",
+      "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\s4w9mrz3z8-nysj0ggi9o.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7220,7 +7357,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1701"
+          "Value": "1715"
         },
         {
           "Name": "Content-Type",
@@ -7228,11 +7365,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"QUKUClGge/oMcXRPgGXlV6e1Kewwi0ozyj52tzr9qiE=\""
+          "Value": "\"EYT95pPT3N2L44gh59iTIuwdCqMlNS3B0IrFgj1DiLo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 05 May 2026 03:11:17 GMT"
+          "Value": "Tue, 05 May 2026 06:35:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7250,7 +7387,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "4dib6iungk"
+          "Value": "nysj0ggi9o"
         },
         {
           "Name": "label",
@@ -7258,144 +7395,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-QUKUClGge/oMcXRPgGXlV6e1Kewwi0ozyj52tzr9qiE="
-        }
-      ]
-    },
-    {
-      "Route": "import-preview.html",
-      "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\s4w9mrz3z8-4dib6iungk.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000587544066"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1701"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"QUKUClGge/oMcXRPgGXlV6e1Kewwi0ozyj52tzr9qiE=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 05 May 2026 03:11:17 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"SOCSt7WVdyXFkGj1orwC42cMVd4NdZ4dkF0Y4UttK1g=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-SOCSt7WVdyXFkGj1orwC42cMVd4NdZ4dkF0Y4UttK1g="
-        }
-      ]
-    },
-    {
-      "Route": "import-preview.html",
-      "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\wwwroot\\import-preview.html",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "4899"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"SOCSt7WVdyXFkGj1orwC42cMVd4NdZ4dkF0Y4UttK1g=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 05 May 2026 03:11:17 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-SOCSt7WVdyXFkGj1orwC42cMVd4NdZ4dkF0Y4UttK1g="
-        }
-      ]
-    },
-    {
-      "Route": "import-preview.html.gz",
-      "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\s4w9mrz3z8-4dib6iungk.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1701"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"QUKUClGge/oMcXRPgGXlV6e1Kewwi0ozyj52tzr9qiE=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 05 May 2026 03:11:17 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-QUKUClGge/oMcXRPgGXlV6e1Kewwi0ozyj52tzr9qiE="
+          "Value": "sha256-EYT95pPT3N2L44gh59iTIuwdCqMlNS3B0IrFgj1DiLo="
         }
       ]
     },
@@ -7424,7 +7424,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 05 May 2026 03:11:17 GMT"
+          "Value": "Tue, 05 May 2026 06:30:47 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7477,7 +7477,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 05 May 2026 03:11:17 GMT"
+          "Value": "Tue, 05 May 2026 06:30:47 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7514,7 +7514,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 05 May 2026 03:11:17 GMT"
+          "Value": "Tue, 05 May 2026 06:30:47 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7561,7 +7561,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 05 May 2026 03:11:17 GMT"
+          "Value": "Tue, 05 May 2026 06:30:47 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7622,7 +7622,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 05 May 2026 03:11:17 GMT"
+          "Value": "Tue, 05 May 2026 06:30:47 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7667,7 +7667,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 05 May 2026 03:11:17 GMT"
+          "Value": "Tue, 05 May 2026 06:30:47 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7698,13 +7698,13 @@
       ]
     },
     {
-      "Route": "js/api.js",
-      "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\24zmuf6160-w49eq3y7js.gz",
+      "Route": "js/api.jajtnanycc.js",
+      "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\24zmuf6160-jajtnanycc.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000538213132"
+          "Quality": "0.000406173842"
         }
       ],
       "ResponseHeaders": [
@@ -7714,19 +7714,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1857"
+          "Value": "2461"
         },
         {
           "Name": "ETag",
-          "Value": "\"PaCXkgiwFFTMbH98yqYsSNnCP2aazSopt/sm5y2FzSA=\""
+          "Value": "\"PVYPUDPgH/HKOomf8az3DGLU0gJ/vhF9g77GRBfbces=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 05 May 2026 03:11:17 GMT"
+          "Value": "Tue, 05 May 2026 06:32:09 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "no-cache"
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Encoding",
@@ -7742,18 +7742,26 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"wEvrD4iFA8E9+db6db+gA2dJbXR8HOpbwfq0kWJFBGc=\""
+          "Value": "W/\"FSpY1WI/s1/yZ/mjN3zz9rIJ0SuWl3EDtvESLeIOURQ=\""
         }
       ],
       "EndpointProperties": [
         {
+          "Name": "fingerprint",
+          "Value": "jajtnanycc"
+        },
+        {
+          "Name": "label",
+          "Value": "js/api.js"
+        },
+        {
           "Name": "integrity",
-          "Value": "sha256-wEvrD4iFA8E9+db6db+gA2dJbXR8HOpbwfq0kWJFBGc="
+          "Value": "sha256-FSpY1WI/s1/yZ/mjN3zz9rIJ0SuWl3EDtvESLeIOURQ="
         }
       ]
     },
     {
-      "Route": "js/api.js",
+      "Route": "js/api.jajtnanycc.js",
       "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\wwwroot\\js\\api.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -7763,7 +7771,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4594"
+          "Value": "6434"
         },
         {
           "Name": "Content-Type",
@@ -7771,121 +7779,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"wEvrD4iFA8E9+db6db+gA2dJbXR8HOpbwfq0kWJFBGc=\""
+          "Value": "\"FSpY1WI/s1/yZ/mjN3zz9rIJ0SuWl3EDtvESLeIOURQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 05 May 2026 03:11:17 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-wEvrD4iFA8E9+db6db+gA2dJbXR8HOpbwfq0kWJFBGc="
-        }
-      ]
-    },
-    {
-      "Route": "js/api.js.gz",
-      "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\24zmuf6160-w49eq3y7js.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1857"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"PaCXkgiwFFTMbH98yqYsSNnCP2aazSopt/sm5y2FzSA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 05 May 2026 03:11:17 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-PaCXkgiwFFTMbH98yqYsSNnCP2aazSopt/sm5y2FzSA="
-        }
-      ]
-    },
-    {
-      "Route": "js/api.w49eq3y7js.js",
-      "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\24zmuf6160-w49eq3y7js.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000538213132"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1857"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"PaCXkgiwFFTMbH98yqYsSNnCP2aazSopt/sm5y2FzSA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 05 May 2026 03:11:17 GMT"
+          "Value": "Tue, 05 May 2026 06:32:09 GMT"
         },
         {
           "Name": "Cache-Control",
           "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"wEvrD4iFA8E9+db6db+gA2dJbXR8HOpbwfq0kWJFBGc=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "w49eq3y7js"
+          "Value": "jajtnanycc"
         },
         {
           "Name": "label",
@@ -7893,13 +7801,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-wEvrD4iFA8E9+db6db+gA2dJbXR8HOpbwfq0kWJFBGc="
+          "Value": "sha256-FSpY1WI/s1/yZ/mjN3zz9rIJ0SuWl3EDtvESLeIOURQ="
         }
       ]
     },
     {
-      "Route": "js/api.w49eq3y7js.js",
-      "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\wwwroot\\js\\api.js",
+      "Route": "js/api.jajtnanycc.js.gz",
+      "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\24zmuf6160-jajtnanycc.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7908,7 +7816,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4594"
+          "Value": "2461"
         },
         {
           "Name": "Content-Type",
@@ -7916,56 +7824,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"wEvrD4iFA8E9+db6db+gA2dJbXR8HOpbwfq0kWJFBGc=\""
+          "Value": "\"PVYPUDPgH/HKOomf8az3DGLU0gJ/vhF9g77GRBfbces=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 05 May 2026 03:11:17 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "w49eq3y7js"
-        },
-        {
-          "Name": "label",
-          "Value": "js/api.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-wEvrD4iFA8E9+db6db+gA2dJbXR8HOpbwfq0kWJFBGc="
-        }
-      ]
-    },
-    {
-      "Route": "js/api.w49eq3y7js.js.gz",
-      "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\24zmuf6160-w49eq3y7js.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1857"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"PaCXkgiwFFTMbH98yqYsSNnCP2aazSopt/sm5y2FzSA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 05 May 2026 03:11:17 GMT"
+          "Value": "Tue, 05 May 2026 06:32:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7983,7 +7846,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "w49eq3y7js"
+          "Value": "jajtnanycc"
         },
         {
           "Name": "label",
@@ -7991,7 +7854,144 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-PaCXkgiwFFTMbH98yqYsSNnCP2aazSopt/sm5y2FzSA="
+          "Value": "sha256-PVYPUDPgH/HKOomf8az3DGLU0gJ/vhF9g77GRBfbces="
+        }
+      ]
+    },
+    {
+      "Route": "js/api.js",
+      "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\24zmuf6160-jajtnanycc.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000406173842"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2461"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PVYPUDPgH/HKOomf8az3DGLU0gJ/vhF9g77GRBfbces=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 05 May 2026 06:32:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"FSpY1WI/s1/yZ/mjN3zz9rIJ0SuWl3EDtvESLeIOURQ=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-FSpY1WI/s1/yZ/mjN3zz9rIJ0SuWl3EDtvESLeIOURQ="
+        }
+      ]
+    },
+    {
+      "Route": "js/api.js",
+      "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\wwwroot\\js\\api.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6434"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FSpY1WI/s1/yZ/mjN3zz9rIJ0SuWl3EDtvESLeIOURQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 05 May 2026 06:32:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-FSpY1WI/s1/yZ/mjN3zz9rIJ0SuWl3EDtvESLeIOURQ="
+        }
+      ]
+    },
+    {
+      "Route": "js/api.js.gz",
+      "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\24zmuf6160-jajtnanycc.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2461"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PVYPUDPgH/HKOomf8az3DGLU0gJ/vhF9g77GRBfbces=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 05 May 2026 06:32:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-PVYPUDPgH/HKOomf8az3DGLU0gJ/vhF9g77GRBfbces="
         }
       ]
     },
@@ -25959,12 +25959,12 @@
     },
     {
       "Route": "login.html",
-      "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\nyrnla5oyj-myj9mdr11j.gz",
+      "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\nyrnla5oyj-jszld5l3bp.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000869565217"
+          "Quality": "0.000861326443"
         }
       ],
       "ResponseHeaders": [
@@ -25974,15 +25974,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1149"
+          "Value": "1160"
         },
         {
           "Name": "ETag",
-          "Value": "\"XsxwooS2pUWCD0x9jhPZRNA5A4Z5kxyrQLE+a+uFCfU=\""
+          "Value": "\"RbXII8zuAbOLK2cITA4RclXAeMw4ddQNCtu2OtVgXF0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 05 May 2026 03:11:17 GMT"
+          "Value": "Tue, 05 May 2026 06:35:24 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -26002,13 +26002,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"shg5frvnITrwq2VnD+lj1EFsZkf4dTyr311ySBq42pA=\""
+          "Value": "W/\"cxkIytgLhFY6DmzHHo62TGZwqzCDMecOnCr0lVEoSSI=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-shg5frvnITrwq2VnD+lj1EFsZkf4dTyr311ySBq42pA="
+          "Value": "sha256-cxkIytgLhFY6DmzHHo62TGZwqzCDMecOnCr0lVEoSSI="
         }
       ]
     },
@@ -26023,7 +26023,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2624"
+          "Value": "2635"
         },
         {
           "Name": "Content-Type",
@@ -26031,11 +26031,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"shg5frvnITrwq2VnD+lj1EFsZkf4dTyr311ySBq42pA=\""
+          "Value": "\"cxkIytgLhFY6DmzHHo62TGZwqzCDMecOnCr0lVEoSSI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 05 May 2026 03:11:17 GMT"
+          "Value": "Tue, 05 May 2026 06:35:24 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -26045,13 +26045,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-shg5frvnITrwq2VnD+lj1EFsZkf4dTyr311ySBq42pA="
+          "Value": "sha256-cxkIytgLhFY6DmzHHo62TGZwqzCDMecOnCr0lVEoSSI="
         }
       ]
     },
     {
       "Route": "login.html.gz",
-      "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\nyrnla5oyj-myj9mdr11j.gz",
+      "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\nyrnla5oyj-jszld5l3bp.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -26060,7 +26060,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1149"
+          "Value": "1160"
         },
         {
           "Name": "Content-Type",
@@ -26068,11 +26068,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"XsxwooS2pUWCD0x9jhPZRNA5A4Z5kxyrQLE+a+uFCfU=\""
+          "Value": "\"RbXII8zuAbOLK2cITA4RclXAeMw4ddQNCtu2OtVgXF0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 05 May 2026 03:11:17 GMT"
+          "Value": "Tue, 05 May 2026 06:35:24 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -26090,18 +26090,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-XsxwooS2pUWCD0x9jhPZRNA5A4Z5kxyrQLE+a+uFCfU="
+          "Value": "sha256-RbXII8zuAbOLK2cITA4RclXAeMw4ddQNCtu2OtVgXF0="
         }
       ]
     },
     {
-      "Route": "login.myj9mdr11j.html",
-      "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\nyrnla5oyj-myj9mdr11j.gz",
+      "Route": "login.jszld5l3bp.html",
+      "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\nyrnla5oyj-jszld5l3bp.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000869565217"
+          "Quality": "0.000861326443"
         }
       ],
       "ResponseHeaders": [
@@ -26111,15 +26111,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1149"
+          "Value": "1160"
         },
         {
           "Name": "ETag",
-          "Value": "\"XsxwooS2pUWCD0x9jhPZRNA5A4Z5kxyrQLE+a+uFCfU=\""
+          "Value": "\"RbXII8zuAbOLK2cITA4RclXAeMw4ddQNCtu2OtVgXF0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 05 May 2026 03:11:17 GMT"
+          "Value": "Tue, 05 May 2026 06:35:24 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -26139,13 +26139,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"shg5frvnITrwq2VnD+lj1EFsZkf4dTyr311ySBq42pA=\""
+          "Value": "W/\"cxkIytgLhFY6DmzHHo62TGZwqzCDMecOnCr0lVEoSSI=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "myj9mdr11j"
+          "Value": "jszld5l3bp"
         },
         {
           "Name": "label",
@@ -26153,12 +26153,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-shg5frvnITrwq2VnD+lj1EFsZkf4dTyr311ySBq42pA="
+          "Value": "sha256-cxkIytgLhFY6DmzHHo62TGZwqzCDMecOnCr0lVEoSSI="
         }
       ]
     },
     {
-      "Route": "login.myj9mdr11j.html",
+      "Route": "login.jszld5l3bp.html",
       "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\wwwroot\\login.html",
       "Selectors": [],
       "ResponseHeaders": [
@@ -26168,7 +26168,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2624"
+          "Value": "2635"
         },
         {
           "Name": "Content-Type",
@@ -26176,11 +26176,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"shg5frvnITrwq2VnD+lj1EFsZkf4dTyr311ySBq42pA=\""
+          "Value": "\"cxkIytgLhFY6DmzHHo62TGZwqzCDMecOnCr0lVEoSSI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 05 May 2026 03:11:17 GMT"
+          "Value": "Tue, 05 May 2026 06:35:24 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -26190,7 +26190,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "myj9mdr11j"
+          "Value": "jszld5l3bp"
         },
         {
           "Name": "label",
@@ -26198,13 +26198,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-shg5frvnITrwq2VnD+lj1EFsZkf4dTyr311ySBq42pA="
+          "Value": "sha256-cxkIytgLhFY6DmzHHo62TGZwqzCDMecOnCr0lVEoSSI="
         }
       ]
     },
     {
-      "Route": "login.myj9mdr11j.html.gz",
-      "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\nyrnla5oyj-myj9mdr11j.gz",
+      "Route": "login.jszld5l3bp.html.gz",
+      "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\nyrnla5oyj-jszld5l3bp.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -26213,7 +26213,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1149"
+          "Value": "1160"
         },
         {
           "Name": "Content-Type",
@@ -26221,11 +26221,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"XsxwooS2pUWCD0x9jhPZRNA5A4Z5kxyrQLE+a+uFCfU=\""
+          "Value": "\"RbXII8zuAbOLK2cITA4RclXAeMw4ddQNCtu2OtVgXF0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 05 May 2026 03:11:17 GMT"
+          "Value": "Tue, 05 May 2026 06:35:24 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -26243,7 +26243,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "myj9mdr11j"
+          "Value": "jszld5l3bp"
         },
         {
           "Name": "label",
@@ -26251,18 +26251,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-XsxwooS2pUWCD0x9jhPZRNA5A4Z5kxyrQLE+a+uFCfU="
+          "Value": "sha256-RbXII8zuAbOLK2cITA4RclXAeMw4ddQNCtu2OtVgXF0="
         }
       ]
     },
     {
       "Route": "main.html",
-      "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\ofhya28w84-vifv0kdsls.gz",
+      "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\ofhya28w84-n3xx25lf42.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001173708920"
+          "Quality": "0.001152073733"
         }
       ],
       "ResponseHeaders": [
@@ -26272,15 +26272,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "851"
+          "Value": "867"
         },
         {
           "Name": "ETag",
-          "Value": "\"f/c5rHAxznxrSpastBYI7ncOtgEPyQ2n+ubnKjrjgus=\""
+          "Value": "\"o5LlLmMTNm0H5buHEf7VcSQ4BxTY2jymOYdSyFi4YKE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 05 May 2026 03:11:17 GMT"
+          "Value": "Tue, 05 May 2026 06:35:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -26300,13 +26300,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"qf+cczMhOo+L+BFEgXAGiuruTkFP//743sGlnow0N3s=\""
+          "Value": "W/\"06tuVFWVds0MccD7QwqorBjcK8BfFew+cJ+fyJdEYWE=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-qf+cczMhOo+L+BFEgXAGiuruTkFP//743sGlnow0N3s="
+          "Value": "sha256-06tuVFWVds0MccD7QwqorBjcK8BfFew+cJ+fyJdEYWE="
         }
       ]
     },
@@ -26321,7 +26321,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1668"
+          "Value": "1679"
         },
         {
           "Name": "Content-Type",
@@ -26329,11 +26329,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"qf+cczMhOo+L+BFEgXAGiuruTkFP//743sGlnow0N3s=\""
+          "Value": "\"06tuVFWVds0MccD7QwqorBjcK8BfFew+cJ+fyJdEYWE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 05 May 2026 03:11:17 GMT"
+          "Value": "Tue, 05 May 2026 06:35:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -26343,13 +26343,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-qf+cczMhOo+L+BFEgXAGiuruTkFP//743sGlnow0N3s="
+          "Value": "sha256-06tuVFWVds0MccD7QwqorBjcK8BfFew+cJ+fyJdEYWE="
         }
       ]
     },
     {
       "Route": "main.html.gz",
-      "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\ofhya28w84-vifv0kdsls.gz",
+      "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\ofhya28w84-n3xx25lf42.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -26358,7 +26358,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "851"
+          "Value": "867"
         },
         {
           "Name": "Content-Type",
@@ -26366,11 +26366,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"f/c5rHAxznxrSpastBYI7ncOtgEPyQ2n+ubnKjrjgus=\""
+          "Value": "\"o5LlLmMTNm0H5buHEf7VcSQ4BxTY2jymOYdSyFi4YKE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 05 May 2026 03:11:17 GMT"
+          "Value": "Tue, 05 May 2026 06:35:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -26388,18 +26388,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-f/c5rHAxznxrSpastBYI7ncOtgEPyQ2n+ubnKjrjgus="
+          "Value": "sha256-o5LlLmMTNm0H5buHEf7VcSQ4BxTY2jymOYdSyFi4YKE="
         }
       ]
     },
     {
-      "Route": "main.vifv0kdsls.html",
-      "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\ofhya28w84-vifv0kdsls.gz",
+      "Route": "main.n3xx25lf42.html",
+      "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\ofhya28w84-n3xx25lf42.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001173708920"
+          "Quality": "0.001152073733"
         }
       ],
       "ResponseHeaders": [
@@ -26409,15 +26409,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "851"
+          "Value": "867"
         },
         {
           "Name": "ETag",
-          "Value": "\"f/c5rHAxznxrSpastBYI7ncOtgEPyQ2n+ubnKjrjgus=\""
+          "Value": "\"o5LlLmMTNm0H5buHEf7VcSQ4BxTY2jymOYdSyFi4YKE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 05 May 2026 03:11:17 GMT"
+          "Value": "Tue, 05 May 2026 06:35:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -26437,13 +26437,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"qf+cczMhOo+L+BFEgXAGiuruTkFP//743sGlnow0N3s=\""
+          "Value": "W/\"06tuVFWVds0MccD7QwqorBjcK8BfFew+cJ+fyJdEYWE=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "vifv0kdsls"
+          "Value": "n3xx25lf42"
         },
         {
           "Name": "label",
@@ -26451,12 +26451,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-qf+cczMhOo+L+BFEgXAGiuruTkFP//743sGlnow0N3s="
+          "Value": "sha256-06tuVFWVds0MccD7QwqorBjcK8BfFew+cJ+fyJdEYWE="
         }
       ]
     },
     {
-      "Route": "main.vifv0kdsls.html",
+      "Route": "main.n3xx25lf42.html",
       "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\wwwroot\\main.html",
       "Selectors": [],
       "ResponseHeaders": [
@@ -26466,7 +26466,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1668"
+          "Value": "1679"
         },
         {
           "Name": "Content-Type",
@@ -26474,11 +26474,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"qf+cczMhOo+L+BFEgXAGiuruTkFP//743sGlnow0N3s=\""
+          "Value": "\"06tuVFWVds0MccD7QwqorBjcK8BfFew+cJ+fyJdEYWE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 05 May 2026 03:11:17 GMT"
+          "Value": "Tue, 05 May 2026 06:35:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -26488,7 +26488,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "vifv0kdsls"
+          "Value": "n3xx25lf42"
         },
         {
           "Name": "label",
@@ -26496,13 +26496,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-qf+cczMhOo+L+BFEgXAGiuruTkFP//743sGlnow0N3s="
+          "Value": "sha256-06tuVFWVds0MccD7QwqorBjcK8BfFew+cJ+fyJdEYWE="
         }
       ]
     },
     {
-      "Route": "main.vifv0kdsls.html.gz",
-      "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\ofhya28w84-vifv0kdsls.gz",
+      "Route": "main.n3xx25lf42.html.gz",
+      "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\ofhya28w84-n3xx25lf42.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -26511,7 +26511,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "851"
+          "Value": "867"
         },
         {
           "Name": "Content-Type",
@@ -26519,11 +26519,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"f/c5rHAxznxrSpastBYI7ncOtgEPyQ2n+ubnKjrjgus=\""
+          "Value": "\"o5LlLmMTNm0H5buHEf7VcSQ4BxTY2jymOYdSyFi4YKE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 05 May 2026 03:11:17 GMT"
+          "Value": "Tue, 05 May 2026 06:35:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -26541,7 +26541,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "vifv0kdsls"
+          "Value": "n3xx25lf42"
         },
         {
           "Name": "label",
@@ -26549,7 +26549,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-f/c5rHAxznxrSpastBYI7ncOtgEPyQ2n+ubnKjrjgus="
+          "Value": "sha256-o5LlLmMTNm0H5buHEf7VcSQ4BxTY2jymOYdSyFi4YKE="
         }
       ]
     },
@@ -26853,12 +26853,12 @@
     },
     {
       "Route": "reports.html",
-      "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\msfziu6qho-j90m23xmwr.gz",
+      "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\msfziu6qho-llz8mbxghk.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000230786984"
+          "Quality": "0.000229832222"
         }
       ],
       "ResponseHeaders": [
@@ -26868,15 +26868,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4332"
+          "Value": "4350"
         },
         {
           "Name": "ETag",
-          "Value": "\"N6wNAt0pxh93UzRzqeYaTJpZjb8zRydt7+nVASV7RIc=\""
+          "Value": "\"/7fasd7B3vO6dQM2bviymd+zwNFxuHyfghlAx2phlkE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 05 May 2026 03:11:17 GMT"
+          "Value": "Tue, 05 May 2026 06:35:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -26896,13 +26896,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"12gZ6k9VKvY5QFNRCt9DskhsGl9tcj/Qwe7m34VrNFI=\""
+          "Value": "W/\"OVhlOAvQhL5CF71QdoCqfK43Hs9OADgo1WK6Qd/dzOg=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-12gZ6k9VKvY5QFNRCt9DskhsGl9tcj/Qwe7m34VrNFI="
+          "Value": "sha256-OVhlOAvQhL5CF71QdoCqfK43Hs9OADgo1WK6Qd/dzOg="
         }
       ]
     },
@@ -26917,7 +26917,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "17446"
+          "Value": "17457"
         },
         {
           "Name": "Content-Type",
@@ -26925,11 +26925,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"12gZ6k9VKvY5QFNRCt9DskhsGl9tcj/Qwe7m34VrNFI=\""
+          "Value": "\"OVhlOAvQhL5CF71QdoCqfK43Hs9OADgo1WK6Qd/dzOg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 05 May 2026 03:11:17 GMT"
+          "Value": "Tue, 05 May 2026 06:35:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -26939,13 +26939,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-12gZ6k9VKvY5QFNRCt9DskhsGl9tcj/Qwe7m34VrNFI="
+          "Value": "sha256-OVhlOAvQhL5CF71QdoCqfK43Hs9OADgo1WK6Qd/dzOg="
         }
       ]
     },
     {
       "Route": "reports.html.gz",
-      "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\msfziu6qho-j90m23xmwr.gz",
+      "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\msfziu6qho-llz8mbxghk.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -26954,7 +26954,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4332"
+          "Value": "4350"
         },
         {
           "Name": "Content-Type",
@@ -26962,11 +26962,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"N6wNAt0pxh93UzRzqeYaTJpZjb8zRydt7+nVASV7RIc=\""
+          "Value": "\"/7fasd7B3vO6dQM2bviymd+zwNFxuHyfghlAx2phlkE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 05 May 2026 03:11:17 GMT"
+          "Value": "Tue, 05 May 2026 06:35:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -26984,18 +26984,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-N6wNAt0pxh93UzRzqeYaTJpZjb8zRydt7+nVASV7RIc="
+          "Value": "sha256-/7fasd7B3vO6dQM2bviymd+zwNFxuHyfghlAx2phlkE="
         }
       ]
     },
     {
-      "Route": "reports.j90m23xmwr.html",
-      "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\msfziu6qho-j90m23xmwr.gz",
+      "Route": "reports.llz8mbxghk.html",
+      "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\msfziu6qho-llz8mbxghk.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000230786984"
+          "Quality": "0.000229832222"
         }
       ],
       "ResponseHeaders": [
@@ -27005,15 +27005,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4332"
+          "Value": "4350"
         },
         {
           "Name": "ETag",
-          "Value": "\"N6wNAt0pxh93UzRzqeYaTJpZjb8zRydt7+nVASV7RIc=\""
+          "Value": "\"/7fasd7B3vO6dQM2bviymd+zwNFxuHyfghlAx2phlkE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 05 May 2026 03:11:17 GMT"
+          "Value": "Tue, 05 May 2026 06:35:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -27033,13 +27033,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"12gZ6k9VKvY5QFNRCt9DskhsGl9tcj/Qwe7m34VrNFI=\""
+          "Value": "W/\"OVhlOAvQhL5CF71QdoCqfK43Hs9OADgo1WK6Qd/dzOg=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "j90m23xmwr"
+          "Value": "llz8mbxghk"
         },
         {
           "Name": "label",
@@ -27047,12 +27047,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-12gZ6k9VKvY5QFNRCt9DskhsGl9tcj/Qwe7m34VrNFI="
+          "Value": "sha256-OVhlOAvQhL5CF71QdoCqfK43Hs9OADgo1WK6Qd/dzOg="
         }
       ]
     },
     {
-      "Route": "reports.j90m23xmwr.html",
+      "Route": "reports.llz8mbxghk.html",
       "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\wwwroot\\reports.html",
       "Selectors": [],
       "ResponseHeaders": [
@@ -27062,7 +27062,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "17446"
+          "Value": "17457"
         },
         {
           "Name": "Content-Type",
@@ -27070,11 +27070,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"12gZ6k9VKvY5QFNRCt9DskhsGl9tcj/Qwe7m34VrNFI=\""
+          "Value": "\"OVhlOAvQhL5CF71QdoCqfK43Hs9OADgo1WK6Qd/dzOg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 05 May 2026 03:11:17 GMT"
+          "Value": "Tue, 05 May 2026 06:35:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -27084,7 +27084,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "j90m23xmwr"
+          "Value": "llz8mbxghk"
         },
         {
           "Name": "label",
@@ -27092,13 +27092,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-12gZ6k9VKvY5QFNRCt9DskhsGl9tcj/Qwe7m34VrNFI="
+          "Value": "sha256-OVhlOAvQhL5CF71QdoCqfK43Hs9OADgo1WK6Qd/dzOg="
         }
       ]
     },
     {
-      "Route": "reports.j90m23xmwr.html.gz",
-      "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\msfziu6qho-j90m23xmwr.gz",
+      "Route": "reports.llz8mbxghk.html.gz",
+      "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\msfziu6qho-llz8mbxghk.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -27107,7 +27107,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4332"
+          "Value": "4350"
         },
         {
           "Name": "Content-Type",
@@ -27115,11 +27115,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"N6wNAt0pxh93UzRzqeYaTJpZjb8zRydt7+nVASV7RIc=\""
+          "Value": "\"/7fasd7B3vO6dQM2bviymd+zwNFxuHyfghlAx2phlkE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 05 May 2026 03:11:17 GMT"
+          "Value": "Tue, 05 May 2026 06:35:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -27137,7 +27137,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "j90m23xmwr"
+          "Value": "llz8mbxghk"
         },
         {
           "Name": "label",
@@ -27145,7 +27145,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-N6wNAt0pxh93UzRzqeYaTJpZjb8zRydt7+nVASV7RIc="
+          "Value": "sha256-/7fasd7B3vO6dQM2bviymd+zwNFxuHyfghlAx2phlkE="
         }
       ]
     },
@@ -27314,13 +27314,13 @@
       ]
     },
     {
-      "Route": "schedule.e7h2ks07dh.html",
-      "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\wbkdbwljak-e7h2ks07dh.gz",
+      "Route": "schedule.html",
+      "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\wbkdbwljak-ua6sagrmq7.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000487804878"
+          "Quality": "0.000484730974"
         }
       ],
       "ResponseHeaders": [
@@ -27330,19 +27330,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2049"
+          "Value": "2062"
         },
         {
           "Name": "ETag",
-          "Value": "\"uv4BM15D2dukB+BU7brmqxz79pKWv7pejmxYxXYSJpc=\""
+          "Value": "\"0Xlro+8Dja1J3MX285L3x/fPFBXNk3qtqkcfv/0OCbk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 05 May 2026 03:11:17 GMT"
+          "Value": "Tue, 05 May 2026 06:35:41 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -27358,26 +27358,18 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"ZvgOhU1W65WwKLKkshtqz8lX10VxZK9kTwmN463tHNU=\""
+          "Value": "W/\"GjdLYGeS4nX8cSL6mUVesK4g7eNfBRPdgPbAvpnD8N8=\""
         }
       ],
       "EndpointProperties": [
         {
-          "Name": "fingerprint",
-          "Value": "e7h2ks07dh"
-        },
-        {
-          "Name": "label",
-          "Value": "schedule.html"
-        },
-        {
           "Name": "integrity",
-          "Value": "sha256-ZvgOhU1W65WwKLKkshtqz8lX10VxZK9kTwmN463tHNU="
+          "Value": "sha256-GjdLYGeS4nX8cSL6mUVesK4g7eNfBRPdgPbAvpnD8N8="
         }
       ]
     },
     {
-      "Route": "schedule.e7h2ks07dh.html",
+      "Route": "schedule.html",
       "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\wwwroot\\schedule.html",
       "Selectors": [],
       "ResponseHeaders": [
@@ -27387,7 +27379,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "6697"
+          "Value": "6708"
         },
         {
           "Name": "Content-Type",
@@ -27395,11 +27387,156 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ZvgOhU1W65WwKLKkshtqz8lX10VxZK9kTwmN463tHNU=\""
+          "Value": "\"GjdLYGeS4nX8cSL6mUVesK4g7eNfBRPdgPbAvpnD8N8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 05 May 2026 03:11:17 GMT"
+          "Value": "Tue, 05 May 2026 06:35:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-GjdLYGeS4nX8cSL6mUVesK4g7eNfBRPdgPbAvpnD8N8="
+        }
+      ]
+    },
+    {
+      "Route": "schedule.html.gz",
+      "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\wbkdbwljak-ua6sagrmq7.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2062"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0Xlro+8Dja1J3MX285L3x/fPFBXNk3qtqkcfv/0OCbk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 05 May 2026 06:35:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-0Xlro+8Dja1J3MX285L3x/fPFBXNk3qtqkcfv/0OCbk="
+        }
+      ]
+    },
+    {
+      "Route": "schedule.ua6sagrmq7.html",
+      "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\wbkdbwljak-ua6sagrmq7.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000484730974"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2062"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0Xlro+8Dja1J3MX285L3x/fPFBXNk3qtqkcfv/0OCbk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 05 May 2026 06:35:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"GjdLYGeS4nX8cSL6mUVesK4g7eNfBRPdgPbAvpnD8N8=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ua6sagrmq7"
+        },
+        {
+          "Name": "label",
+          "Value": "schedule.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-GjdLYGeS4nX8cSL6mUVesK4g7eNfBRPdgPbAvpnD8N8="
+        }
+      ]
+    },
+    {
+      "Route": "schedule.ua6sagrmq7.html",
+      "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\wwwroot\\schedule.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6708"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GjdLYGeS4nX8cSL6mUVesK4g7eNfBRPdgPbAvpnD8N8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 05 May 2026 06:35:41 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -27409,7 +27546,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "e7h2ks07dh"
+          "Value": "ua6sagrmq7"
         },
         {
           "Name": "label",
@@ -27417,13 +27554,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-ZvgOhU1W65WwKLKkshtqz8lX10VxZK9kTwmN463tHNU="
+          "Value": "sha256-GjdLYGeS4nX8cSL6mUVesK4g7eNfBRPdgPbAvpnD8N8="
         }
       ]
     },
     {
-      "Route": "schedule.e7h2ks07dh.html.gz",
-      "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\wbkdbwljak-e7h2ks07dh.gz",
+      "Route": "schedule.ua6sagrmq7.html.gz",
+      "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\wbkdbwljak-ua6sagrmq7.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -27432,7 +27569,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2049"
+          "Value": "2062"
         },
         {
           "Name": "Content-Type",
@@ -27440,11 +27577,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"uv4BM15D2dukB+BU7brmqxz79pKWv7pejmxYxXYSJpc=\""
+          "Value": "\"0Xlro+8Dja1J3MX285L3x/fPFBXNk3qtqkcfv/0OCbk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 05 May 2026 03:11:17 GMT"
+          "Value": "Tue, 05 May 2026 06:35:41 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -27462,7 +27599,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "e7h2ks07dh"
+          "Value": "ua6sagrmq7"
         },
         {
           "Name": "label",
@@ -27470,18 +27607,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-uv4BM15D2dukB+BU7brmqxz79pKWv7pejmxYxXYSJpc="
+          "Value": "sha256-0Xlro+8Dja1J3MX285L3x/fPFBXNk3qtqkcfv/0OCbk="
         }
       ]
     },
     {
-      "Route": "schedule.html",
-      "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\wbkdbwljak-e7h2ks07dh.gz",
+      "Route": "schedule-details.da3bui38pa.html",
+      "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\av0kdzdnem-da3bui38pa.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000487804878"
+          "Quality": "0.000770416025"
         }
       ],
       "ResponseHeaders": [
@@ -27491,19 +27628,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2049"
+          "Value": "1297"
         },
         {
           "Name": "ETag",
-          "Value": "\"uv4BM15D2dukB+BU7brmqxz79pKWv7pejmxYxXYSJpc=\""
+          "Value": "\"emmwbABIFaqKAyzIp9EySvpxfpMhBFeQ93PwIaV4Lxs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 05 May 2026 03:11:17 GMT"
+          "Value": "Tue, 05 May 2026 06:35:44 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "no-cache"
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Encoding",
@@ -27519,155 +27656,26 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"ZvgOhU1W65WwKLKkshtqz8lX10VxZK9kTwmN463tHNU=\""
+          "Value": "W/\"m4S3XFXQIvXqJN7Xngb7b1GXZ3MOKa2flRRDENeCxY0=\""
         }
       ],
       "EndpointProperties": [
         {
+          "Name": "fingerprint",
+          "Value": "da3bui38pa"
+        },
+        {
+          "Name": "label",
+          "Value": "schedule-details.html"
+        },
+        {
           "Name": "integrity",
-          "Value": "sha256-ZvgOhU1W65WwKLKkshtqz8lX10VxZK9kTwmN463tHNU="
+          "Value": "sha256-m4S3XFXQIvXqJN7Xngb7b1GXZ3MOKa2flRRDENeCxY0="
         }
       ]
     },
     {
-      "Route": "schedule.html",
-      "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\wwwroot\\schedule.html",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "6697"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"ZvgOhU1W65WwKLKkshtqz8lX10VxZK9kTwmN463tHNU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 05 May 2026 03:11:17 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-ZvgOhU1W65WwKLKkshtqz8lX10VxZK9kTwmN463tHNU="
-        }
-      ]
-    },
-    {
-      "Route": "schedule.html.gz",
-      "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\wbkdbwljak-e7h2ks07dh.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2049"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"uv4BM15D2dukB+BU7brmqxz79pKWv7pejmxYxXYSJpc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 05 May 2026 03:11:17 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-uv4BM15D2dukB+BU7brmqxz79pKWv7pejmxYxXYSJpc="
-        }
-      ]
-    },
-    {
-      "Route": "schedule-details.html",
-      "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\av0kdzdnem-jk91sg0voj.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000778210117"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1284"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Hhx3/VOpcNVqls02Lwe15Sw3futx143RYmBTZs1+lIc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 05 May 2026 03:11:17 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"s4ImzV71EBY1MMsKpifzMS22v/AbGDoTqAsH/Waa3Hc=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-s4ImzV71EBY1MMsKpifzMS22v/AbGDoTqAsH/Waa3Hc="
-        }
-      ]
-    },
-    {
-      "Route": "schedule-details.html",
+      "Route": "schedule-details.da3bui38pa.html",
       "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\wwwroot\\schedule-details.html",
       "Selectors": [],
       "ResponseHeaders": [
@@ -27677,7 +27685,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3413"
+          "Value": "3424"
         },
         {
           "Name": "Content-Type",
@@ -27685,121 +27693,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"s4ImzV71EBY1MMsKpifzMS22v/AbGDoTqAsH/Waa3Hc=\""
+          "Value": "\"m4S3XFXQIvXqJN7Xngb7b1GXZ3MOKa2flRRDENeCxY0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 05 May 2026 03:11:17 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-s4ImzV71EBY1MMsKpifzMS22v/AbGDoTqAsH/Waa3Hc="
-        }
-      ]
-    },
-    {
-      "Route": "schedule-details.html.gz",
-      "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\av0kdzdnem-jk91sg0voj.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1284"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Hhx3/VOpcNVqls02Lwe15Sw3futx143RYmBTZs1+lIc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 05 May 2026 03:11:17 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-Hhx3/VOpcNVqls02Lwe15Sw3futx143RYmBTZs1+lIc="
-        }
-      ]
-    },
-    {
-      "Route": "schedule-details.jk91sg0voj.html",
-      "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\av0kdzdnem-jk91sg0voj.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000778210117"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1284"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Hhx3/VOpcNVqls02Lwe15Sw3futx143RYmBTZs1+lIc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 05 May 2026 03:11:17 GMT"
+          "Value": "Tue, 05 May 2026 06:35:44 GMT"
         },
         {
           "Name": "Cache-Control",
           "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"s4ImzV71EBY1MMsKpifzMS22v/AbGDoTqAsH/Waa3Hc=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "jk91sg0voj"
+          "Value": "da3bui38pa"
         },
         {
           "Name": "label",
@@ -27807,13 +27715,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-s4ImzV71EBY1MMsKpifzMS22v/AbGDoTqAsH/Waa3Hc="
+          "Value": "sha256-m4S3XFXQIvXqJN7Xngb7b1GXZ3MOKa2flRRDENeCxY0="
         }
       ]
     },
     {
-      "Route": "schedule-details.jk91sg0voj.html",
-      "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\wwwroot\\schedule-details.html",
+      "Route": "schedule-details.da3bui38pa.html.gz",
+      "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\av0kdzdnem-da3bui38pa.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -27822,7 +27730,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3413"
+          "Value": "1297"
         },
         {
           "Name": "Content-Type",
@@ -27830,56 +27738,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"s4ImzV71EBY1MMsKpifzMS22v/AbGDoTqAsH/Waa3Hc=\""
+          "Value": "\"emmwbABIFaqKAyzIp9EySvpxfpMhBFeQ93PwIaV4Lxs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 05 May 2026 03:11:17 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "jk91sg0voj"
-        },
-        {
-          "Name": "label",
-          "Value": "schedule-details.html"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-s4ImzV71EBY1MMsKpifzMS22v/AbGDoTqAsH/Waa3Hc="
-        }
-      ]
-    },
-    {
-      "Route": "schedule-details.jk91sg0voj.html.gz",
-      "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\av0kdzdnem-jk91sg0voj.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1284"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Hhx3/VOpcNVqls02Lwe15Sw3futx143RYmBTZs1+lIc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 05 May 2026 03:11:17 GMT"
+          "Value": "Tue, 05 May 2026 06:35:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -27897,7 +27760,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "jk91sg0voj"
+          "Value": "da3bui38pa"
         },
         {
           "Name": "label",
@@ -27905,18 +27768,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Hhx3/VOpcNVqls02Lwe15Sw3futx143RYmBTZs1+lIc="
+          "Value": "sha256-emmwbABIFaqKAyzIp9EySvpxfpMhBFeQ93PwIaV4Lxs="
         }
       ]
     },
     {
-      "Route": "shipments.6a398r1wuy.html",
-      "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\rpq38bah7j-6a398r1wuy.gz",
+      "Route": "schedule-details.html",
+      "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\av0kdzdnem-da3bui38pa.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000905797101"
+          "Quality": "0.000770416025"
         }
       ],
       "ResponseHeaders": [
@@ -27926,15 +27789,152 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1103"
+          "Value": "1297"
         },
         {
           "Name": "ETag",
-          "Value": "\"msWopkjfIKv7fWEhO67NSFpovZZIfstfaU1Wq66PMr8=\""
+          "Value": "\"emmwbABIFaqKAyzIp9EySvpxfpMhBFeQ93PwIaV4Lxs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 05 May 2026 03:11:17 GMT"
+          "Value": "Tue, 05 May 2026 06:35:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"m4S3XFXQIvXqJN7Xngb7b1GXZ3MOKa2flRRDENeCxY0=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-m4S3XFXQIvXqJN7Xngb7b1GXZ3MOKa2flRRDENeCxY0="
+        }
+      ]
+    },
+    {
+      "Route": "schedule-details.html",
+      "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\wwwroot\\schedule-details.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3424"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"m4S3XFXQIvXqJN7Xngb7b1GXZ3MOKa2flRRDENeCxY0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 05 May 2026 06:35:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-m4S3XFXQIvXqJN7Xngb7b1GXZ3MOKa2flRRDENeCxY0="
+        }
+      ]
+    },
+    {
+      "Route": "schedule-details.html.gz",
+      "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\av0kdzdnem-da3bui38pa.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1297"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"emmwbABIFaqKAyzIp9EySvpxfpMhBFeQ93PwIaV4Lxs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 05 May 2026 06:35:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-emmwbABIFaqKAyzIp9EySvpxfpMhBFeQ93PwIaV4Lxs="
+        }
+      ]
+    },
+    {
+      "Route": "shipments.aw4lyzgvk2.html",
+      "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\rpq38bah7j-aw4lyzgvk2.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000893655049"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1118"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qg35eP6yy9aT17igvWCoAK0FuX95iptRo3vrZsKIihI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 05 May 2026 06:35:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -27954,13 +27954,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"IiMQiFf2BRjJNR3L28Pm1vuAolz5ryG5k4W0m0MNV18=\""
+          "Value": "W/\"CpoxTnqUJHFiDQEkVqlYmKi8zzCMoD4y6lMr1mdoB0A=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "6a398r1wuy"
+          "Value": "aw4lyzgvk2"
         },
         {
           "Name": "label",
@@ -27968,12 +27968,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-IiMQiFf2BRjJNR3L28Pm1vuAolz5ryG5k4W0m0MNV18="
+          "Value": "sha256-CpoxTnqUJHFiDQEkVqlYmKi8zzCMoD4y6lMr1mdoB0A="
         }
       ]
     },
     {
-      "Route": "shipments.6a398r1wuy.html",
+      "Route": "shipments.aw4lyzgvk2.html",
       "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\wwwroot\\shipments.html",
       "Selectors": [],
       "ResponseHeaders": [
@@ -27983,7 +27983,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2902"
+          "Value": "2913"
         },
         {
           "Name": "Content-Type",
@@ -27991,11 +27991,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"IiMQiFf2BRjJNR3L28Pm1vuAolz5ryG5k4W0m0MNV18=\""
+          "Value": "\"CpoxTnqUJHFiDQEkVqlYmKi8zzCMoD4y6lMr1mdoB0A=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 05 May 2026 03:11:17 GMT"
+          "Value": "Tue, 05 May 2026 06:35:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -28005,7 +28005,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "6a398r1wuy"
+          "Value": "aw4lyzgvk2"
         },
         {
           "Name": "label",
@@ -28013,13 +28013,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-IiMQiFf2BRjJNR3L28Pm1vuAolz5ryG5k4W0m0MNV18="
+          "Value": "sha256-CpoxTnqUJHFiDQEkVqlYmKi8zzCMoD4y6lMr1mdoB0A="
         }
       ]
     },
     {
-      "Route": "shipments.6a398r1wuy.html.gz",
-      "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\rpq38bah7j-6a398r1wuy.gz",
+      "Route": "shipments.aw4lyzgvk2.html.gz",
+      "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\rpq38bah7j-aw4lyzgvk2.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -28028,7 +28028,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1103"
+          "Value": "1118"
         },
         {
           "Name": "Content-Type",
@@ -28036,11 +28036,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"msWopkjfIKv7fWEhO67NSFpovZZIfstfaU1Wq66PMr8=\""
+          "Value": "\"qg35eP6yy9aT17igvWCoAK0FuX95iptRo3vrZsKIihI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 05 May 2026 03:11:17 GMT"
+          "Value": "Tue, 05 May 2026 06:35:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -28058,7 +28058,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "6a398r1wuy"
+          "Value": "aw4lyzgvk2"
         },
         {
           "Name": "label",
@@ -28066,18 +28066,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-msWopkjfIKv7fWEhO67NSFpovZZIfstfaU1Wq66PMr8="
+          "Value": "sha256-qg35eP6yy9aT17igvWCoAK0FuX95iptRo3vrZsKIihI="
         }
       ]
     },
     {
       "Route": "shipments.html",
-      "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\rpq38bah7j-6a398r1wuy.gz",
+      "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\rpq38bah7j-aw4lyzgvk2.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000905797101"
+          "Quality": "0.000893655049"
         }
       ],
       "ResponseHeaders": [
@@ -28087,15 +28087,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1103"
+          "Value": "1118"
         },
         {
           "Name": "ETag",
-          "Value": "\"msWopkjfIKv7fWEhO67NSFpovZZIfstfaU1Wq66PMr8=\""
+          "Value": "\"qg35eP6yy9aT17igvWCoAK0FuX95iptRo3vrZsKIihI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 05 May 2026 03:11:17 GMT"
+          "Value": "Tue, 05 May 2026 06:35:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -28115,13 +28115,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"IiMQiFf2BRjJNR3L28Pm1vuAolz5ryG5k4W0m0MNV18=\""
+          "Value": "W/\"CpoxTnqUJHFiDQEkVqlYmKi8zzCMoD4y6lMr1mdoB0A=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-IiMQiFf2BRjJNR3L28Pm1vuAolz5ryG5k4W0m0MNV18="
+          "Value": "sha256-CpoxTnqUJHFiDQEkVqlYmKi8zzCMoD4y6lMr1mdoB0A="
         }
       ]
     },
@@ -28136,7 +28136,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2902"
+          "Value": "2913"
         },
         {
           "Name": "Content-Type",
@@ -28144,11 +28144,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"IiMQiFf2BRjJNR3L28Pm1vuAolz5ryG5k4W0m0MNV18=\""
+          "Value": "\"CpoxTnqUJHFiDQEkVqlYmKi8zzCMoD4y6lMr1mdoB0A=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 05 May 2026 03:11:17 GMT"
+          "Value": "Tue, 05 May 2026 06:35:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -28158,13 +28158,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-IiMQiFf2BRjJNR3L28Pm1vuAolz5ryG5k4W0m0MNV18="
+          "Value": "sha256-CpoxTnqUJHFiDQEkVqlYmKi8zzCMoD4y6lMr1mdoB0A="
         }
       ]
     },
     {
       "Route": "shipments.html.gz",
-      "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\rpq38bah7j-6a398r1wuy.gz",
+      "AssetFile": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\obj\\Debug\\net9.0\\compressed\\rpq38bah7j-aw4lyzgvk2.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -28173,7 +28173,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1103"
+          "Value": "1118"
         },
         {
           "Name": "Content-Type",
@@ -28181,11 +28181,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"msWopkjfIKv7fWEhO67NSFpovZZIfstfaU1Wq66PMr8=\""
+          "Value": "\"qg35eP6yy9aT17igvWCoAK0FuX95iptRo3vrZsKIihI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 05 May 2026 03:11:17 GMT"
+          "Value": "Tue, 05 May 2026 06:35:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -28203,7 +28203,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-msWopkjfIKv7fWEhO67NSFpovZZIfstfaU1Wq66PMr8="
+          "Value": "sha256-qg35eP6yy9aT17igvWCoAK0FuX95iptRo3vrZsKIihI="
         }
       ]
     }
