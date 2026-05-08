@@ -1,0 +1,66 @@
+﻿@{
+    string NavActive(string pathPrefix)
+    {
+        var p = Context.Request.Path.Value ?? "";
+        return p.StartsWith(pathPrefix, StringComparison.OrdinalIgnoreCase) ? "active" : "";
+    }
+}
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] — ForecastApp1</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body class="bg-light">
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light app-navbar border-bottom mb-3">
+            <div class="container">
+                <a class="navbar-brand" asp-controller="Admin" asp-action="Index">ForecastApp1</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse"
+                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Меню">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1 flex-wrap">
+                        <li class="nav-item">
+                            <a class="nav-link @NavActive("/Admin")" asp-controller="Admin" asp-action="Index">Главная</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link @NavActive("/Dictionaries")" asp-controller="Dictionaries" asp-action="Index">Справочники</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="~/calculation.html">Расчёт</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link @NavActive("/Payments")" asp-controller="Payments" asp-action="Index">Платежи</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="~/reports.html">Отчёты</a>
+                        </li>
+                    </ul>
+                    <button type="button" class="btn btn-outline-secondary btn-sm" id="btnLogout">Выход</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main role="main" class="container pb-3">
+        @RenderBody()
+    </main>
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2026 — ForecastApp1 — прогноз платежей поставщикам
+        </div>
+    </footer>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script>
+        document.getElementById('btnLogout')?.addEventListener('click', function () {
+            fetch('/api/auth/logout', { method: 'POST', credentials: 'same-origin' }).finally(function () {
+                window.location.href = '/login.html';
+            });
+        });
+    </script>
+</body>
+</html>

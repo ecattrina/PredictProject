@@ -15,13 +15,10 @@ C:\всеподряд\уник\lbgkjv\Новый проект\ForecastApp1\wwwro
 C:\всеподряд\уник\lbgkjv\Новый проект\ForecastApp1\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map
 C:\всеподряд\уник\lbgkjv\Новый проект\ForecastApp1\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css
 C:\всеподряд\уник\lbgkjv\Новый проект\ForecastApp1\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
-C:\всеподряд\уник\lbgkjv\Новый проект\ForecastApp1\wwwroot\debts.html
-C:\всеподряд\уник\lbgkjv\Новый проект\ForecastApp1\wwwroot\rasschet.html
 C:\всеподряд\уник\lbgkjv\Новый проект\ForecastApp1\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css
 C:\всеподряд\уник\lbgkjv\Новый проект\ForecastApp1\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
 C:\всеподряд\уник\lbgkjv\Новый проект\ForecastApp1\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js
 C:\всеподряд\уник\lbgkjv\Новый проект\ForecastApp1\wwwroot\lib\jquery-validation\dist\additional-methods.js
-C:\всеподряд\уник\lbgkjv\Новый проект\ForecastApp1\wwwroot\schedule-details.html
 C:\всеподряд\уник\lbgkjv\Новый проект\ForecastApp1\wwwroot\css\site.css
 C:\всеподряд\уник\lbgkjv\Новый проект\ForecastApp1\wwwroot\lib\jquery-validation\dist\jquery.validate.js
 C:\всеподряд\уник\lbgkjv\Новый проект\ForecastApp1\wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.min.js
@@ -42,10 +39,8 @@ C:\всеподряд\уник\lbgkjv\Новый проект\ForecastApp1\wwwro
 C:\всеподряд\уник\lbgkjv\Новый проект\ForecastApp1\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
 C:\всеподряд\уник\lbgkjv\Новый проект\ForecastApp1\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css
 C:\всеподряд\уник\lbgkjv\Новый проект\ForecastApp1\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
-C:\всеподряд\уник\lbgkjv\Новый проект\ForecastApp1\wwwroot\add.html
 C:\всеподряд\уник\lbgkjv\Новый проект\ForecastApp1\wwwroot\lib\jquery-validation\dist\additional-methods.min.js
 C:\всеподряд\уник\lbgkjv\Новый проект\ForecastApp1\wwwroot\lib\jquery\dist\jquery.min.map
-C:\всеподряд\уник\lbgkjv\Новый проект\ForecastApp1\wwwroot\audit.html
 C:\всеподряд\уник\lbgkjv\Новый проект\ForecastApp1\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
 C:\всеподряд\уник\lbgkjv\Новый проект\ForecastApp1\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
 C:\всеподряд\уник\lbgkjv\Новый проект\ForecastApp1\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map
@@ -64,7 +59,6 @@ C:\всеподряд\уник\lbgkjv\Новый проект\ForecastApp1\wwwro
 C:\всеподряд\уник\lbgkjv\Новый проект\ForecastApp1\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
 C:\всеподряд\уник\lbgkjv\Новый проект\ForecastApp1\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
 C:\всеподряд\уник\lbgkjv\Новый проект\ForecastApp1\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map
-C:\всеподряд\уник\lbgkjv\Новый проект\ForecastApp1\wwwroot\shipments.html
 C:\всеподряд\уник\lbgkjv\Новый проект\ForecastApp1\wwwroot\import-preview.html
 C:\всеподряд\уник\lbgkjv\Новый проект\ForecastApp1\wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.js
 C:\всеподряд\уник\lbgkjv\Новый проект\ForecastApp1\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map
@@ -74,16 +68,11 @@ C:\всеподряд\уник\lbgkjv\Новый проект\ForecastApp1\wwwro
 C:\всеподряд\уник\lbgkjv\Новый проект\ForecastApp1\wwwroot\schedule.html
 C:\всеподряд\уник\lbgkjv\Новый проект\ForecastApp1\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
 C:\всеподряд\уник\lbgkjv\Новый проект\ForecastApp1\wwwroot\import.html
-C:\всеподряд\уник\lbgkjv\Новый проект\ForecastApp1\wwwroot\admin.html
 C:\всеподряд\уник\lbgkjv\Новый проект\ForecastApp1\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
 C:\всеподряд\уник\lbgkjv\Новый проект\ForecastApp1\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
 C:\всеподряд\уник\lbgkjv\Новый проект\ForecastApp1\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
-wwwroot\add.html
-wwwroot\admin.html
-wwwroot\audit.html
 wwwroot\calculation.html
 wwwroot\css\site.css
-wwwroot\debts.html
 wwwroot\dictionaries.html
 wwwroot\favicon.ico
 wwwroot\help.html
@@ -154,10 +143,7 @@ wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.min.j
 wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
 wwwroot\login.html
 wwwroot\main.html
-wwwroot\rasschet.html
 wwwroot\reports.html
 wwwroot\samples\primer_importa_platezhi.xlsx
 wwwroot\samples\test-import-sample.xlsx
 wwwroot\schedule.html
-wwwroot\schedule-details.html
-wwwroot\shipments.html

@@ -42,17 +42,25 @@
   </footer>
   <script src="/lib/jquery/dist/jquery.js"></script>
   <script src="/lib/bootstrap/dist/js/bootstrap.bundle.js"></script>
-  <script src="/js/api.js?v=20260505"></script>
   <script>
     document.getElementById('btn').onclick = async function () {
       var err = document.getElementById('err');
       err.style.display = 'none';
       try {
-        await api('/api/auth/login', {
+        const res = await fetch('/api/auth/login', {
           method: 'POST',
-          body: { email: email.value.trim(), password: password.value }
+          credentials: 'same-origin',
+          headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
+          body: JSON.stringify({ email: email.value.trim(), password: password.value })
         });
-        location.href = '/main.html';
+        const text = await res.text();
+        let data = null;
+        try { data = text ? JSON.parse(text) : null; } catch {}
+        if (!res.ok) {
+          const msg = (data && (data.message || data.title)) || text || 'Ошибка входа';
+          throw new Error(msg);
+        }
+        location.href = '/Admin';
       } catch (e) {
         err.textContent = e.message || 'Ошибка входа';
         err.style.display = 'block';

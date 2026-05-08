@@ -1,59 +1,5 @@
 ﻿<Project>
   <ItemGroup>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\add.html'))">
-      <SourceType>Package</SourceType>
-      <SourceId>ForecastApp1</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/ForecastApp1</BasePath>
-      <RelativePath>add.html</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>dtprxkv0yj</Fingerprint>
-      <Integrity>cTyHXc11ajEjEdngHqydejC0ZcOGkn6fApG1D3OodjA=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\add.html'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\admin.html'))">
-      <SourceType>Package</SourceType>
-      <SourceId>ForecastApp1</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/ForecastApp1</BasePath>
-      <RelativePath>admin.html</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>8ojadqgkt7</Fingerprint>
-      <Integrity>6Kiv/2KAtJiNzG7Q3VJwQzpffT3yW8pPc04fZ2DRLfY=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\admin.html'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\audit.html'))">
-      <SourceType>Package</SourceType>
-      <SourceId>ForecastApp1</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/ForecastApp1</BasePath>
-      <RelativePath>audit.html</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>00z7nbr64r</Fingerprint>
-      <Integrity>8F/kqpnZTrsViFwHvAMA8GkBPHbmdUHRDnPaEebnVec=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\audit.html'))</OriginalItemSpec>
-    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\calculation.html'))">
       <SourceType>Package</SourceType>
       <SourceId>ForecastApp1</SourceId>
@@ -66,8 +12,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>ku7uhud8zs</Fingerprint>
-      <Integrity>xMOOMcD9rcWx7QyitwluPE0qjV35gKK+ebyKyAAYscU=</Integrity>
+      <Fingerprint>s0yh81t1dv</Fingerprint>
+      <Integrity>hH2PViaIf3zB3oKaFoZE5LjdeGYjMOW4M1tfpWMLqMI=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\calculation.html'))</OriginalItemSpec>
@@ -90,24 +36,6 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\debts.html'))">
-      <SourceType>Package</SourceType>
-      <SourceId>ForecastApp1</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/ForecastApp1</BasePath>
-      <RelativePath>debts.html</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>iq2p6i8e7s</Fingerprint>
-      <Integrity>5tdN5fRl9Rn/2qwQDlP+UpgZ3V3mu09T8KyrItYmZZw=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\debts.html'))</OriginalItemSpec>
-    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\dictionaries.html'))">
       <SourceType>Package</SourceType>
       <SourceId>ForecastApp1</SourceId>
@@ -120,8 +48,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>uueb7gkvch</Fingerprint>
-      <Integrity>9sbsOP9q/Vkc03ZMe+/Aos1SbRP+8rqVduT2OZG2f0k=</Integrity>
+      <Fingerprint>nfb8yxyyeh</Fingerprint>
+      <Integrity>He4MhuGpfproWTk2+cKoY3F2PzzbX7Sd1gtiGt+DLBU=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\dictionaries.html'))</OriginalItemSpec>
@@ -174,8 +102,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>lrefx1cmrp</Fingerprint>
-      <Integrity>gZ0QTKKHYZgJH5j+kJ2K01PSGe+Vbrk0NfwqZ6h4slM=</Integrity>
+      <Fingerprint>lthi6zbwno</Fingerprint>
+      <Integrity>R/P/KL9bRxeTG86UEk2lc2+t7gCKxFZcQh2OdodrdQs=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\help.html'))</OriginalItemSpec>
@@ -192,8 +120,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>j0mc3h6vnu</Fingerprint>
-      <Integrity>jR5yQ09W51juNISFbIX+DbvWeyj3AwmnvocumJ6JALI=</Integrity>
+      <Fingerprint>h30llls85a</Fingerprint>
+      <Integrity>vVxt7GvNSfcoWQP83I40AQNhtJ8vZVOV8gaLfoTElnY=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\import.html'))</OriginalItemSpec>
@@ -210,8 +138,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>e5vuagr0pu</Fingerprint>
-      <Integrity>MjOYjwbEDJlbj1dW8FVQ0lAMlx59QpbT7U4ImkwzLYI=</Integrity>
+      <Fingerprint>6jmeu0u119</Fingerprint>
+      <Integrity>kmfiRDoXPJB12CIvc7sdEL24av/IHHj7Q391hwSmZc0=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\import-preview.html'))</OriginalItemSpec>
@@ -246,8 +174,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>0v6hsupw2s</Fingerprint>
-      <Integrity>/KCLWtUANbdxZR6FJjZrDy2mJ2e1fCsPkSSN6Er99m8=</Integrity>
+      <Fingerprint>qdpotr5a6t</Fingerprint>
+      <Integrity>fu/rA02LMPtLxBvDQzIg246g2ztjhzw0fcRxxJqz8oE=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\api.js'))</OriginalItemSpec>
@@ -1362,8 +1290,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>jszld5l3bp</Fingerprint>
-      <Integrity>cxkIytgLhFY6DmzHHo62TGZwqzCDMecOnCr0lVEoSSI=</Integrity>
+      <Fingerprint>boc75hvimf</Fingerprint>
+      <Integrity>67Tv7cLg1QBkbZN2hgYG5Ed5O6pdVN58GlXMuH46t9c=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\login.html'))</OriginalItemSpec>
@@ -1380,29 +1308,11 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>n3xx25lf42</Fingerprint>
-      <Integrity>06tuVFWVds0MccD7QwqorBjcK8BfFew+cJ+fyJdEYWE=</Integrity>
+      <Fingerprint>qoqflt1o70</Fingerprint>
+      <Integrity>JvIpg64bVwWR9J8Uzsx+xyOyPgcXfLcer6yGZDPKR7c=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\main.html'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\rasschet.html'))">
-      <SourceType>Package</SourceType>
-      <SourceId>ForecastApp1</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/ForecastApp1</BasePath>
-      <RelativePath>rasschet.html</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>6uvts9fx3z</Fingerprint>
-      <Integrity>btY5Pszzcl4bGEjbCp0yvlJ3rQ1AHDrCs0fVImQeeD4=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\rasschet.html'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\reports.html'))">
       <SourceType>Package</SourceType>
@@ -1416,8 +1326,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>df8t11616u</Fingerprint>
-      <Integrity>F0uwxmUQ/kfQhom3ge/9GMlv6cMlxu6/59kC4gYqdZM=</Integrity>
+      <Fingerprint>8bjm5mc777</Fingerprint>
+      <Integrity>RMiVRVExbL1S6e51CQvfzYbElm/c/OIokcV7n3PzeO0=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\reports.html'))</OriginalItemSpec>
@@ -1470,47 +1380,11 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>1wk0lmtj0l</Fingerprint>
-      <Integrity>P7kjbEkyApud/W2O1x8cy96hSnNPVxmW0qAX4I1dEzI=</Integrity>
+      <Fingerprint>fllxhp8hnp</Fingerprint>
+      <Integrity>bZ+kdiWBLX2x0HysFm8QsoJdpF0fwYGadXPNjsncOqk=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\schedule.html'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\schedule-details.html'))">
-      <SourceType>Package</SourceType>
-      <SourceId>ForecastApp1</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/ForecastApp1</BasePath>
-      <RelativePath>schedule-details.html</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>nvfsfyh0al</Fingerprint>
-      <Integrity>nXnzl54Qs4CmL10lJZCYjte6EgC862DHKuVCf5midgQ=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\schedule-details.html'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\shipments.html'))">
-      <SourceType>Package</SourceType>
-      <SourceId>ForecastApp1</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/ForecastApp1</BasePath>
-      <RelativePath>shipments.html</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>aw4lyzgvk2</Fingerprint>
-      <Integrity>CpoxTnqUJHFiDQEkVqlYmKi8zzCMoD4y6lMr1mdoB0A=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\shipments.html'))</OriginalItemSpec>
     </StaticWebAsset>
   </ItemGroup>
 </Project>

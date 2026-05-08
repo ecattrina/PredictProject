@@ -1,0 +1,43 @@
+@model ConditionFormModel
+@{
+    ViewData["Title"] = "Новое условие оплаты";
+    var contractOptions = ViewBag.ContractOptions as IEnumerable<Microsoft.AspNetCore.Mvc.Rendering.SelectListItem>;
+}
+
+<h1 class="mb-3">Новое условие оплаты</h1>
+
+<div class="card box-shadow">
+    <div class="card-body">
+        <form asp-action="Create" method="post">
+            @Html.AntiForgeryToken()
+            <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+            <div class="mb-3">
+                <label asp-for="ContractId" class="form-label"></label>
+                <select asp-for="ContractId" asp-items="contractOptions" class="form-select">
+                    <option value="">— выберите договор —</option>
+                </select>
+                <span asp-validation-for="ContractId" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="ValidFrom" class="form-label"></label>
+                <input asp-for="ValidFrom" class="form-control" type="date" />
+                <span asp-validation-for="ValidFrom" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="ValidTo" class="form-label"></label>
+                <input asp-for="ValidTo" class="form-control" type="date" />
+            </div>
+            <div class="mb-3">
+                <label asp-for="PaymentDelayDays" class="form-label"></label>
+                <input asp-for="PaymentDelayDays" class="form-control" type="number" min="0" />
+                <span asp-validation-for="PaymentDelayDays" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="Description" class="form-label"></label>
+                <textarea asp-for="Description" class="form-control" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Сохранить</button>
+            <a class="btn btn-outline-secondary" asp-action="Index">Отмена</a>
+        </form>
+    </div>
+</div>

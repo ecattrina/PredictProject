@@ -10,25 +10,34 @@
 <body>
   <script src="/lib/jquery/dist/jquery.js"></script>
   <script src="/lib/bootstrap/dist/js/bootstrap.bundle.js"></script>
-  <script src="/js/api.js?v=20260505"></script>
+  <script src="/js/api.js?v=20260508"></script>
   <script>document.write(layoutHeader('schedule.html'));</script>
   <main role="main" class="container pb-3">
     <h1 class="mb-3">График платежей</h1>
+    <p id="scopeHint" class="text-muted small mb-2"></p>
     <p class="text-muted small mb-3">
-      Здесь показан график по выбранному расчету.
-      В таблице: поставщик, договор, документ отгрузки, сумма к оплате, дата по договору, прогнозная дата платежа и предупреждения.
+      Здесь показан общий график по всем завершённым расчётам.
+      Строки отсортированы по прогнозной дате оплаты, доступен фильтр по поставщику.
       Сводные диаграммы находятся в разделе <a href="reports.html">Отчеты</a>.
     </p>
     <div id="msg" class="alert alert-danger" style="display: none" role="alert"></div>
 
     <div class="card box-shadow mb-3">
       <div class="card-body row g-2 align-items-end">
-        <div class="col-sm-5 col-md-4">
-          <label class="form-label">Номер расчета</label>
-          <input class="form-control" id="rid" type="number" placeholder="возьмите номер из раздела «Расчет»" />
+        <div class="col-sm-7 col-md-5">
+          <label class="form-label">Поставщик</label>
+          <select class="form-select" id="supplier">
+            <option value="">Все поставщики</option>
+          </select>
         </div>
         <div class="col-auto">
-          <button type="button" class="btn btn-primary" id="go">Загрузить</button>
+          <button type="button" class="btn btn-primary" id="go">Применить</button>
+        </div>
+        <div class="col-auto">
+          <button type="button" class="btn btn-outline-success" id="exportSchedule">Экспорт в Excel</button>
+        </div>
+        <div class="col-auto" id="clearRunWrap" style="display:none">
+          <a class="btn btn-outline-secondary" href="schedule.html">Сбросить фильтр расчёта</a>
         </div>
         <div class="col-auto">
           <a class="btn btn-outline-primary" id="toReports" href="reports.html">Отчёты с диаграммами</a>
@@ -108,23 +117,81 @@
       document.getElementById('sumLast').textContent = dates.length ? fmtDate(dates[dates.length - 1]) : '—';
     }
 
-    var q = new URLSearchParams(location.search).get('runId');
-    if (q) document.getElementById('rid').value = q;
-    if (!document.getElementById('rid').value) document.getElementById('rid').value = localStorage.getItem('lastRunId') || '';
+    var query = new URLSearchParams(window.location.search || '');
+    var runId = (query.get('runId') || '').trim();
+    var runRowsCache = null;
+    var currentRows = [];
+    var scopeHint = document.getElementById('scopeHint');
+    var clearRunWrap = document.getElementById('clearRunWrap');
+    if (runId) {
+      scopeHint.innerHTML =
+        'Применён фильтр: расчёт № <strong>' + runId + '</strong>. ' +
+        'Чтобы выбрать другой расчёт, перейдите в <a href="calculation.html">историю расчётов</a>.';
+      clearRunWrap.style.display = '';
+    } else {
+      scopeHint.innerHTML = 'Показаны платежи по всем завершённым расчётам.';
+    }
+
+    async function loadSuppliers() {
+      var sel = document.getElementById('supplier');
+      if (runId) {
+        if (!runRowsCache) {
+          runRowsCache = await api('/api/calculations/' + encodeURIComponent(runId) + '/schedule');
+        }
+        var bySupplier = new Map();
+        runRowsCache.forEach(function (r) {
+          var key = String(r.supplierId);
+          if (!bySupplier.has(key)) bySupplier.set(key, { id: r.supplierId, name: r.supplierName || '' });
+        });
+        var options = Array.from(bySupplier.values()).sort(function (a, b) {
+          return String(a.name).localeCompare(String(b.name), 'ru');
+        });
+        sel.innerHTML =
+          '<option value="">Все поставщики</option>' +
+          options
+            .map(function (s) {
+              return '<option value="' + s.id + '">' + s.name + '</option>';
+            })
+            .join('');
+        return;
+      }
+
+      var rows = await api('/api/suppliers');
+      sel.innerHTML =
+        '<option value="">Все поставщики</option>' +
+        rows
+          .map(function (s) {
+            return '<option value="' + s.id + '">' + s.supplierCode + ' — ' + s.name + '</option>';
+          })
+          .join('');
+    }
 
     async function load() {
       showErr('');
-      var id = document.getElementById('rid').value;
-      if (!id) {
-        showErr('Укажите номер расчёта.');
-        return;
+      var supplierId = document.getElementById('supplier').value;
+      var rows;
+      if (runId) {
+        if (!runRowsCache) {
+          runRowsCache = await api('/api/calculations/' + encodeURIComponent(runId) + '/schedule');
+        }
+        rows = runRowsCache.slice();
+        if (supplierId) {
+          rows = rows.filter(function (r) {
+            return String(r.supplierId) === String(supplierId);
+          });
+        }
+      } else {
+        var path = '/api/calculations/schedule' + (supplierId ? ('?supplierId=' + encodeURIComponent(supplierId)) : '');
+        rows = await api(path);
       }
-      var rows = await api('/api/calculations/' + id + '/schedule');
       updateSummary(rows);
+      currentRows = rows.slice();
 
       if (!rows.length) {
         document.getElementById('tbl').innerHTML =
-          '<p class="text-muted mb-0">Нет строк графика для этого расчёта.</p>';
+          '<p class="text-muted mb-0">' +
+          (supplierId ? 'Нет строк графика для выбранного поставщика в этом расчёте.' : 'Нет строк графика для этого расчёта.') +
+          '</p>';
         return;
       }
 
@@ -161,12 +228,39 @@
         document.getElementById('tbl').innerHTML = '';
       });
     };
-
-    if (document.getElementById('rid').value) {
-      load().catch(function (e) {
-        showErr(e.message);
+    document.getElementById('exportSchedule').onclick = function () {
+      if (!currentRows.length) {
+        showErr('Нет данных для экспорта.');
+        return;
+      }
+      var headers = [
+        'Расчёт',
+        'Дата по договору',
+        'Прогнозная дата платежа',
+        'Сумма к оплате',
+        'Поставщик',
+        'Договор',
+        'Документ отгрузки',
+        'Предупреждения'
+      ];
+      var rows = currentRows.map(function (r) {
+        return [
+          runId || 'все',
+          fmtDate(r.dueByCondition),
+          fmtDate(r.forecastPaymentDate),
+          Number(r.payAmount || 0),
+          r.supplierName || '',
+          r.contractNumber || '',
+          r.shipmentDocNumber || '',
+          r.warning || ''
+        ];
       });
-    }
+      var suffix = runId ? ('run-' + runId) : 'all';
+      exportCsv('schedule-' + suffix + '.csv', headers, rows);
+    };
+    loadSuppliers()
+      .then(function () { return load(); })
+      .catch(function (e) { showErr(e.message); });
   </script>
 </body>
 </html>

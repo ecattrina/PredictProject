@@ -12,7 +12,7 @@ namespace ForecastApp1.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]
-public class AuthController : ControllerBase
+public class AuthController : Controller
 {
     private readonly ApplicationDbContext _db;
     private readonly IPasswordService _passwords;
@@ -22,6 +22,10 @@ public class AuthController : ControllerBase
         _db = db;
         _passwords = passwords;
     }
+
+    [HttpGet("~/Auth/Login")]
+    [AllowAnonymous]
+    public IActionResult Login() => Redirect("/login.html");
 
     [HttpPost("login")]
     [AllowAnonymous]

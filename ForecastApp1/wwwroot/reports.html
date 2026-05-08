@@ -10,7 +10,7 @@
 <body>
   <script src="/lib/jquery/dist/jquery.js"></script>
   <script src="/lib/bootstrap/dist/js/bootstrap.bundle.js"></script>
-  <script src="/js/api.js?v=20260505"></script>
+  <script src="/js/api.js?v=20260508"></script>
   <script>document.write(layoutHeader('reports.html'));</script>
   <main role="main" class="container pb-3">
     <h1 class="mb-3">Отчёты и диаграммы</h1>
@@ -25,14 +25,16 @@
     <div class="card box-shadow mb-3">
       <div class="card-body row g-2 align-items-end">
         <div class="col-sm-6 col-md-5 col-lg-4">
-          <label class="form-label">Код поставщика (опционально)</label>
-          <input class="form-control" id="supplierCode" type="text" autocomplete="off" placeholder="пусто — по месяцам сводно по всем; иначе только этот поставщик" />
+          <label class="form-label">Поставщик (опционально)</label>
+          <select class="form-select" id="supplierCode">
+            <option value="">Все поставщики</option>
+          </select>
         </div>
         <div class="col-auto">
           <button type="button" class="btn btn-primary" id="build">Обновить диаграммы</button>
         </div>
         <div class="col-auto">
-          <a class="btn btn-outline-secondary" href="schedule.html">Таблица графика (по расчёту)</a>
+          <button type="button" class="btn btn-outline-success" id="exportExcel">Экспорт в Excel</button>
         </div>
       </div>
     </div>
@@ -59,14 +61,6 @@
           <div class="card-body py-3">
             <div class="text-muted small">Месяцев в графике</div>
             <div class="h5 mb-0" id="sumMonths">—</div>
-          </div>
-        </div>
-      </div>
-      <div class="col-6 col-md-3">
-        <div class="card border-0 bg-light h-100">
-          <div class="card-body py-3">
-            <div class="text-muted small">Строк расписания</div>
-            <div class="h5 mb-0" id="sumLines">—</div>
           </div>
         </div>
       </div>
@@ -105,6 +99,54 @@
   <script>
     var chartPie = null;
     var chartMonthly = null;
+    var currentReportData = null;
+
+    function excelCell(value) {
+      var text = value == null ? '' : String(value);
+      return '<Cell><Data ss:Type="String">' +
+        text
+          .replace(/&/g, '&amp;')
+          .replace(/</g, '&lt;')
+          .replace(/>/g, '&gt;')
+          .replace(/"/g, '&quot;')
+          .replace(/'/g, '&apos;') +
+        '</Data></Cell>';
+    }
+
+    function buildWorksheetXml(name, headers, rows) {
+      var safeName = String(name || 'Sheet').replace(/[\\/*?:\[\]]/g, '').slice(0, 31);
+      var xml = '<Worksheet ss:Name="' + safeName + '"><Table>';
+      xml += '<Row>' + (headers || []).map(excelCell).join('') + '</Row>';
+      (rows || []).forEach(function (row) {
+        xml += '<Row>' + (row || []).map(excelCell).join('') + '</Row>';
+      });
+      xml += '</Table></Worksheet>';
+      return xml;
+    }
+
+    function exportExcelWorkbook(filename, sheets) {
+      var parts = [
+        '<?xml version="1.0"?>',
+        '<?mso-application progid="Excel.Sheet"?>',
+        '<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" ' +
+          'xmlns:o="urn:schemas-microsoft-com:office:office" ' +
+          'xmlns:x="urn:schemas-microsoft-com:office:excel" ' +
+          'xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ' +
+          'xmlns:html="http://www.w3.org/TR/REC-html40">'
+      ];
+      (sheets || []).forEach(function (sheet) {
+        parts.push(buildWorksheetXml(sheet.name, sheet.headers, sheet.rows));
+      });
+      parts.push('</Workbook>');
+      var blob = new Blob(['\uFEFF' + parts.join('')], { type: 'application/vnd.ms-excel;charset=utf-8;' });
+      var link = document.createElement('a');
+      link.href = URL.createObjectURL(blob);
+      link.download = filename || 'report.xls';
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+      URL.revokeObjectURL(link.href);
+    }
 
     function supplierPalette(n) {
       var base = [
@@ -145,6 +187,18 @@
       return v >= 1e9 ? (v / 1e9).toFixed(1) + ' млрд' : v >= 1e6 ? (v / 1e6).toFixed(1) + ' млн' : v;
     }
 
+    async function loadSuppliers() {
+      var sel = document.getElementById('supplierCode');
+      var rows = await api('/api/suppliers');
+      sel.innerHTML =
+        '<option value="">Все поставщики</option>' +
+        rows
+          .map(function (s) {
+            return '<option value="' + (s.supplierCode || '') + '">' + (s.supplierCode || '') + ' — ' + (s.name || '') + '</option>';
+          })
+          .join('');
+    }
+
     async function buildCharts() {
       showErr('');
       destroyCharts();
@@ -159,6 +213,14 @@
       var monthlyAmounts = (data.monthlyAmounts || []).map(function (x) {
         return Number(x);
       });
+      currentReportData = {
+        supplierCode: code,
+        supplierResolved: !!data.supplierResolved,
+        supplierName: data.supplierName || '',
+        suppliers: suppliers,
+        monthLabels: monthLabels,
+        monthlyAmounts: monthlyAmounts
+      };
 
       var hint = document.getElementById('scopeHint');
       var monthEmpty = document.getElementById('monthEmpty');
@@ -180,8 +242,8 @@
         (code
           ? data.supplierResolved
             ? 'Столбцы — только поставщик «' + code + '».'
-            : 'Код «' + code + '» не найден в справочнике; столбцы показаны сводно по всем поставщикам.'
-          : 'Код не указан — столбцы сводно по всем поставщикам.');
+            : 'Поставщик с кодом «' + code + '» не найден; столбцы показаны сводно по всем поставщикам.'
+          : 'Поставщик не выбран — столбцы сводно по всем поставщикам.');
 
       var colors = supplierPalette(suppliers.length);
       var totalAll = suppliers.reduce(function (s, x) {
@@ -192,8 +254,6 @@
       document.getElementById('sumTotal').textContent = fmtMoney(totalAll);
       document.getElementById('sumSuppliers').textContent = String(suppliers.length);
       document.getElementById('sumMonths').textContent = String(monthLabels.length);
-      document.getElementById('sumLines').textContent =
-        data.scheduleLineCount != null ? String(data.scheduleLineCount) : '—';
 
       document.getElementById('pieEmpty').style.display = 'none';
       document.getElementById('pieWrap').style.display = 'block';
@@ -311,9 +371,30 @@
       });
     };
 
-    buildCharts().catch(function (e) {
-      showErr(e.message);
-    });
+    document.getElementById('exportExcel').onclick = function () {
+      if (!currentReportData || (!currentReportData.suppliers.length && !currentReportData.monthLabels.length)) {
+        showErr('Нет данных для экспорта.');
+        return;
+      }
+      var supplierRows = currentReportData.suppliers.map(function (s) {
+        return [s.supplierCode || '', s.name || '', Number(s.total || 0)];
+      });
+      var scope =
+        currentReportData.supplierCode && currentReportData.supplierResolved
+          ? (currentReportData.supplierName || '') + ' (' + currentReportData.supplierCode + ')'
+          : 'Все поставщики';
+      var monthRows = currentReportData.monthLabels.map(function (label, idx) {
+        return [label, Number(currentReportData.monthlyAmounts[idx] || 0), scope];
+      });
+      exportExcelWorkbook('reports.xls', [
+        { name: 'Поставщики', headers: ['Код поставщика', 'Название поставщика', 'Сумма'], rows: supplierRows },
+        { name: 'Месяцы', headers: ['Период', 'Сумма', 'Область'], rows: monthRows }
+      ]);
+    };
+
+    loadSuppliers()
+      .then(function () { return buildCharts(); })
+      .catch(function (e) { showErr(e.message); });
 
   </script>
 </body>

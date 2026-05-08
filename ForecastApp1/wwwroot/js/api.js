@@ -1,10 +1,6 @@
 (function () {
   window.APP_TITLE = 'ForecastApp1';
-  var ROLE_ADMIN = 'admin';
-  var PAGE_ACCESS = {
-    'admin.html': [ROLE_ADMIN],
-    'audit.html': [ROLE_ADMIN]
-  };
+  var PAGE_ACCESS = {};
   var IMPORT_STATUS_LABELS = {
     uploaded: 'Файл загружен, идет проверка',
     parsing: 'Файл загружен, идет проверка',
@@ -43,6 +39,11 @@
     } catch {
       return String(href).split('?')[0].split('/').pop().toLowerCase();
     }
+  }
+
+  function isPublicPage() {
+    var current = normalizeHref(window.location.pathname);
+    return current === 'login.html';
   }
 
   function hasAnyRole(userRoles, allowedRoles) {
@@ -107,6 +108,28 @@
     return text;
   }
 
+  function csvEscape(value) {
+    var text = value == null ? '' : String(value);
+    return '"' + text.replace(/"/g, '""') + '"';
+  }
+
+  function exportCsv(filename, headers, rows) {
+    var lines = [];
+    lines.push((headers || []).map(csvEscape).join(';'));
+    (rows || []).forEach(function (row) {
+      lines.push((row || []).map(csvEscape).join(';'));
+    });
+    var csv = '\uFEFF' + lines.join('\n');
+    var blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
+    var link = document.createElement('a');
+    link.href = URL.createObjectURL(blob);
+    link.download = filename || 'export.csv';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+    URL.revokeObjectURL(link.href);
+  }
+
   window.api = async function (path, options = {}) {
     const headers = Object.assign({ Accept: 'application/json' }, options.headers || {});
     if (options.body && typeof options.body === 'object' && !(options.body instanceof FormData))
@@ -116,6 +139,9 @@
       init.body = JSON.stringify(init.body);
     const res = await fetch(path, init);
     if (res.status === 401 && !path.includes('/auth/login')) {
+      if (isPublicPage()) {
+        throw new Error('Требуется вход');
+      }
       window.location.href = '/login.html';
       throw new Error('Требуется вход');
     }
@@ -158,16 +184,10 @@
   window.layoutHeader = function (activeHref) {
     const items = [
       ['main.html', 'Главная'],
-      ['import.html', 'Импорт'],
       ['dictionaries.html', 'Справочники'],
-      ['debts.html', 'Долги'],
-      ['shipments.html', 'Отгрузки'],
       ['calculation.html', 'Расчёт'],
-      ['schedule.html', 'График'],
-      ['reports.html', 'Отчёты'],
-      ['help.html', 'Справка'],
-      ['admin.html', 'Админ'],
-      ['audit.html', 'Аудит']
+      ['/Payments', 'Платежи'],
+      ['reports.html', 'Отчёты']
     ];
     const lis = items
       .map(function (pair) {
@@ -228,6 +248,7 @@
   window.toDisplayCalculationStatus = toDisplayCalculationStatus;
   window.toDisplaySeverity = toDisplaySeverity;
   window.toDisplayErrorMessage = toDisplayErrorMessage;
+  window.exportCsv = exportCsv;
 
   document.addEventListener('DOMContentLoaded', function () {
     document.body.addEventListener('click', function (e) {
@@ -237,6 +258,8 @@
         });
       }
     });
+
+    if (isPublicPage()) return;
 
     getCurrentUser()
       .then(function (u) {

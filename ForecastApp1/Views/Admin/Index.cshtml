@@ -1,0 +1,23 @@
+﻿@model IReadOnlyList<DashboardCard>
+@{
+    ViewData["Title"] = "Главная";
+}
+
+<h1 class="mb-3">Главное меню (MVC)</h1>
+<p class="text-muted small mb-3">
+    Быстрые ссылки на разделы. Статические страницы (<code>import.html</code>, <code>calculation.html</code> и др.) по-прежнему доступны из меню сверху.
+</p>
+<div class="row g-3">
+@foreach (var card in Model)
+{
+    <div class="col-md-6 col-xl-4">
+        <div class="card h-100 box-shadow">
+            <div class="card-body">
+                <h5 class="card-title">@card.Title</h5>
+                <p class="card-text text-muted small">@card.Description</p>
+                <a class="btn btn-primary" asp-controller="@card.Controller" asp-action="@card.Action">Открыть</a>
+            </div>
+        </div>
+    </div>
+}
+</div>

@@ -5,28 +5,12 @@
       "PackagePath": "staticwebassets\\ForecastApp1.ubvzytvprd.bundle.scp.css"
     },
     {
-      "Id": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\wwwroot\\add.html",
-      "PackagePath": "staticwebassets\\add.html"
-    },
-    {
-      "Id": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\wwwroot\\admin.html",
-      "PackagePath": "staticwebassets\\admin.html"
-    },
-    {
-      "Id": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\wwwroot\\audit.html",
-      "PackagePath": "staticwebassets\\audit.html"
-    },
-    {
       "Id": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\wwwroot\\calculation.html",
       "PackagePath": "staticwebassets\\calculation.html"
     },
     {
       "Id": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
-    },
-    {
-      "Id": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\wwwroot\\debts.html",
-      "PackagePath": "staticwebassets\\debts.html"
     },
     {
       "Id": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\wwwroot\\dictionaries.html",
@@ -309,10 +293,6 @@
       "PackagePath": "staticwebassets\\main.html"
     },
     {
-      "Id": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\wwwroot\\rasschet.html",
-      "PackagePath": "staticwebassets\\rasschet.html"
-    },
-    {
       "Id": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\wwwroot\\reports.html",
       "PackagePath": "staticwebassets\\reports.html"
     },
@@ -325,16 +305,8 @@
       "PackagePath": "staticwebassets\\samples\\test-import-sample.xlsx"
     },
     {
-      "Id": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\wwwroot\\schedule-details.html",
-      "PackagePath": "staticwebassets\\schedule-details.html"
-    },
-    {
       "Id": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\wwwroot\\schedule.html",
       "PackagePath": "staticwebassets\\schedule.html"
-    },
-    {
-      "Id": "C:\\всеподряд\\уник\\lbgkjv\\Новый проект\\ForecastApp1\\wwwroot\\shipments.html",
-      "PackagePath": "staticwebassets\\shipments.html"
     },
     {
       "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.ForecastApp1.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",

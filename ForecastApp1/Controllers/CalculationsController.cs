@@ -163,6 +163,40 @@ public class CalculationsController : ControllerBase
         return Ok(list);
     }
 
+    [HttpGet("schedule")]
+    public async Task<ActionResult<IReadOnlyList<ScheduleItemDto>>> AllSchedule([FromQuery] long? supplierId, CancellationToken ct)
+    {
+        var q = _db.PaymentScheduleItems.AsNoTracking()
+            .Include(i => i.Supplier)
+            .Include(i => i.Contract)
+            .Include(i => i.CalculationRun)
+            .Where(i => i.DeletedAt == null
+                && i.CalculationRun.DeletedAt == null
+                && (i.CalculationRun.Status == "completed" || i.CalculationRun.Status == "completed_with_warnings"));
+
+        if (supplierId.HasValue)
+            q = q.Where(i => i.SupplierId == supplierId.Value);
+
+        var list = await q
+            .OrderBy(i => i.ForecastPaymentDate).ThenBy(i => i.Id)
+            .Take(5000)
+            .Select(i => new ScheduleItemDto(
+                i.Id,
+                i.ForecastPaymentDate,
+                i.DueDateByCondition,
+                i.PayAmount,
+                i.SupplierId,
+                i.Supplier.Name,
+                i.ContractId,
+                i.Contract.InternalContractNumber,
+                i.ShipmentDocNumber,
+                i.ShipmentDocDate,
+                i.WarningText))
+            .ToListAsync(ct);
+
+        return Ok(list);
+    }
+
     [HttpGet("{id:long}/schedule/{itemId:long}/details")]
     public async Task<ActionResult<ScheduleItemDetailsDto>> Details(long id, long itemId, CancellationToken ct)
     {

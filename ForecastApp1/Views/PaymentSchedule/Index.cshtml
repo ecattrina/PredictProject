@@ -1,0 +1,44 @@
+﻿@model IReadOnlyList<CalculationRunListRow>
+@{
+    ViewData["Title"] = "Расчёты графика";
+}
+
+<h1 class="mb-3">Расчёты графика платежей</h1>
+<p class="text-muted small mb-3">
+    Запуск нового расчёта — на странице <a href="~/calculation.html">calculation.html</a>.
+    Просмотр строк графика по номеру расчёта — <a href="~/schedule.html">schedule.html</a>.
+</p>
+
+<div class="card box-shadow">
+    <div class="card-body">
+        <div class="table-responsive">
+            <table class="table table-striped table-sm mb-0">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Код</th>
+                        <th>Дата расчёта</th>
+                        <th>Статус</th>
+                        <th>Архив</th>
+                        <th>Начало</th>
+                        <th>Конец</th>
+                    </tr>
+                </thead>
+                <tbody>
+                @foreach (var r in Model)
+                {
+                    <tr>
+                        <td>@r.Id</td>
+                        <td><span class="text-muted small">@r.RunCode.ToString("N")</span></td>
+                        <td>@r.CalculationDate.ToString("dd.MM.yyyy")</td>
+                        <td>@r.Status</td>
+                        <td>@(r.Archived ? "да" : "нет")</td>
+                        <td>@r.StartedAt.ToLocalTime().ToString("g")</td>
+                        <td>@(r.FinishedAt?.ToLocalTime().ToString("g") ?? "—")</td>
+                    </tr>
+                }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

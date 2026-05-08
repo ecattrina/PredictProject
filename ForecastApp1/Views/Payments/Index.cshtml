@@ -1,0 +1,147 @@
+﻿@model PaymentsIndexVm
+@{
+    ViewData["Title"] = "Платежи";
+}
+
+<h1 class="mb-3">Платежи</h1>
+<p class="text-muted small mb-3">
+    Показаны все платежи из завершённых расчётов, сортировка по прогнозной дате платежа.
+    Детальный фильтр по расчёту — <a href="~/schedule.html">schedule.html</a>, сводные диаграммы — <a href="~/reports.html">reports.html</a>.
+</p>
+
+@if (!Model.Items.Any())
+{
+    <div class="alert alert-info">Нет завершённых расчётов с графиком.</div>
+}
+else
+{
+    <div class="card box-shadow mb-3">
+        <div class="card-body row g-2 align-items-end">
+            <div class="col-sm-6 col-md-4">
+                <label class="form-label">Поставщик</label>
+                <input type="text" class="form-control form-control-sm" id="filterSupplier" placeholder="Название или часть названия" />
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <label class="form-label">Договор</label>
+                <input type="text" class="form-control form-control-sm" id="filterContract" placeholder="Номер договора" />
+            </div>
+            <div class="col-auto">
+                <button type="button" class="btn btn-primary btn-sm" id="applyFilters">Применить</button>
+            </div>
+            <div class="col-auto">
+                <button type="button" class="btn btn-outline-secondary btn-sm" id="resetFilters">Сбросить</button>
+            </div>
+            <div class="col-12">
+                <div class="text-muted small" id="filterStats"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card box-shadow">
+        <div class="card-body">
+            <div class="mb-3">
+                <button type="button" class="btn btn-outline-success btn-sm" id="exportPayments">Экспорт в Excel</button>
+            </div>
+            <div class="table-responsive">
+                <table class="table table-striped table-sm mb-0" id="paymentsTable">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Расчёт</th>
+                            <th>Дата платежа</th>
+                            <th>Сумма</th>
+                            <th>Поставщик</th>
+                            <th>Договор</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    @foreach (var i in Model.Items)
+                    {
+                        <tr>
+                            <td>@i.Id</td>
+                            <td>@i.CalculationRunId</td>
+                            <td>@i.ForecastPaymentDate.ToString("dd.MM.yyyy")</td>
+                            <td>@i.PayAmount.ToString("N2")</td>
+                            <td class="supplier-cell">@i.SupplierName</td>
+                            <td class="contract-cell">@i.ContractNumber</td>
+                        </tr>
+                    }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+}
+
+<script>
+    (function () {
+        var btn = document.getElementById('exportPayments');
+        var table = document.getElementById('paymentsTable');
+        var filterSupplier = document.getElementById('filterSupplier');
+        var filterContract = document.getElementById('filterContract');
+        var applyFilters = document.getElementById('applyFilters');
+        var resetFilters = document.getElementById('resetFilters');
+        var filterStats = document.getElementById('filterStats');
+        if (!btn || !table) return;
+
+        function csvEscape(value) {
+            var text = value == null ? '' : String(value);
+            return '"' + text.replace(/"/g, '""') + '"';
+        }
+
+        function toNorm(value) {
+            return String(value || '').trim().toLowerCase();
+        }
+
+        function updateStats() {
+            var rows = Array.from(table.querySelectorAll('tbody tr'));
+            var visible = rows.filter(function (tr) { return tr.style.display !== 'none'; }).length;
+            filterStats.textContent = 'Показано строк: ' + visible + ' из ' + rows.length + '.';
+        }
+
+        function applyTableFilters() {
+            var supplierNeedle = toNorm(filterSupplier.value);
+            var contractNeedle = toNorm(filterContract.value);
+            Array.from(table.querySelectorAll('tbody tr')).forEach(function (tr) {
+                var supplierText = toNorm(tr.querySelector('.supplier-cell')?.textContent);
+                var contractText = toNorm(tr.querySelector('.contract-cell')?.textContent);
+                var okSupplier = !supplierNeedle || supplierText.indexOf(supplierNeedle) >= 0;
+                var okContract = !contractNeedle || contractText.indexOf(contractNeedle) >= 0;
+                tr.style.display = okSupplier && okContract ? '' : 'none';
+            });
+            updateStats();
+        }
+
+        if (applyFilters) {
+            applyFilters.addEventListener('click', applyTableFilters);
+        }
+        if (resetFilters) {
+            resetFilters.addEventListener('click', function () {
+                filterSupplier.value = '';
+                filterContract.value = '';
+                applyTableFilters();
+            });
+        }
+
+        btn.addEventListener('click', function () {
+            var headers = Array.from(table.querySelectorAll('thead th')).map(function (th) { return th.textContent.trim(); });
+            var bodyRows = Array.from(table.querySelectorAll('tbody tr'))
+                .filter(function (tr) { return tr.style.display !== 'none'; })
+                .map(function (tr) {
+                    return Array.from(tr.querySelectorAll('td')).map(function (td) { return td.textContent.trim(); });
+                });
+            var lines = [headers.map(csvEscape).join(';')];
+            bodyRows.forEach(function (row) { lines.push(row.map(csvEscape).join(';')); });
+            var blob = new Blob(['\uFEFF' + lines.join('\n')], { type: 'text/csv;charset=utf-8;' });
+            var link = document.createElement('a');
+            link.href = URL.createObjectURL(blob);
+            link.download = 'payments.csv';
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+            URL.revokeObjectURL(link.href);
+        });
+
+        applyTableFilters();
+    })();
+</script>

@@ -1,0 +1,38 @@
+@model ContractFormModel
+@{
+    ViewData["Title"] = "Договор — редактирование";
+    var supplierLabel = ViewBag.SupplierLabel as string;
+}
+
+<h1 class="mb-3">Договор № @Model.Id</h1>
+
+<div class="card box-shadow">
+    <div class="card-body">
+        <form asp-action="Edit" asp-route-id="@Model.Id" method="post">
+            @Html.AntiForgeryToken()
+            <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+            <div class="mb-3">
+                <label class="form-label">Поставщик</label>
+                <input class="form-control" value="@supplierLabel" readonly />
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Внутренний номер</label>
+                <input class="form-control" value="@Model.InternalContractNumber" readonly />
+            </div>
+            <div class="mb-3">
+                <label asp-for="ExternalContractNumber" class="form-label"></label>
+                <input asp-for="ExternalContractNumber" class="form-control" />
+            </div>
+            <div class="mb-3">
+                <label asp-for="ContractDate" class="form-label"></label>
+                <input asp-for="ContractDate" class="form-control" type="date" />
+            </div>
+            <div class="mb-3">
+                <label asp-for="ContractAmount" class="form-label"></label>
+                <input asp-for="ContractAmount" class="form-control" type="number" step="0.01" />
+            </div>
+            <button type="submit" class="btn btn-primary">Сохранить</button>
+            <a class="btn btn-outline-secondary" asp-action="Index">Отмена</a>
+        </form>
+    </div>
+</div>

@@ -1,0 +1,7 @@
+C:\всеподряд\уник\lbgkjv\Новый проект\ForecastApp1\wwwroot\debts.html
+C:\всеподряд\уник\lbgkjv\Новый проект\ForecastApp1\wwwroot\rasschet.html
+C:\всеподряд\уник\lbgkjv\Новый проект\ForecastApp1\wwwroot\schedule-details.html
+C:\всеподряд\уник\lbgkjv\Новый проект\ForecastApp1\wwwroot\add.html
+C:\всеподряд\уник\lbgkjv\Новый проект\ForecastApp1\wwwroot\audit.html
+C:\всеподряд\уник\lbgkjv\Новый проект\ForecastApp1\wwwroot\shipments.html
+C:\всеподряд\уник\lbgkjv\Новый проект\ForecastApp1\wwwroot\admin.html
