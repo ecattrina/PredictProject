@@ -1,6 +1,9 @@
 (function () {
   window.APP_TITLE = 'ForecastApp1';
-  var PAGE_ACCESS = {};
+  var ROLE_ADMIN = 'admin';
+  var PAGE_ACCESS = {
+    usermanagement: [ROLE_ADMIN]
+  };
   var IMPORT_STATUS_LABELS = {
     uploaded: 'Файл загружен, идет проверка',
     parsing: 'Файл загружен, идет проверка',
@@ -185,8 +188,10 @@
     const items = [
       ['main.html', 'Главная'],
       ['dictionaries.html', 'Справочники'],
+      ['import.html', 'Импорт'],
       ['calculation.html', 'Расчёт'],
       ['/Payments', 'Платежи'],
+      ['/UserManagement', 'Пользователи'],
       ['reports.html', 'Отчёты']
     ];
     const lis = items

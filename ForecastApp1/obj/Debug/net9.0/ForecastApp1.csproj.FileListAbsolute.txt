@@ -449,8 +449,8 @@ C:\всеподряд\уник\lbgkjv\Новый проект\ForecastApp1\obj\D
 C:\всеподряд\уник\lbgkjv\Новый проект\ForecastApp1\obj\Debug\net9.0\compressed\cim1m8nu9w-nfb8yxyyeh.gz
 C:\всеподряд\уник\lbgkjv\Новый проект\ForecastApp1\obj\Debug\net9.0\compressed\h0arspibd8-lthi6zbwno.gz
 C:\всеподряд\уник\lbgkjv\Новый проект\ForecastApp1\obj\Debug\net9.0\compressed\s4w9mrz3z8-6jmeu0u119.gz
-C:\всеподряд\уник\lbgkjv\Новый проект\ForecastApp1\obj\Debug\net9.0\compressed\xamixlcj72-h30llls85a.gz
 C:\всеподряд\уник\lbgkjv\Новый проект\ForecastApp1\obj\Debug\net9.0\compressed\ofhya28w84-qoqflt1o70.gz
 C:\всеподряд\уник\lbgkjv\Новый проект\ForecastApp1\obj\Debug\net9.0\compressed\wbkdbwljak-fllxhp8hnp.gz
-C:\всеподряд\уник\lbgkjv\Новый проект\ForecastApp1\obj\Debug\net9.0\compressed\24zmuf6160-qdpotr5a6t.gz
 C:\всеподряд\уник\lbgkjv\Новый проект\ForecastApp1\obj\Debug\net9.0\compressed\msfziu6qho-8bjm5mc777.gz
+C:\всеподряд\уник\lbgkjv\Новый проект\ForecastApp1\obj\Debug\net9.0\compressed\xamixlcj72-1z1mx3mpj6.gz
+C:\всеподряд\уник\lbgkjv\Новый проект\ForecastApp1\obj\Debug\net9.0\compressed\24zmuf6160-4syknnm03a.gz

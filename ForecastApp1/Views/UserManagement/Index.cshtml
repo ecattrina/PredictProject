@@ -1,0 +1,102 @@
+@{
+    ViewData["Title"] = "Пользователи";
+}
+
+<h1 class="mb-3">Пользователи</h1>
+<p class="text-muted small mb-3">Создание пользователей доступно только администратору.</p>
+
+<div id="msg" class="alert alert-danger" style="display:none" role="alert"></div>
+
+<div class="card box-shadow mb-3">
+    <div class="card-body">
+        <h2 class="h5 card-title">Создать пользователя</h2>
+        <div class="row g-2 align-items-end">
+            <div class="col-sm-6 col-md-4">
+                <label class="form-label">Email</label>
+                <input class="form-control" id="email" type="email" placeholder="user@example.com" />
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <label class="form-label">ФИО</label>
+                <input class="form-control" id="fullName" type="text" placeholder="Иванов Иван Иванович" />
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <label class="form-label">Пароль</label>
+                <input class="form-control" id="password" type="password" placeholder="Минимум 6 символов" />
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <label class="form-label">Роль</label>
+                <select class="form-select" id="role">
+                    <option value="accountant">accountant</option>
+                    <option value="admin">admin</option>
+                </select>
+            </div>
+            <div class="col-auto">
+                <button type="button" class="btn btn-primary" id="createUser">Создать</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="card box-shadow">
+    <div class="card-body">
+        <h2 class="h5 card-title">Список пользователей</h2>
+        <div class="table-responsive"><div id="usersTable"></div></div>
+    </div>
+</div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        (function () {
+        function show(message, ok) {
+            var el = document.getElementById('msg');
+            el.style.display = message ? 'block' : 'none';
+            el.className = 'alert ' + (ok ? 'alert-success' : 'alert-danger');
+            el.textContent = message || '';
+        }
+
+        async function loadUsers() {
+            var users = await api('/api/users');
+            document.getElementById('usersTable').innerHTML =
+                '<table class="table table-striped table-sm mb-0"><thead><tr><th>ID</th><th>Email</th><th>ФИО</th><th>Активен</th><th>Роли</th></tr></thead><tbody>' +
+                users.map(function (u) {
+                    return '<tr><td>' + u.id +
+                        '</td><td>' + (u.email || '') +
+                        '</td><td>' + (u.fullName || '') +
+                        '</td><td>' + (u.isActive ? 'да' : 'нет') +
+                        '</td><td>' + ((u.roles || []).join(', ') || '—') +
+                        '</td></tr>';
+                }).join('') +
+                '</tbody></table>';
+        }
+
+        document.getElementById('createUser').addEventListener('click', async function () {
+            var email = document.getElementById('email').value.trim();
+            var fullName = document.getElementById('fullName').value.trim();
+            var password = document.getElementById('password').value;
+            var role = document.getElementById('role').value;
+            if (!email || !fullName || !password) {
+                show('Заполните email, ФИО и пароль.', false);
+                return;
+            }
+            try {
+                await api('/api/users', {
+                    method: 'POST',
+                    body: {
+                        email: email,
+                        fullName: fullName,
+                        password: password,
+                        roles: [role]
+                    }
+                });
+                show('Пользователь создан.', true);
+                document.getElementById('password').value = '';
+                await loadUsers();
+            } catch (e) {
+                show(e.message, false);
+            }
+        });
+
+        loadUsers().catch(function (e) { show(e.message, false); });
+        })();
+    });
+</script>
